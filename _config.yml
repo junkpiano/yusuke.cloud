@@ -1,1 +1,10 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-primer
+title: I am a developer
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - script
+  - vendor
+  - deploy-key.enc
