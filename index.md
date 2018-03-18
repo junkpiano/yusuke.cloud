@@ -46,4 +46,5 @@ My name is Yusuke, called yuchan on [github](https://github.com/yuchan), junkpia
  - [LinkedIn](https://www.linkedin.com/in/yusukeohashi)
  - [Blog](/blog) -> *[subscribe!](https://blog.junkpiano.me/feed/)*
  - [Notes](/notes)
+ - [Photos](https://500px.com/junkpiano)
  - [Talks](/talks)
