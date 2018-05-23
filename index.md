@@ -49,6 +49,10 @@ My name is Yusuke, called yuchan on [github](https://github.com/yuchan), junkpia
 - [Photos](https://500px.com/junkpiano)
 - [Talks](/talks)
 
+## Talk with me!
+
+- [Discord(https://discord.gg/WkVQ7Nz)](https://discord.gg/WkVQ7Nz)
+
 ## Portfolio
 
 - [IG](/IG) *Instagram API Client in Swift*
