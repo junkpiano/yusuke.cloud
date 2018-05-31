@@ -37,13 +37,14 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
  -->
 
-My name is Yusuke, called yuchan on [github](https://github.com/yuchan), junkpiano on the rest of internet.
+My name is Steve Ohashi(Yusuke). I use `junkpiano` on the internet.
 
 ## Find me on 
 
 - [Twitter](https://twitter.com/junkpiano)
 - [Instagram](https://instagram.com/junkpiano)
 - [LinkedIn](https://www.linkedin.com/in/yusukeohashi)
+- [Github](https://github.com/junkpiano)
 - [Blog](/blog) -> *[subscribe!](https://blog.junkpiano.me/feed/)*
 - [Notes](/notes)
 - [Photos](https://500px.com/junkpiano)
