@@ -103,6 +103,8 @@ GEM
       commonmarker (~> 0.17.6)
       jekyll-commonmark (~> 1)
       rouge (~> 2)
+    jekyll-compose (0.8.0)
+      jekyll (~> 3.0)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.9.2)
@@ -234,6 +236,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  jekyll-compose
 
 BUNDLED WITH
    1.16.1
