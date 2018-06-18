@@ -19,8 +19,3 @@ My name is Yusuke Ohashi. I use `junkpiano` on the internet.
 ## Talk with me!
 
 - [Discord(https://discord.gg/WkVQ7Nz)](https://discord.gg/WkVQ7Nz)
-
-## Portfolio
-
-- [IG](/IG) *Instagram API Client in Swift*
-- [dotfiles](/dotfiles) My Dotfile.
