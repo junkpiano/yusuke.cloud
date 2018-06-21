@@ -4,10 +4,11 @@ rvm:
 script:
 - bundle exec rake lint
 deploy:
+  provider: script
   script: bundle exec rake deploy
   on:
     all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^staging|production
+    condition: $TRAVIS_BRANCH =~ ^staging|production
 branches:
   except:
   - staging
