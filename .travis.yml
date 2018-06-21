@@ -4,12 +4,20 @@ rvm:
 script:
 - bundle exec rake lint
 deploy:
-  provider: script
-  skip_cleanup: true
-  script: bundle exec rake deploy
-  on:
-    all_branches: true
-    condition: $TRAVIS_BRANCH =~ ^develop|master
+  - provider: script
+    skip_cleanup: true
+    script:
+      - rsync -avuze "ssh -i ~/.ssh/linode" --delete _site yusuke-bot@${STAGING_IP}:~/
+      - ssh -ti ~/.ssh/linode yusuke-bot@${STAGING_IP} "sudo rsync -avuz --delete _site/ /var/www/${STAGING_HOST}/ && rm -rf _site"
+    on:
+      branches: develop
+  - provider: script
+    skip_cleanup: true
+    script:
+      - rsync -avuze "ssh -i ~/.ssh/linode" --delete _site yusuke-bot@${PRODUCTION_IP}:~/
+      - ssh -ti ~/.ssh/linode yusuke-bot@${PRODUCTION_IP} "sudo rsync -avuz --delete _site/ /var/www/${PRODUCTION_HOST}/ && rm -rf _site"
+    on:
+      branches: master
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
