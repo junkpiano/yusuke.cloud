@@ -9,10 +9,6 @@ deploy:
   on:
     all_branches: true
     condition: $TRAVIS_BRANCH =~ ^develop|master
-branches:
-  except:
-  - develop
-  - master
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

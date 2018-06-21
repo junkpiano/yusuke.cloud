@@ -19,7 +19,6 @@ task :lint do
 end
 
 task deploy: :dotenv do
-  Rake::Task['lint'].invoke
   branch = ENV['TRAVIS_BRANCH']
   remote_ip = ENV['STAGING_IP']
   remote_host = ENV['STAGING_HOST']
