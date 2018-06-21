@@ -5,6 +5,7 @@ script:
 - bundle exec rake lint
 deploy:
   provider: script
+  skip_cleanup: true
   script: bundle exec rake deploy
   on:
     all_branches: true
