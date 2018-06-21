@@ -6,3 +6,4 @@ exclude:
   - Gemfile.lock
   - Rakefile
   - script
+  - vendor
