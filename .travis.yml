@@ -21,6 +21,12 @@ sudo: false
 cache: bundler
 notifications:
   email: false
-before_install:
-  - openssl aes-256-cbc -K $encrypted_bd89d04f99c0_key -iv $encrypted_bd89d04f99c0_iv -in deploy-key.enc -out deploy-key -d
-  - mv deploy-key ~/.ssh/linode
+addons:
+  ssh_known_hosts:
+    - ${STAGING_IP}
+    - ${PRODUCTION_IP}
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_bd89d04f99c0_key -iv $encrypted_bd89d04f99c0_iv -in deploy-key.enc -out /tmp/deploy-key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy-key
+- ssh-add /tmp/deploy-key
