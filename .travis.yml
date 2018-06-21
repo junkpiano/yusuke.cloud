@@ -3,6 +3,10 @@ rvm:
 - 2.4.1
 script:
 - bundle exec rake lint
+install:
+  - bundle
+  - ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -H $STAGING_IP 2>&1 | tee -a $HOME/.ssh/known_hosts
+  - ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -H $PRODUCTION_IP 2>&1 | tee -a $HOME/.ssh/known_hosts
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
@@ -10,3 +14,22 @@ sudo: false
 cache: bundler
 notifications:
   email: false
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_bd89d04f99c0_key -iv $encrypted_bd89d04f99c0_iv
+  -in deploy-key.enc -out deploy-key -d
+- eval "$(ssh-agent -s)"
+- chmod 600 deploy-key
+- ssh-add deploy-key
+addons:
+  ssh_known_hosts: 45.33.116.152
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: bash script/deploy.sh $PRODUCTION_IP $PRODUCTION_HOST
+    on:
+      branch: master
+  - provider: script
+    skip_cleanup: true
+    script: bash script/deploy.sh $STAGING_IP $STAGING_HOST
+    on:
+      branch: develop
