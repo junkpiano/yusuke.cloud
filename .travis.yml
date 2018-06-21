@@ -8,11 +8,11 @@ deploy:
   script: bundle exec rake deploy
   on:
     all_branches: true
-    condition: $TRAVIS_BRANCH =~ ^staging|production
+    condition: $TRAVIS_BRANCH =~ ^develop|master
 branches:
   except:
-  - staging
-  - production
+  - develop
+  - master
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
