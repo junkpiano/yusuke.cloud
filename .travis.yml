@@ -6,18 +6,14 @@ script:
 deploy:
   - provider: script
     skip_cleanup: true
-    script:
-      - rsync -avuze "ssh -i ~/.ssh/linode" --delete _site yusuke-bot@${STAGING_IP}:~/
-      - ssh -ti ~/.ssh/linode yusuke-bot@${STAGING_IP} "sudo rsync -avuz --delete _site/ /var/www/${STAGING_HOST}/ && rm -rf _site"
+    script: bash script/deploy.sh ${STAGING_IP} ${STAGING_HOST}
     on:
-      branches: develop
+      branch: develop
   - provider: script
     skip_cleanup: true
-    script:
-      - rsync -avuze "ssh -i ~/.ssh/linode" --delete _site yusuke-bot@${PRODUCTION_IP}:~/
-      - ssh -ti ~/.ssh/linode yusuke-bot@${PRODUCTION_IP} "sudo rsync -avuz --delete _site/ /var/www/${PRODUCTION_HOST}/ && rm -rf _site"
+    script: bash script/deploy.sh ${PRODUCTION_IP} ${PRODUCTION_HOST}
     on:
-      branches: master
+      branch: master
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true

@@ -7,3 +7,4 @@ exclude:
   - Rakefile
   - script
   - vendor
+  - deploy-key.enc
