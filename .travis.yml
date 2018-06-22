@@ -3,6 +3,10 @@ rvm:
 - 2.4.1
 script:
 - bundle exec rake lint
+install:
+  - bundle
+  - ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -H $STAGING_IP 2>&1 | tee -a $HOME/.ssh/known_hosts
+  - ssh-keyscan -t $TRAVIS_SSH_KEY_TYPES -H $PRODUCTION_IP 2>&1 | tee -a $HOME/.ssh/known_hosts
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
