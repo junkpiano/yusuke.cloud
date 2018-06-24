@@ -1,5 +1,5 @@
 theme: minima
-title: I am a developer
+title: "I am a developer"
 exclude:
   - README.md
   - Gemfile
