@@ -1,16 +1,10 @@
-# junkpiano.me
+# yusuke.cloud
 
-[![Build Status](https://travis-ci.org/junkpiano/junkpiano.me.svg?branch=master)](https://travis-ci.org/junkpiano/junkpiano.me)
+[![Build Status](https://travis-ci.org/junkpiano/yusuke.cloud.svg?branch=master)](https://travis-ci.org/junkpiano/yusuke.cloud)
 
 ## Deployment
 
-**Staging**
-
-    push code to `develop` branch.
-
-**Production**
-
-    push code to `master` branch.
+**automated**.
 
 ## Development
 
