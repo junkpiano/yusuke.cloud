@@ -1,9 +1,8 @@
-require 'dotenv/tasks'
 require 'jekyll'
 require 'html-proofer'
 
 task :build do
-  config = Jekyll.configuration({ 
+  config = Jekyll.configuration({
     'source' => './',
     'destination' => './_site'
   })
@@ -15,5 +14,5 @@ end
 task :lint do
   Rake::Task['build'].invoke
   options = { :assume_extension => true, :disable_external => true }
-  HTMLProofer.check_directory("./_site", options).run  
+  HTMLProofer.check_directory("./_site", options).run
 end
