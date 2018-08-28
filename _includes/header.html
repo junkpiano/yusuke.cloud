@@ -2,7 +2,7 @@
 
   <div class="wrapper">
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  
+
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
       <label for="nav-trigger">
@@ -17,7 +17,9 @@
 
       <div class="trigger">
         <a href="/" class="page-link {% if page.url != "/about" and page.url != "/privacy" and page.url != "/archive" %}active{% endif %}">Blog</a>
-        <a href="/archive" class="page-link {% if page.url == "/archive" %}active{% endif %}">Archive</a>
+        <!-- <a href="/privacy" class="page-link {% if page.url != "/about" and page.url != "/" and page.url != "/archive" %}active{% endif %}">Privacy</a> -->
+        <a href="/archive" class="page-link {% if page.url == "/archive" and page.url != "/about" and page.url != "/" %}active{% endif %}">Archive</a>
+        <!-- <a href="/about" class="page-link {% if page.url != "/" and page.url != "/privacy" and page.url != "/archive" %}active{% endif %}">About</a> -->
       </div>
     </nav>
   </div>

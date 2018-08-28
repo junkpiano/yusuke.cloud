@@ -7,6 +7,6 @@ if [[ "$TRAVIS_BRANCH" = "master" ]]; then
   eval "$(ssh-agent -s)"
   chmod 600 deploy-key
   ssh-add deploy-key
-  git remote add deploy dokku@$PRODUCTION_HOST:avocado
+  git remote add deploy dokku@yusuke.cloud:avocado
   git push deploy master
 fi
