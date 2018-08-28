@@ -1,7 +1,5 @@
 language: ruby
 rvm:
-  - 2.4.1
-  - 2.5.1
   - ruby-head
 before_script:
   - bundle exec danger
@@ -23,4 +21,3 @@ deploy:
   script: bash scripts/deploy.sh
   on:
     branch: master
-    rvm: 2.5.1
