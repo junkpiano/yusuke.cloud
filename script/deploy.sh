@@ -2,5 +2,11 @@
 
 set -e
 
-rsync -r --delete-after --quiet -e "ssh -i $TRAVIS_BUILD_DIR/deploy-key" $TRAVIS_BUILD_DIR/_site yusuke-bot@$1:~/
-ssh -t yusuke-bot@$1 "sudo rsync -avuz --delete _site/ /var/www/$2/ && rm -rf _site"
+if [[ "$TRAVIS_BRANCH" = "master" ]]; then
+  openssl aes-256-cbc -K $encrypted_bd89d04f99c0_key -iv $encrypted_bd89d04f99c0_iv -in deploy-key.enc -out deploy-key -d
+  eval "$(ssh-agent -s)"
+  chmod 600 deploy-key
+  ssh-add deploy-key
+  git remote add deploy dokku@$PRODUCTION_HOST:avocado
+  git push deploy master
+fi

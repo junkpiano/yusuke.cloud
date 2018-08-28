@@ -10,6 +10,7 @@ gem 'rake'
 gem 'dotenv'
 gem 'travis'
 gem "minima"
+gem "danger"
 
 gem "github-pages", group: :jekyll_plugins
 gem 'jekyll-compose', group: [:jekyll_plugins]
