@@ -3,8 +3,8 @@ require 'html-proofer'
 
 task :build do
   config = Jekyll.configuration({
-    'source' => './',
-    'destination' => './_site'
+                                  'source' => './',
+                                  'destination' => './_site'
   })
   site = Jekyll::Site.new(config)
   puts 'Building site...'.bold
@@ -16,3 +16,5 @@ task :lint do
   options = { :assume_extension => true, :disable_external => true }
   HTMLProofer.check_directory("./_site", options).run
 end
+
+task :default => [:lint]
