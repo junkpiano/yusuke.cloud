@@ -44,7 +44,7 @@ enum TestAPIRequest: RequestContainer {
 
 It is better in terms of designing an API Client.
 Before you start to create client module, you can take a glance at whole structure.
-And you don't need to pass common parts like `baseURL`, and you can avoid duplicate code in your app.
+And you don't need to pass constant strings to every class, well while you wrap such things by extracting methods, since Kiri can have common parts like `baseURL`, so that you can avoid duplicate code in your app.
 
 But if your api has different endpoints per API, or stuff like that, things are not that easy. In such case you might want to create seprate classses per API. It also makes sense. If you encounter such API (unfortunately), you had better take a look at APIKit instead. It's supposed to have separate classses per API, and for response, it's more generic approach than Kiri or Moya.
 
