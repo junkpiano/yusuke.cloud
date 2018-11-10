@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Network Abstraction Layer
-date: 2018-11-10 15:45 +0900
+date: 2018-11-10 12:45 +0900
 ---
 
 I am experimenting a new way for network request in `Kiri` library.
@@ -67,8 +67,8 @@ I don't find the best solution for networking yet, but for now, choosing wisely 
 
 ## References
 
-- https://github.com/junkpiano/Kiri
-- https://github.com/Moya/Moya
-- https://github.com/ishkawa/APIKit
+- [junkpiano/Kiri](https://github.com/junkpiano/Kiri)
+- [Moya/Moya](https://github.com/Moya/Moya)
+- [ishkawa/APIKit](https://github.com/ishkawa/APIKit)
 
 *`Kiri` is the way smaller than Moya, but it is working fine in my personal project. Why not you try it!?*
