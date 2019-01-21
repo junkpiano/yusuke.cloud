@@ -4,3 +4,11 @@ layout: default
 
 <h1>{{ page.title }}</h1>
 {{ content }}
+<a href="https://twitter.com/search?q={{ site.url | url_encode }}{{ page.url | url_encode }}">
+    Discuss on Twitter
+</a>
+&nbsp;|&nbsp;
+<a href="{{ site.github.repository_url }}/edit/{{ site.github.branch }}/{{ page.path }}">
+    Edit on GitHub
+</a>
+
