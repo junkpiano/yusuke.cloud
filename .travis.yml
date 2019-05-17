@@ -1,12 +1,14 @@
 language: ruby
 rvm:
-  - ruby-head
+  - 2.6.3
 before_script:
   - bundle exec danger
+before_install:
+  - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
+  - gem install bundler -v '1.17.3'
 script:
   - bundle exec rake lint
 install:
-  - bundle update --bundler
   - bundle
 env:
   global:
