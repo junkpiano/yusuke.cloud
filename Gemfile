@@ -9,8 +9,8 @@ gem 'kramdown'
 gem 'html-proofer'
 gem 'rake'
 gem 'travis'
-gem "minima"
-gem "danger"
+gem 'minima'
+gem 'danger'
 
 gem 'jekyll-archives', group: :jekyll_plugins
 gem 'jekyll-feed', group: :jekyll_plugins
