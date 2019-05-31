@@ -1,6 +1,6 @@
 language: ruby
 rvm:
-  - 2.6.3
+  - 2.5.5
 before_script:
   - bundle exec danger
 before_install:
