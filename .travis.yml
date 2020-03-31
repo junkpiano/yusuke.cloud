@@ -1,4 +1,4 @@
-language: go 
+language: minimal 
 sudo: false
 notifications:
   email: false
