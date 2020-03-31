@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Network Abstraction Layer" />
+<meta property="og:description" content="I am experimenting a new way for network request in Kiri library. Kiri is Moya inspired abstract networking layer. I was very impressed by Moya architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D
+We need to break down client library into three parts.
+Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/" />
+<meta property="article:published_time" content="2018-11-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-11-10T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Network Abstraction Layer"/>
+<meta name="twitter:description" content="I am experimenting a new way for network request in Kiri library. Kiri is Moya inspired abstract networking layer. I was very impressed by Moya architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D
+We need to break down client library into three parts.
+Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum."/>
+<meta name="generator" content="Hugo 0.69.0-DEV" />
+
+
+    
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Network Abstraction Layer",
+  "url": "https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/",
+  "wordCount": "469",
+  "datePublished": "2018-11-10T00:00:00+00:00",
+  "dateModified": "2018-11-10T00:00:00+00:00",
+  "author": {
+    "@type": "Person",
+    "name":  null 
+  }
+}
+</script>
+
+
+
+    <link rel="canonical" href="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/">
+
+    <title>Network Abstraction Layer | Yusuke on Dev</title>
+
+    
+    <!-- combined, minified CSS -->
+    
+    <link href="https://yusuke.cloud/css/style.6da5c906cc7a8fbb93f31cd2316c5dbe3f19ac4aa6bfb066f1243045b8f6061e.css" rel="stylesheet" integrity="sha256-baXJBsx6j7uT8xzSMWxdvj8ZrEqmv7Bm8SQwRbj2Bh4=" crossorigin="anonymous">
+    
+
+    <!-- minified Font Awesome for SVG icons -->
+    
+    <script defer src="https://yusuke.cloud/js/fontawesome.min.f3d2a1f5980bab30ddd0d8cadbd496475309fc48e2b1d052c5c09e6facffcb0f.js" integrity="sha256-89Kh9ZgLqzDd0NjK29SWR1MJ/EjisdBSxcCeb6z/yw8=" crossorigin="anonymous"></script>
+
+    <!-- RSS 2.0 feed -->
+    
+
+    
+
+    
+
+  </head>
+
+  <body>
+
+    
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="nav blog-nav">
+          <a class="nav-link " href="https://yusuke.cloud/">Home</a>
+        </nav>
+      </div>
+    </div>
+    
+
+    
+    
+    <header class="blog-header">
+      <div class="container">
+        <h1 class="blog-title" dir="auto"><a href="https://yusuke.cloud/" rel="home">Yusuke on Dev</a></h1>
+        
+      </div>
+    </header>
+    
+    
+
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 blog-main">
+
+          
+
+
+<article class="blog-post">
+  <header>
+    <h2 class="blog-post-title" dir="auto"><a href="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/">Network Abstraction Layer</a></h2>
+    <p class="blog-post-meta"><time datetime="2018-11-10T00:00:00Z">Sat Nov 10, 2018</time> by </p>
+  </header>
+  <p>I am experimenting a new way for network request in <code>Kiri</code> library.
+<code>Kiri</code> is <code>Moya</code> inspired abstract networking layer. I was very impressed by <code>Moya</code> architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D</p>
+<p>We need to break down client library into three parts.</p>
+<h2 id="request">Request</h2>
+<p>Normally, you have to construct networking request every time.
+Instead, in Kiri, your network configuration is compiled in one place, like class, enum.
+And the class, enum must conform to <code>RequestContainer</code> protocol.</p>
+<p>Sample code looks like this.</p>
+<pre><code>enum TestAPIRequest {
+  case getitems
+  case postitem
+  case updateitem
+  case deleteitem
+}
+
+enum TestAPIRequest: RequestContainer {
+  var baseURL: URL {
+    return URL(string: &quot;https://www.example.com/api/v1&quot;)!
+  }
+  
+  var path: String {
+    switch self {
+      case .getitems:
+      return &quot;/getitems&quot;
+      .....
+    }
+  }
+  
+  ....
+}
+</code></pre><p>It is better in terms of designing an API Client.
+Before you start to create client module, you can take a glance at whole structure.
+And you don&rsquo;t need to pass constant strings to every class, well while you wrap such things by extracting methods, since Kiri can have common parts like <code>baseURL</code>, so that you can avoid duplicate code in your app.</p>
+<p>But if your api has different endpoints per API, or stuff like that, things are not that easy. In such case you might want to create seprate classses per API. It also makes sense. If you encounter such API (unfortunately), you had better take a look at APIKit instead. It&rsquo;s supposed to have separate classses per API, and for response, it&rsquo;s more generic approach than Kiri or Moya.</p>
+<h2 id="networking">Networking</h2>
+<p>iOS has their own networking class, URLSession. But it makes no sense to wrap URLSession now. <strong>We have <code>Alamofire</code>.</strong>
+Alamofire automatically validates request and response, and also returns JSON. However, I prefer keeping response <code>Data</code>, since network library should support multiple response formats.</p>
+<p>Kiri makes use of Alamofire for network request, and delegate building a request to it.</p>
+<p>In the most cases, Alamofire works very well, but in case you need more premitive networking to build parameters by yourself, and so on, it might not be good for you.</p>
+<h2 id="response">Response</h2>
+<p>I found there is a trade off. If you make response generic, your request will be fragmented to separate classes. On the other hand, if you make request generic, your response will be fragmented.</p>
+<p>I read code of both <code>Moya</code> and <code>APIKit</code>. In my opinion, these are the most sophisticated architecture in swift networking, whereas they have pros and cons.</p>
+<p>I don&rsquo;t find the best solution for networking yet, but for now, choosing wisely according to your app requirements would be the best answer.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://github.com/junkpiano/Kiri">junkpiano/Kiri</a></li>
+<li><a href="https://github.com/Moya/Moya">Moya/Moya</a></li>
+<li><a href="https://github.com/ishkawa/APIKit">ishkawa/APIKit</a></li>
+</ul>
+<p><em><code>Kiri</code> is the way smaller than Moya, but it is working fine in my personal project. Why not you try it!?</em></p>
+
+
+  
+
+  
+  <hr>
+  <footer>
+
+  
+    <section>
+    <h4>Share</h4>
+    <nav class="nav sharing-icons">
+      <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyusuke.cloud%2fpost%2f2018-11-10-network-abstraction-layer%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fyusuke.cloud%2fpost%2f2018-11-10-network-abstraction-layer%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden="true"></span></a>
+      <a class="nav-item" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fyusuke.cloud%2fpost%2f2018-11-10-network-abstraction-layer%2f&amp;text=Network%20Abstraction%20Layer" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a>
+    </nav>
+  </section>
+
+  
+
+  
+  </footer>
+  
+
+</article> 
+
+
+
+        </div> <!-- /.blog-main -->
+
+        <aside class="col-sm-3 ml-auto blog-sidebar">
+  
+
+  
+
+  
+</aside>
+
+
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+    
+
+    
+    <footer class="blog-footer">
+      <p dir="auto">
+      
+      Blog template created by <a href="https://twitter.com/mdo">@mdo</a>, ported to Hugo by <a href='https://twitter.com/mralanorth'>@mralanorth</a>.
+      
+      </p>
+      <p>
+      <a href="#">Back to top</a>
+      </p>
+    </footer>
+    
+
+  </body>
+
+</html>
