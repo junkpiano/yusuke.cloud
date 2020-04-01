@@ -1,9 +1,159 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta property="og:title" content="You need bundler 2.0 or later"><meta property="og:description" content="I faced a deployment issue of this blog.
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Yusuke Ohashi">
+    <meta name="description" content="Yusuke Ohashi&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="You need bundler 2.0 or later"/>
+<meta name="twitter:description" content="I faced a deployment issue of this blog.
 I am using Travis CI and Dokku to automate deployment. Both platforms are using the latest bundler(for now it&rsquo;s 2.0.1). I&rsquo;ve been using bundler 1.17.3, since I don&rsquo;t need to upgrade it.
-Since ruby 2.3.0, bundler >= 2.0 is preferrable unless you have specific reasons, like you are working on Rails < 4.2. I recommend you to upgrade your infrastructures if you are managing them."><meta property="og:type" content="article"><meta property="og:url" content="https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/"><meta property="article:published_time" content="2019-05-17T00:00:00+00:00"><meta property="article:modified_time" content="2019-05-17T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="You need bundler 2.0 or later"><meta name=twitter:description content="I faced a deployment issue of this blog.
+Since ruby 2.3.0, bundler &gt;= 2.0 is preferrable unless you have specific reasons, like you are working on Rails &lt; 4.2. I recommend you to upgrade your infrastructures if you are managing them."/>
+
+    <meta property="og:title" content="You need bundler 2.0 or later" />
+<meta property="og:description" content="I faced a deployment issue of this blog.
 I am using Travis CI and Dokku to automate deployment. Both platforms are using the latest bundler(for now it&rsquo;s 2.0.1). I&rsquo;ve been using bundler 1.17.3, since I don&rsquo;t need to upgrade it.
-Since ruby 2.3.0, bundler >= 2.0 is preferrable unless you have specific reasons, like you are working on Rails < 4.2. I recommend you to upgrade your infrastructures if you are managing them."><meta name=generator content="Hugo 0.69.0-DEV"><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"You need bundler 2.0 or later","url":"https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/","wordCount":"159","datePublished":"2019-05-17T00:00:00+00:00","dateModified":"2019-05-17T00:00:00+00:00","author":{"@type":"Person","name":null}}</script><link rel=canonical href=https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/><title>You need bundler 2.0 or later | Yusuke on Software</title><link href=https://yusuke.cloud/css/style.6da5c906cc7a8fbb93f31cd2316c5dbe3f19ac4aa6bfb066f1243045b8f6061e.css rel=stylesheet integrity="sha256-baXJBsx6j7uT8xzSMWxdvj8ZrEqmv7Bm8SQwRbj2Bh4=" crossorigin=anonymous><script defer src=https://yusuke.cloud/js/fontawesome.min.f3d2a1f5980bab30ddd0d8cadbd496475309fc48e2b1d052c5c09e6facffcb0f.js integrity="sha256-89Kh9ZgLqzDd0NjK29SWR1MJ/EjisdBSxcCeb6z/yw8=" crossorigin=anonymous></script></head><body><div class=blog-masthead><div class=container><nav class="nav blog-nav"><a class=nav-link href=https://yusuke.cloud/>Home</a></nav></div></div><header class=blog-header><div class=container><h1 class=blog-title dir=auto><a href=https://yusuke.cloud/ rel=home>Yusuke on Software</a></h1></div></header><div class=container><div class=row><div class="col-sm-8 blog-main"><article class=blog-post><header><h2 class=blog-post-title dir=auto><a href=https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/>You need bundler 2.0 or later</a></h2><p class=blog-post-meta><time datetime=2019-05-17T00:00:00Z>Fri May 17, 2019</time> by</p></header><p>I faced a deployment issue of this blog.</p><p>I am using Travis CI and Dokku to automate deployment. Both platforms are using the latest bundler(for now it&rsquo;s 2.0.1).
-I&rsquo;ve been using bundler <code>1.17.3</code>, since I don&rsquo;t need to upgrade it.</p><p>Since ruby <code>2.3.0</code>, bundler <code>>= 2.0</code> is preferrable unless you have specific reasons, like you are working on Rails <code>&lt; 4.2</code>. I recommend you to upgrade your infrastructures if you are managing them. Bundler checkes strictly the locked version, and if you are an older version of bundler, <strong>eventually, it will fail to build</strong>, because <code>bundler</code> cannot be found due to version mismatch.</p><p>The current stable version of Ruby is <code>2.6.3</code> and it makes sense for you to use 2.3.0 or later. Along with that, check your bundler version, and if you are using <code>1.x</code>,</p><p>run this,</p><pre><code>gem update --system
+Since ruby 2.3.0, bundler &gt;= 2.0 is preferrable unless you have specific reasons, like you are working on Rails &lt; 4.2. I recommend you to upgrade your infrastructures if you are managing them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/" />
+<meta property="article:published_time" content="2019-05-17T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-05-17T00:00:00+00:00" />
+
+
+    
+      <base href="https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/">
+    
+    <title>
+  You need bundler 2.0 or later · Yusuke Ohashi
+</title>
+
+    
+      <link rel="canonical" href="https://yusuke.cloud/post/2019-05-17-you-need-bundler-2-0-or-later/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://yusuke.cloud/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://yusuke.cloud/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://yusuke.cloud/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://yusuke.cloud/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.69.0-DEV" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://yusuke.cloud/">
+      Yusuke Ohashi
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://yusuke.cloud/post/">Blog</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>You need bundler 2.0 or later</h1>
+    </header>
+
+    <p>I faced a deployment issue of this blog.</p>
+<p>I am using Travis CI and Dokku to automate deployment. Both platforms are using the latest bundler(for now it&rsquo;s 2.0.1).
+I&rsquo;ve been using bundler <code>1.17.3</code>, since I don&rsquo;t need to upgrade it.</p>
+<p>Since ruby <code>2.3.0</code>, bundler <code>&gt;= 2.0</code> is preferrable unless you have specific reasons, like you are working on Rails <code>&lt; 4.2</code>. I recommend you to upgrade your infrastructures if you are managing them. Bundler checkes strictly the locked version, and if you are an older version of bundler, <strong>eventually, it will fail to build</strong>, because <code>bundler</code> cannot be found due to version mismatch.</p>
+<p>The current stable version of Ruby is <code>2.6.3</code> and it makes sense for you to use 2.3.0 or later. Along with that, check your bundler version, and if you are using <code>1.x</code>,</p>
+<p>run this,</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">gem update --system
 gem install bundler --no-document
 gem cleanup # to uninstall older versions of Rubygems.
-</code></pre><p>And the problem will be solved.</p><hr><footer><section><h4>Share</h4><nav class="nav sharing-icons"><a class=nav-item href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fyusuke.cloud%2fpost%2f2019-05-17-you-need-bundler-2-0-or-later%2f" title="Share on Facebook"><span class="fab fa-facebook-f fa-2x" aria-hidden=true></span></a><a class=nav-item href="https://www.linkedin.com/shareArticle?mini=true&url=https%3a%2f%2fyusuke.cloud%2fpost%2f2019-05-17-you-need-bundler-2-0-or-later%2f" title="Share on LinkedIn"><span class="fab fa-linkedin-in fa-2x" aria-hidden=true></span></a><a class=nav-item href="https://twitter.com/intent/tweet?url=https%3a%2f%2fyusuke.cloud%2fpost%2f2019-05-17-you-need-bundler-2-0-or-later%2f&text=You%20need%20bundler%202.0%20or%20later" title="Tweet this"><span class="fab fa-twitter fa-2x"></span></a></nav></section></footer></article></div><aside class="col-sm-3 ml-auto blog-sidebar"></aside></div></div><footer class=blog-footer><p dir=auto>Blog template created by <a href=https://twitter.com/mdo>@mdo</a>, ported to Hugo by <a href=https://twitter.com/mralanorth>@mralanorth</a>.</p><p><a href=#>Back to top</a></p></footer></body></html>
+</code></pre></div><p>And the problem will be solved.</p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Welcome to my personal website!</p>
+    
+    
+      
+        © 2020
+      
+       Yusuke Ohashi 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-38557572-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>
