@@ -10,7 +10,7 @@ git push origin master
 
 echo "publish on github page..."
 
-mv $current_dir/public $current_dir/public.bak
+rm -rf $current_dir/public
 git clone https://github.com/junkpiano/junkpiano.github.io.git $current_dir/public 
 hugo --gc --minify --config config_github.toml
 cd $current_dir/public
