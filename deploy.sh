@@ -19,8 +19,4 @@ git commit -m "Update blog"
 git push origin master
 
 cd $current_dir
-
-rm -rf $current_dir/public
-mv $current_dir/public.bak $current_dir/public
-git checkout -- .
-git clean -fd
+rm -rf $curret_dir/public
