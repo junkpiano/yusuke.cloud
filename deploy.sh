@@ -20,3 +20,4 @@ git push origin master
 
 cd $current_dir
 rm -rf $curret_dir/public
+hugo --gc --minify
