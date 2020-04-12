@@ -1,6 +1,6 @@
 #!/bin/bash
 
-current_dir=${PWD}
+current_dir="`dirname \"$0\"`"
 
 echo "publish on my server..."
 hugo --gc --minify
