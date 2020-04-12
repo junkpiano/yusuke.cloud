@@ -1,7 +1,7 @@
 ---
 date: "2018-08-01T00:00:00Z"
-draft: true
+draft: true 
 title: Secure your git commit
 ---
 
-git 
+I will show you how to verify your git commit.
