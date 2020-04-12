@@ -21,6 +21,6 @@ git push origin master
 cd $current_dir
 
 git checkout -- .
-git clean -fd
 rm -rf $current_dir/public
 mv $current_dir/public.bak $current_dir/public
+git clean -fd
