@@ -4,11 +4,14 @@
 
 ## Deployment
 
-**automated**.
+```
+sh publish.sh
+```
 
 ## Development
 
-Use Ruby `2.5.5`.
+install `hugo`
 
-    bundle
-    bundle exec jekyll serve -o
+```
+hugo server
+```
