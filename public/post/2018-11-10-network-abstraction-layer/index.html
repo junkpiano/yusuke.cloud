@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Yusuke Ohashi">
+    <meta name="description" content="Yusuke Ohashi&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Network Abstraction Layer"/>
+<meta name="twitter:description" content="I am experimenting a new way for network request in Kiri library. Kiri is Moya inspired abstract networking layer. I was very impressed by Moya architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D
+We need to break down client library into three parts.
+Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum."/>
+
+    <meta property="og:title" content="Network Abstraction Layer" />
+<meta property="og:description" content="I am experimenting a new way for network request in Kiri library. Kiri is Moya inspired abstract networking layer. I was very impressed by Moya architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D
+We need to break down client library into three parts.
+Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/" />
+<meta property="article:published_time" content="2018-11-10T00:00:00+00:00" />
+<meta property="article:modified_time" content="2018-11-10T00:00:00+00:00" />
+
+
+    
+      <base href="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/">
+    
+    <title>
+  Network Abstraction Layer · Yusuke Ohashi
+</title>
+
+    
+      <link rel="canonical" href="https://yusuke.cloud/post/2018-11-10-network-abstraction-layer/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://yusuke.cloud/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+
+    
+      <link rel="stylesheet" href="https://yusuke.cloud/css/custom.css" />
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://yusuke.cloud/img/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://yusuke.cloud/img/favicon-16x16.png" sizes="16x16">
+
+    <meta name="generator" content="Hugo 0.69.0-DEV" />
+  </head>
+
+  
+  
+  <body class="colorscheme-light">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://yusuke.cloud/">
+      Yusuke Ohashi
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://yusuke.cloud/post/">Blog</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1>Network Abstraction Layer</h1>
+    </header>
+
+    <p>I am experimenting a new way for network request in <code>Kiri</code> library.
+<code>Kiri</code> is <code>Moya</code> inspired abstract networking layer. I was very impressed by <code>Moya</code> architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D</p>
+<p>We need to break down client library into three parts.</p>
+<h2 id="request">Request</h2>
+<p>Normally, you have to construct networking request every time.
+Instead, in Kiri, your network configuration is compiled in one place, like class, enum.
+And the class, enum must conform to <code>RequestContainer</code> protocol.</p>
+<p>Sample code looks like this.</p>
+<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">enum TestAPIRequest {
+  case getitems
+  case postitem
+  case updateitem
+  case deleteitem
+}
+
+enum TestAPIRequest: RequestContainer {
+  var baseURL: URL {
+    return URL(string: &#34;https://www.example.com/api/v1&#34;)!
+  }
+  
+  var path: String {
+    switch self {
+      case .getitems:
+      return &#34;/getitems&#34;
+      .....
+    }
+  }
+  
+  ....
+}
+</code></pre></div><p>It is better in terms of designing an API Client.
+Before you start to create client module, you can take a glance at whole structure.
+And you don&rsquo;t need to pass constant strings to every class, well while you wrap such things by extracting methods, since Kiri can have common parts like <code>baseURL</code>, so that you can avoid duplicate code in your app.</p>
+<p>But if your api has different endpoints per API, or stuff like that, things are not that easy. In such case you might want to create seprate classses per API. It also makes sense. If you encounter such API (unfortunately), you had better take a look at APIKit instead. It&rsquo;s supposed to have separate classses per API, and for response, it&rsquo;s more generic approach than Kiri or Moya.</p>
+<h2 id="networking">Networking</h2>
+<p>iOS has their own networking class, URLSession. But it makes no sense to wrap URLSession now. <strong>We have <code>Alamofire</code>.</strong>
+Alamofire automatically validates request and response, and also returns JSON. However, I prefer keeping response <code>Data</code>, since network library should support multiple response formats.</p>
+<p>Kiri makes use of Alamofire for network request, and delegate building a request to it.</p>
+<p>In the most cases, Alamofire works very well, but in case you need more premitive networking to build parameters by yourself, and so on, it might not be good for you.</p>
+<h2 id="response">Response</h2>
+<p>I found there is a trade off. If you make response generic, your request will be fragmented to separate classes. On the other hand, if you make request generic, your response will be fragmented.</p>
+<p>I read code of both <code>Moya</code> and <code>APIKit</code>. In my opinion, these are the most sophisticated architecture in swift networking, whereas they have pros and cons.</p>
+<p>I don&rsquo;t find the best solution for networking yet, but for now, choosing wisely according to your app requirements would be the best answer.</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://github.com/junkpiano/Kiri">junkpiano/Kiri</a></li>
+<li><a href="https://github.com/Moya/Moya">Moya/Moya</a></li>
+<li><a href="https://github.com/ishkawa/APIKit">ishkawa/APIKit</a></li>
+</ul>
+<p><em><code>Kiri</code> is the way smaller than Moya, but it is working fine in my personal project. Why not you try it!?</em></p>
+
+  </article>
+</section>
+
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    
+      <p>Welcome to my personal website!</p>
+    
+    
+      
+        © 2020
+      
+       Yusuke Ohashi 
+    
+    
+       · 
+      Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-38557572-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+
+  </body>
+
+</html>
