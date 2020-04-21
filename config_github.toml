@@ -19,7 +19,7 @@ googleAnalytics = "UA-38557572-1"
 
 [params]
     author = "Yusuke Ohashi"
-    info = "iOS Developer, DevOps, Blogger, and gamer"
+    info = "iOS Developer, DevOps, Blogger, and Gamer"
     description = "Yusuke Ohashi's personal website"
     keywords = "blog,developer,personal"
     avatarurl = "https://www.gravatar.com/avatar/6c1aa726eee0183a8820a97a515eb3ab?s=200"
@@ -35,22 +35,22 @@ googleAnalytics = "UA-38557572-1"
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 1
+    weight = 2
     url = "https://github.com/junkpiano/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab fa-2x"
-    weight = 2
+    weight = 3
     url = "https://gitlab.com/junkpiano/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter fa-2x"
-    weight = 3
+    weight = 1
     url = "https://twitter.com/junkpiano/"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
-    weight = 6
+    weight = 4
     url = "/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
