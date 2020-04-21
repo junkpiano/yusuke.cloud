@@ -5,7 +5,7 @@ title = "Munin Installation Memo"
 slug = "munin-installation-memo" 
 +++
 
-Have you ever listened to Munin?
+Have you ever listened to [Munin](http://munin-monitoring.org/)?
 Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data
 
 Munin is quite simple and easy to set up.
