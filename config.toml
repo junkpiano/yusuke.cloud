@@ -1,6 +1,6 @@
 baseurl = "https://yusuke.cloud"
-title = "Yusuke Ohashi"
-theme = "hugo-coder"
+title = "Yusuke Note"
+theme = "hugo-sparkjoy"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
