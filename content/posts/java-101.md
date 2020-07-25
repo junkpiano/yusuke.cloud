@@ -1,8 +1,16 @@
-+++ 
++++
 draft = false
-date = 2020-04-12T20:09:21+09:00
+date = 2020-04-12T02:26:06+09:00
 title = "Java 101"
-slug = "java-101" 
+description = ""
+slug = ""
+tags = ["Japanese"]
+categories = []
+externalLink = ""
+series = []
+aliases = [
+    "/blog/2020/04/12/java-101"
+]
 +++
 
 今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、

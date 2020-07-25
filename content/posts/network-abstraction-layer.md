@@ -1,6 +1,9 @@
 ---
 date: "2018-11-10T00:00:00Z"
 title: Network Abstraction Layer
+aliases: [
+  "/blog/2018/11/10/network-abstraction-layer/"
+]
 ---
 
 I am experimenting a new way for network request in `Kiri` library.
@@ -28,7 +31,7 @@ enum TestAPIRequest: RequestContainer {
   var baseURL: URL {
     return URL(string: "https://www.example.com/api/v1")!
   }
-  
+
   var path: String {
     switch self {
       case .getitems:
@@ -36,7 +39,7 @@ enum TestAPIRequest: RequestContainer {
       .....
     }
   }
-  
+
   ....
 }
 ```
@@ -62,7 +65,7 @@ I found there is a trade off. If you make response generic, your request will be
 
 I read code of both `Moya` and `APIKit`. In my opinion, these are the most sophisticated architecture in swift networking, whereas they have pros and cons.
 
-I don't find the best solution for networking yet, but for now, choosing wisely according to your app requirements would be the best answer. 
+I don't find the best solution for networking yet, but for now, choosing wisely according to your app requirements would be the best answer.
 
 ## References
 

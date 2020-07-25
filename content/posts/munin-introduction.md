@@ -1,8 +1,12 @@
-+++ 
++++
 draft = false
 date = 2020-04-21T16:02:57+09:00
-title = "Munin Installation Memo"
-slug = "munin-installation-memo" 
+title = "Munin Introduction"
+slug = "munin-introduction"
+series = []
+aliases = [
+    "/blog/2020/04/21/munin-installation-memo/"
+]
 +++
 
 Have you ever listened to [Munin](http://munin-monitoring.org/)?
@@ -104,7 +108,7 @@ $ sudo service munin-node restart
 
 ## Install Munin nodes
 
-On all nodes, 
+On all nodes,
 
 ```
 $ sudo apt update

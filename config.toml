@@ -15,7 +15,7 @@ pygmentscodefencesguesssyntax = true
 googleAnalytics = "UA-38557572-5"
 
 [permalinks]
-  blog = "/blog/:year/:month/:day/:title/"
+    blog = "/blog/:year/:month/:day/:title/"
 
 [params]
     author = "Yusuke Ohashi"
@@ -56,11 +56,11 @@ googleAnalytics = "UA-38557572-5"
     type = "application/rss+xml"
 # Menu links
 [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     weight = 1
-    url  = "/blog/"
+    url  = "/posts/"
+
 # [[menu.main]]
 #     name = "About"
 #     weight = 2
 #     url = "/about/"
-
