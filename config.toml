@@ -30,7 +30,9 @@ googleAnalytics = "UA-38557572-5"
     hidecopyright = false
     rtl = false
     math = true
-    custom_css = ["css/custom.css"]
+    custom_css = []
+    colorscheme = "auto"
+
 # Social links
 [[params.social]]
     name = "Github"
@@ -63,4 +65,3 @@ googleAnalytics = "UA-38557572-5"
 #     name = "About"
 #     weight = 2
 #     url = "/about/"
-
