@@ -16,7 +16,7 @@ And the class, enum must conform to `RequestContainer` protocol.
 
 Sample code looks like this.
 
-```
+```swift
 enum TestAPIRequest {
   case getitems
   case postitem

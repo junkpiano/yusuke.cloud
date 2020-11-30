@@ -7,7 +7,7 @@ defaultcontentlanguage = "en"
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
@@ -31,7 +31,7 @@ googleAnalytics = "UA-38557572-5"
     rtl = false
     math = true
     custom_css = []
-    colorscheme = "light"
+    colorscheme = "auto"
 
 # Social links
 [[params.social]]
@@ -57,11 +57,13 @@ googleAnalytics = "UA-38557572-5"
     rel = "alternate"
     type = "application/rss+xml"
 # Menu links
-[[menu.main]]
-    name = "Blog"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home"
+    url = "/"
     weight = 1
+  [[menu.main]]
+    name = "Blog"
+    weight = 2
     url  = "/blog/"
-# [[menu.main]]
-#     name = "About"
-#     weight = 2
-#     url = "/about/"
