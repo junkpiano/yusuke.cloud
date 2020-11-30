@@ -1,6 +1,6 @@
 # yusuke.cloud
 
-[![Build Status](https://travis-ci.org/junkpiano/yusuke.cloud.svg?branch=master)](https://travis-ci.org/junkpiano/yusuke.cloud)
+![Deploy](https://github.com/junkpiano/yusuke.cloud/workflows/Deploy/badge.svg)
 
 ## Deployment
 
