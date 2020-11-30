@@ -4,8 +4,16 @@
 
 ## Deployment
 
+When you add/update articles,
+
 ```
 sh publish.sh
+```
+
+In other cases,
+
+```
+git push origin master
 ```
 
 ## Development
