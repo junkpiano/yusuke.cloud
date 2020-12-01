@@ -18,12 +18,3 @@ jobs:
         PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
         HOST: yusuke.cloud
         PROJECT: weblog
-    - name: Deploy to GitHub Pages
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v2
-      with:
-        repo: junkpiano/junkpiano.github.io
-        target_branch: master
-        build_dir: public
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN}}

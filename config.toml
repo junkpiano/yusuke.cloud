@@ -13,10 +13,7 @@ pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "yourdiscussshortname"
 googleAnalytics = "UA-38557572-5"
-
-[permalinks]
-  blog = "/blog/:year/:month/:day/:title/"
-
+  
 [params]
     author = "Yusuke Ohashi"
     info = "iOS Developer, DevOps, Blogger, and Gamer"
@@ -64,6 +61,6 @@ googleAnalytics = "UA-38557572-5"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     weight = 2
-    url  = "/blog/"
+    url  = "/posts/"
