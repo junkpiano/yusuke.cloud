@@ -4,13 +4,7 @@
 
 ## Deployment
 
-When you add/update articles,
-
-```
-sh publish.sh
-```
-
-In other cases,
+Simply,
 
 ```
 git push origin master
