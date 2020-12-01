@@ -22,7 +22,8 @@ jobs:
       if: success()
       uses: crazy-max/ghaction-github-pages@v2
       with:
-        target_branch: gh-pages
+        repo: junkpiano/junkpiano.github.io
+        target_branch: master
         build_dir: public
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PERSONAL_TOKEN}}
