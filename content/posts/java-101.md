@@ -1,8 +1,10 @@
 +++ 
 draft = false
 date = 2020-04-12T20:09:21+09:00
-title = "Java 101"
+title = "[JP] Java 101"
 slug = "java-101" 
+isCJKLanguage = true
+tags = ["cjk"]
 +++
 
 今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、

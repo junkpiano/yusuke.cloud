@@ -2,7 +2,7 @@
 title: "LSP for Swift"
 date: 2020-04-07T18:01:03+09:00
 draft: false
-categories: ["ios"]
+categories: ["iOS"]
 ---
 
 ## What is Language Server Protocol(LSP)?
