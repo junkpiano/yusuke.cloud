@@ -11,10 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Dokku deploy
-      uses: vitalyliber/dokku-github-action@v6.0
-      env:
-        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        HOST: yusuke.cloud
-        PROJECT: weblog
+      uses: dokku/github-action@v1.0.2
+      with:
+        ssh_private_key: ${{ secrets.PRIVATE_KEY }}
+        git_remote_url: "ssh://dokku@yusuke.cloud:22/weblog"
