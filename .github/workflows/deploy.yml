@@ -11,9 +11,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Dokku deploy
-      uses: dokku/github-action@v1.0.2
+    - name: Cloning repo
+      uses: actions/checkout@v2
       with:
-        ssh_private_key: ${{ secrets.PRIVATE_KEY }}
+        fetch-depth: 0
+    - name: Dokku deploy
+      uses: dokku/github-action@master
+      with:
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         git_remote_url: "ssh://dokku@yusuke.cloud:22/weblog"
