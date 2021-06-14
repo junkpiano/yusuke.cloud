@@ -5,6 +5,7 @@ title = "[JP] Java 101"
 slug = "java-101" 
 isCJKLanguage = true
 tags = ["cjk"]
+categories = ["Java"]
 +++
 
 今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、

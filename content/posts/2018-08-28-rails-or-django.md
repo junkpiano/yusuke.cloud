@@ -1,9 +1,10 @@
 ---
 categories:
-- web
+    - Web
 comments: true
 date: "2018-08-28T00:00:00Z"
 title: Rails or Django?
+draft: true
 ---
 
 Now I cannot decide which to go.
