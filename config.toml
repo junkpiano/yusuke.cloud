@@ -30,6 +30,10 @@ googleAnalytics = "UA-38557572-5"
     custom_css = []
     colorscheme = "auto"
 
+    [params.utterances]
+        repo = "junkpiano/yusuke.cloud"
+        issueTerm = "pathname"
+
 # Social links
 [[params.social]]
     name = "Github"
