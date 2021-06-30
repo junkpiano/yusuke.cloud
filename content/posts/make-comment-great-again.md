@@ -21,7 +21,7 @@ Disqus has rich UI and features to discuss blog posts, but it allows
 - anonymous comments
 - Ads inclusion
 
-For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless shitty comments, and ended up suffering from mental disorder. No one tells that this won't happen on this tiny personal blog.
+For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder. No one tells that this won't happen on this tiny personal blog.
 
 Ads inclusion means disqus is tracking user information. I don't want to make my readers concerned about security matters.
 
@@ -39,7 +39,7 @@ Utterances is listing their main features following
     Dark theme. 🌘
     Lightweight. Vanilla TypeScript. No font downloads, JavaScript frameworks or polyfills for evergreen browsers. 🐦🌲
 
-it sounds nice, right?
+It sounds nice, right?
 
 You are required to be authenticated with Github[^1], but it's because guest commenting isn't allowed in github issue.
 
@@ -60,7 +60,7 @@ I just added these lines to your `config.toml`.
 
 Note that it depends on your blog [theme](https://themes.gohugo.io/). Different themes have different configs. You want to refer to README of your theme.
 
-After you complete filling up config file, you try running your blog
+After you complete filling up `config.toml`, try running your blog
 
 ```bash
 hugo serve -D # -D option includes draft posts. Remove it if you don't need it.

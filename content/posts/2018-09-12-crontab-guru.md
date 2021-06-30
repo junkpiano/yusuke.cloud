@@ -8,7 +8,7 @@ If you use google whenever you write crontab, this website is good for you.
 
 [crontab guru](https://crontab.guru/)
 
-![crontab guru screenshot](/assets/image/crontabguru.png)
+![crontab guru screenshot](https://cdn.yusuke.cloud/assets/image/crontabguru.png)
 
 Crontab format is not intuitive. This website tells you how your cron will work.
 You can input your own cron job in the rounded textfield, and you can check how it works before you start on your server.

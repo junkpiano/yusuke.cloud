@@ -27,7 +27,7 @@ https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
 
 ## What is Sourcekit-LSP?
 
-![width:800px](/assets/image/source_kit_lsp_github.png)
+![width:800px](https://cdn.yusuke.cloud/assets/image/source_kit_lsp_github.png)
 
 - Apple's LSP implementation on top of `sourcekitd` and `clangd`
 - `sourcekitd` is a framework that provide IDE features

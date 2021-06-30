@@ -11,13 +11,13 @@ This example shows dependency graph of `react-native-maps`, which I was investig
 
 ## 2D
 
-![2d](/assets/image/npm-dependency-graph-2d.png)
+![2d](https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-2d.png)
 
 You can drag nodes, and highlight node with cursor on.
 
 ## 3D
 
-![3d](/assets/image/npm-dependency-graph-3d.png)
+![3d](https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-3d.png)
 
 You can rotate graph, but 3D doesn't show module names.
 
