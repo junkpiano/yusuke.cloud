@@ -1,6 +1,8 @@
 ---
 date: "2018-11-10T00:00:00Z"
 title: Network Abstraction Layer
+categories:
+  - iOS
 ---
 
 I am experimenting a new way for network request in `Kiri` library.
