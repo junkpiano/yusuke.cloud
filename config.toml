@@ -34,6 +34,12 @@ googleAnalytics = "UA-38557572-5"
         repo = "junkpiano/yusuke.cloud"
         issueTerm = "pathname"
 
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
 # Social links
 [[params.social]]
     name = "Github"
@@ -71,6 +77,11 @@ languageName = ":uk:"
   name = "Posts"
   weight = 2
   url  = "/posts/"
+[[languages.en.menu.main]]
+  name = "About"
+  weight = 3
+  url  = "/about/"
+
 
 [languages.ja]
 languageName = ":jp:"
@@ -84,6 +95,10 @@ info = "iOS 開発者, DevOps, ブロガー, ゲーマー"
   name = "ホーム"
   url = "/"
   weight = 1
+[[languages.ja.menu.main]]
+  name = "これは何？"
+  weight = 3
+  url  = "/about/"
 [[languages.ja.menu.main]]
   name = "記事"
   weight = 2
