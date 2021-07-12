@@ -30,6 +30,7 @@ googleAnalytics = "UA-38557572-5"
     math = true
     custom_css = []
     colorscheme = "auto"
+    images = ["https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"]
 
     [params.utterances]
         repo = "junkpiano/yusuke.cloud"
