@@ -57,14 +57,33 @@ googleAnalytics = "UA-38557572-5"
     url = "/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
+
 # Menu links
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    name = "Posts"
-    weight = 2
-    url  = "/posts/"
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+  name = "Home"
+  pre = "home"
+  url = "/"
+  weight = 1
+[[languages.en.menu.main]]
+  name = "Posts"
+  weight = 2
+  url  = "/posts/"
+
+[languages.ja]
+languageName = ":jp:"
+contentDir = "content/japanese"
+
+[languages.ja.params]
+info = "iOS 開発者, DevOps, ブロガー, ゲーマー"
+
+[[languages.ja.menu.main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+[[languages.ja.menu.main]]
+  name = "記事"
+  weight = 2
+  url  = "/posts/"
