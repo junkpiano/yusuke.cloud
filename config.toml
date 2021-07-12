@@ -23,7 +23,7 @@ googleAnalytics = "UA-38557572-5"
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
     footercontent = "Welcome to my personal website!"
-    hidecredits = false
+    hidecredits = true
     hidecopyright = false
     rtl = false
     math = true
@@ -75,6 +75,7 @@ languageName = ":uk:"
 [languages.ja]
 languageName = ":jp:"
 contentDir = "content/japanese"
+footercontent = "楽しんでいってね。"
 
 [languages.ja.params]
 info = "iOS 開発者, DevOps, ブロガー, ゲーマー"
