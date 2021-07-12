@@ -3,6 +3,7 @@ title = "Yusuke Ohashi"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
+enableEmoji = false
 
 paginate = 20
 canonifyurls = true
@@ -57,16 +58,15 @@ author = "authors"
     weight = 1
     url = "https://twitter.com/junkpiano/"
 [[params.social]]
-    name = "RSS"
-    icon = "fa fa-rss"
+    name = "Linkedin"
+    icon = "fa fa-linkedin fa-2x"
     weight = 4
-    url = "/index.xml"
-    rel = "alternate"
-    type = "application/rss+xml"
+    url = "https://www.linkedin.com/in/yusukeohashi"
 
 # Menu links
 [languages.en]
 languageName = ":uk:"
+contentDir = "content/english"
 
 [[languages.en.menu.main]]
   name = "Home"
@@ -74,14 +74,17 @@ languageName = ":uk:"
   url = "/"
   weight = 1
 [[languages.en.menu.main]]
-  name = "Posts"
+  name = "About"
   weight = 2
+  url  = "/about/"
+[[languages.en.menu.main]]
+  name = "Posts"
+  weight = 3
   url  = "/posts/"
 [[languages.en.menu.main]]
-  name = "About"
-  weight = 3
-  url  = "/about/"
-
+  name = "RSS"
+  weight = 4
+  url  = "/index.xml"
 
 [languages.ja]
 languageName = ":jp:"
@@ -97,9 +100,13 @@ info = "iOS 開発者, DevOps, ブロガー, ゲーマー"
   weight = 1
 [[languages.ja.menu.main]]
   name = "これは何？"
-  weight = 3
+  weight = 2
   url  = "/about/"
 [[languages.ja.menu.main]]
   name = "記事"
-  weight = 2
+  weight = 3
   url  = "/posts/"
+[[languages.ja.menu.main]]
+  name = "購読"
+  weight = 4
+  url  = "/ja/index.xml"
