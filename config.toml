@@ -28,7 +28,7 @@ googleAnalytics = "UA-38557572-5"
     hidecopyright = false
     rtl = false
     math = true
-    custom_css = []
+    customCSS = ["css/gistfix.css"]
     colorscheme = "auto"
     images = ["https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"]
 
