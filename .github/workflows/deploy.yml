@@ -1,6 +1,7 @@
 name: Deploy
 
 on:
+  workflow_dispatch
   schedule:
     - cron: '0 9 * * *' # In JST, it triggers at every 9:00, 18:00.
 
