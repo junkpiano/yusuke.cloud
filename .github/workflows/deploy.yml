@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   schedule:
-    - cron: '30 8,17 * * *'
+    - cron: '0 0,9 * * *' # In JST, it triggers at every 9:00, 18:00.
 
 jobs:
   build:
