@@ -23,7 +23,7 @@ jobs:
       run: hugo --minify --gc
     - uses: EndBug/add-and-commit@v7
       with:
-        message: '[ci] delivery'
+        message: '[ci] compile'
         default_author: github_actions
     - name: Cloning repo again
       uses: actions/checkout@v2
