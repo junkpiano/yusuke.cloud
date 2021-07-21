@@ -14,7 +14,6 @@ jobs:
     - name: Cloning repo
       uses: actions/checkout@v2
       with:
-        fetch-depth: 0
         submodules: recursive
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
@@ -26,6 +25,11 @@ jobs:
       with:
         message: '[ci] delivery'
         default_author: github_actions
+    - name: Cloning repo again
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+        submodules: recursive
     - name: Dokku deploy
       uses: dokku/github-action@master
       with:
