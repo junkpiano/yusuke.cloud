@@ -4,7 +4,7 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 enableEmoji = false
-ignoreFiles = ["\\.gitignore$"]
+ignoreFiles = ["\\.gitignore$", "^README.md$"]
 
 paginate = 20
 canonifyurls = true
