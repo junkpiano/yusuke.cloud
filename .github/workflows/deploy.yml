@@ -1,9 +1,8 @@
 name: Deploy
 
 on:
-  push:
-    branches:
-      - master
+  schedule:
+    - cron: '30 8,17 * * *'
 
 jobs:
   build:
@@ -12,20 +11,6 @@ jobs:
 
     steps:
     - name: Cloning repo
-      uses: actions/checkout@v2
-      with:
-        submodules: recursive
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
-    - name: Build
-      run: hugo --minify --gc
-    - uses: EndBug/add-and-commit@v7
-      with:
-        message: '[ci] compile'
-        default_author: github_actions
-    - name: Cloning repo again
       uses: actions/checkout@v2
       with:
         fetch-depth: 0
