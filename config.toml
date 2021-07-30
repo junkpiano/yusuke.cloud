@@ -64,6 +64,11 @@ author = "authors"
     icon = "fa fa-linkedin fa-2x"
     weight = 4
     url = "https://www.linkedin.com/in/yusukeohashi"
+[params.social]]
+    name = "Mastodon"
+    icon = "fa fa-mastodon fa-2x"
+    weight = 5
+    url = "https://mastodon.technology/@junkpiano"
 
 # Menu links
 [languages.en]
