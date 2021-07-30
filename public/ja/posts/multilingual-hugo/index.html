@@ -1,16 +1,149 @@
-<!doctype html><html lang=ja><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=content-language content="ja"><meta name=color-scheme content="light dark"><meta name=author content="Yusuke Ohashi"><meta name=description content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対"><meta name=keywords content="blog,developer,personal"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"><meta name=twitter:title content="Hugoの多言語化対応"><meta name=twitter:description content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対"><meta property="og:title" content="Hugoの多言語化対応"><meta property="og:description" content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対"><meta property="og:type" content="article"><meta property="og:url" content="https://yusuke.cloud/ja/posts/multilingual-hugo/"><meta property="og:image" content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-07-12T17:04:09+09:00"><meta property="article:modified_time" content="2021-07-12T17:04:09+09:00"><title>Hugoの多言語化対応 · Yusuke Ohashi</title><link rel=canonical href=https://yusuke.cloud/ja/posts/multilingual-hugo/><link rel=preload href="https://yusuke.cloud/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin><link rel=stylesheet href=https://yusuke.cloud/css/coder.min.34dfa7b2f5cdeb0f5302b2628f4a7a4bfe88a2431e1397ee4ec605c56ab69701.css integrity="sha256-NN+nsvXN6w9TArJij0p6S/6IokMeE5fuTsYFxWq2lwE=" crossorigin=anonymous media=screen><link rel=stylesheet href=https://yusuke.cloud/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen><link rel=stylesheet href=https://yusuke.cloud/css/gistfix.css><link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-16x16.png sizes=16x16><link rel=apple-touch-icon href=https://yusuke.cloud/images/apple-touch-icon.png><link rel=apple-touch-icon sizes=180x180 href=https://yusuke.cloud/images/apple-touch-icon.png><meta name=generator content="Hugo 0.85.0"></head><body class="preload-transitions colorscheme-auto"><div class=float-container><a id=dark-mode-toggle class=colorscheme-toggle><i class="fa fa-adjust fa-fw" aria-hidden=true></i></a></div><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=https://yusuke.cloud/ja>Yusuke Ohashi</a>
+<!doctype html><html lang=ja>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="ja">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Yusuke Ohashi">
+<meta name=description content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対">
+<meta name=keywords content="blog,developer,personal">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg">
+<meta name=twitter:title content="Hugoの多言語化対応">
+<meta name=twitter:description content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対">
+<meta property="og:title" content="Hugoの多言語化対応">
+<meta property="og:description" content="こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yusuke.cloud/ja/posts/multilingual-hugo/"><meta property="og:image" content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-07-12T17:04:09+09:00">
+<meta property="article:modified_time" content="2021-07-12T17:04:09+09:00">
+<title>
+Hugoの多言語化対応 · Yusuke Ohashi
+</title>
+<link rel=canonical href=https://yusuke.cloud/ja/posts/multilingual-hugo/>
+<link rel=preload href="https://yusuke.cloud/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=https://yusuke.cloud/css/coder.min.34dfa7b2f5cdeb0f5302b2628f4a7a4bfe88a2431e1397ee4ec605c56ab69701.css integrity="sha256-NN+nsvXN6w9TArJij0p6S/6IokMeE5fuTsYFxWq2lwE=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=https://yusuke.cloud/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=https://yusuke.cloud/css/gistfix.css>
+<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=https://yusuke.cloud/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=https://yusuke.cloud/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.86.1">
+</head>
+<body class="preload-transitions colorscheme-auto">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=https://yusuke.cloud/ja>
+Yusuke Ohashi
+</a>
 <input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle><i class="fa fa-bars fa-fw" aria-hidden=true></i></label><ul class=navigation-list><li class=navigation-item><a class=navigation-link href=https://yusuke.cloud/ja/>ホーム</a></li><li class=navigation-item><a class=navigation-link href=https://yusuke.cloud/ja/about/>これは何？</a></li><li class=navigation-item><a class=navigation-link href=https://yusuke.cloud/ja/posts/>記事</a></li><li class=navigation-item><a class=navigation-link href=https://yusuke.cloud/ja/index.xml>購読</a></li><li class="navigation-item menu-separator"><span>|</span></li><li class=navigation-item><a href=https://yusuke.cloud/>🇬🇧</a></li></ul></section></nav><div class=content><section class="container post"><article><header><div class=post-title><h1 class=title><a class=title-link href=https://yusuke.cloud/ja/posts/multilingual-hugo/>Hugoの多言語化対応</a></h1></div><div class=post-meta><div class=date><span class=posted-on><i class="fa fa-calendar" aria-hidden=true></i>
-<time datetime=2021-07-12T17:04:09+09:00>July 12, 2021</time></span>
-<span class=reading-time><i class="fa fa-clock-o" aria-hidden=true></i>
-2分で読めます</span></div><div class=authors><i class="fa fa-user" aria-hidden=true></i>
-<a href=https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/>大橋 佑亮</a></div></div></header><div><p>こんにちは、インターネット。</p><p>Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎</p><p>Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。</p><p>まずはブログのコンテンツを言語ごとに分けなくてはいけません。
-やり方は二つあります。</p><ul><li>ファイル名を分ける</li><li>フォルダを分ける</li></ul><p>ファイル名を分ける方法だと、ファイルが多くなりすぎて管理が難しくなるので、フォルダを分けることにしました。</p><ul><li>content/english</li><li>content/japanese</li></ul><p>文字通り、英語と日本語のコンテンツを管理しています。
-このような設定をconfig.tomlに入れました。</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>languages</span>.<span style=color:#a6e22e>ja</span>]
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/ja/>ホーム</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/ja/about/>これは何？</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/ja/posts/>記事</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/ja/index.xml>購読</a>
+</li>
+<li class="navigation-item menu-separator">
+<span>|</span>
+</li>
+<li class=navigation-item>
+<a href=https://yusuke.cloud/>🇬🇧</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container post">
+<article>
+<header>
+<div class=post-title>
+<h1 class=title>
+<a class=title-link href=https://yusuke.cloud/ja/posts/multilingual-hugo/>
+Hugoの多言語化対応
+</a>
+</h1>
+</div>
+<div class=post-meta>
+<div class=date>
+<span class=posted-on>
+<i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2021-07-12T17:04:09+09:00>
+July 12, 2021
+</time>
+</span>
+<span class=reading-time>
+<i class="fa fa-clock-o" aria-hidden=true></i>
+2分で読めます
+</span>
+</div>
+<div class=authors>
+<i class="fa fa-user" aria-hidden=true></i>
+<a href=https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/>大橋 佑亮</a></div>
+</div>
+</header>
+<div>
+<p>こんにちは、インターネット。</p>
+<p>Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎</p>
+<p>Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。</p>
+<p>まずはブログのコンテンツを言語ごとに分けなくてはいけません。
+やり方は二つあります。</p>
+<ul>
+<li>ファイル名を分ける</li>
+<li>フォルダを分ける</li>
+</ul>
+<p>ファイル名を分ける方法だと、ファイルが多くなりすぎて管理が難しくなるので、フォルダを分けることにしました。</p>
+<ul>
+<li>content/english</li>
+<li>content/japanese</li>
+</ul>
+<p>文字通り、英語と日本語のコンテンツを管理しています。
+このような設定をconfig.tomlに入れました。</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-toml data-lang=toml>[<span style=color:#a6e22e>languages</span>.<span style=color:#a6e22e>ja</span>]
 <span style=color:#a6e22e>languageName</span> = <span style=color:#e6db74>&#34;:jp:&#34;</span>
 <span style=color:#a6e22e>contentDir</span> = <span style=color:#e6db74>&#34;content/japanese&#34;</span>
 <span style=color:#a6e22e>footercontent</span> = <span style=color:#e6db74>&#34;楽しんでいってね。&#34;</span>
-</code></pre></div><p>（蛇足ですが、japaneseをjaと略すのがあまり好きではありません）</p><p>英語にも同様にcontentDirを追加します。</p><p>あとは、言語ごとにメニューの設定などを追加していく必要があります。
-詳しくは<a href=https://github.com/junkpiano/yusuke.cloud/blob/master/config.toml>こちらのソースコード</a>を見てもらえればわかるかと思います。若干冗長ではあります。😅</p><p>ところで、Aboutってあえて日本語にすると難しいですね。「ブログについて」とか「プロフィール」とか考えたけど、「これは何？」っていうインターネットミームが一番しっくり来ました。別にふざけてるわけじゃありません。</p></div><footer><script src=https://utteranc.es/client.js repo=junkpiano/yusuke.cloud issue-term=pathname theme=github-light crossorigin=anonymous async></script></footer></article><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script><script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}}</script></section></div><footer class=footer><section class=container><p>楽しんでいってね。</p>©
+</code></pre></div><p>（蛇足ですが、japaneseをjaと略すのがあまり好きではありません）</p>
+<p>英語にも同様にcontentDirを追加します。</p>
+<p>あとは、言語ごとにメニューの設定などを追加していく必要があります。
+詳しくは<a href=https://github.com/junkpiano/yusuke.cloud/blob/master/config.toml>こちらのソースコード</a>を見てもらえればわかるかと思います。若干冗長ではあります。😅</p>
+<p>ところで、Aboutってあえて日本語にすると難しいですね。「ブログについて」とか「プロフィール」とか考えたけど、「これは何？」っていうインターネットミームが一番しっくり来ました。別にふざけてるわけじゃありません。</p>
+</div>
+<footer>
+<script src=https://utteranc.es/client.js repo=junkpiano/yusuke.cloud issue-term=pathname theme=github-light crossorigin=anonymous async></script>
+</footer>
+</article>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}}</script>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+<p>楽しんでいってね。</p>
+©
 2021
-Yusuke Ohashi</section></footer></main><script src=https://yusuke.cloud/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script><script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script></body></html>
+Yusuke Ohashi
+</section>
+</footer>
+</main>
+<script src=https://yusuke.cloud/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script>
+</body>
+</html>
