@@ -3,4 +3,4 @@
 	url = https://github.com/luizdepra/hugo-coder.git
 [submodule "content"]
 	path = content
-	url = https://github.com/junkpiano/yusuke.cloud-content.git
+	url = git@github.com:junkpiano/yusuke.cloud-content.git
