@@ -69,6 +69,7 @@ author = "authors"
     icon = "fa fa-mastodon fa-2x"
     weight = 5
     url = "https://mastodon.technology/@junkpiano"
+    rel = "me"
 
 # Menu links
 [languages.en]
