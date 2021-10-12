@@ -1,0 +1,223 @@
+<!doctype html><html lang=en>
+<head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=content-language content="en">
+<meta name=color-scheme content="light dark">
+<meta name=author content="Yusuke Ohashi">
+<meta name=description content="Basic Usage    XCConfig is an external xcode build settings.
+You can list build settings with the following format,
+BUILD_SETTING_NAME = value Conditional values are available.
+ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
+let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
+<meta name=keywords content="blog,developer,personal">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg">
+<meta name=twitter:title content="XCConfig">
+<meta name=twitter:description content="Basic Usage    XCConfig is an external xcode build settings.
+You can list build settings with the following format,
+BUILD_SETTING_NAME = value Conditional values are available.
+ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
+let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
+<meta property="og:title" content="XCConfig">
+<meta property="og:description" content="Basic Usage    XCConfig is an external xcode build settings.
+You can list build settings with the following format,
+BUILD_SETTING_NAME = value Conditional values are available.
+ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
+let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://yusuke.cloud/posts/xcconfig/"><meta property="og:image" content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"><meta property="article:section" content="posts">
+<meta property="article:published_time" content="2021-10-12T21:00:00+09:00">
+<meta property="article:modified_time" content="2021-10-12T21:00:00+09:00">
+<title>
+XCConfig · Yusuke Ohashi
+</title>
+<link rel=canonical href=https://yusuke.cloud/posts/xcconfig/>
+<link rel=preload href="https://yusuke.cloud/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
+<link rel=stylesheet href=https://yusuke.cloud/css/coder.min.708686f8ab8176e91d44fcbe488a0fe0333b94f405cf18a52383d67ba22f0ccb.css integrity="sha256-cIaG+KuBdukdRPy+SIoP4DM7lPQFzxilI4PWe6IvDMs=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=https://yusuke.cloud/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
+<link rel=stylesheet href=https://yusuke.cloud/css/gistfix.css>
+<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-32x32.png sizes=32x32>
+<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-16x16.png sizes=16x16>
+<link rel=apple-touch-icon href=https://yusuke.cloud/images/apple-touch-icon.png>
+<link rel=apple-touch-icon sizes=180x180 href=https://yusuke.cloud/images/apple-touch-icon.png>
+<meta name=generator content="Hugo 0.88.1">
+</head>
+<body class="preload-transitions colorscheme-auto">
+<div class=float-container>
+<a id=dark-mode-toggle class=colorscheme-toggle>
+<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
+</a>
+</div>
+<main class=wrapper>
+<nav class=navigation>
+<section class=container>
+<a class=navigation-title href=https://yusuke.cloud/>
+Yusuke Ohashi
+</a>
+<input type=checkbox id=menu-toggle>
+<label class="menu-button float-right" for=menu-toggle>
+<i class="fa fa-bars fa-fw" aria-hidden=true></i>
+</label>
+<ul class=navigation-list>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/>Home</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/about/>About</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/posts/>Posts</a>
+</li>
+<li class=navigation-item>
+<a class=navigation-link href=https://yusuke.cloud/index.xml>RSS</a>
+</li>
+<li class="navigation-item menu-separator">
+<span>|</span>
+</li>
+<li class=navigation-item>
+<a href=https://yusuke.cloud/ja/>🇯🇵</a>
+</li>
+</ul>
+</section>
+</nav>
+<div class=content>
+<section class="container post">
+<article>
+<header>
+<div class=post-title>
+<h1 class=title>
+<a class=title-link href=https://yusuke.cloud/posts/xcconfig/>
+XCConfig
+</a>
+</h1>
+</div>
+<div class=post-meta>
+<div class=date>
+<span class=posted-on>
+<i class="fa fa-calendar" aria-hidden=true></i>
+<time datetime=2021-10-12T21:00:00+09:00>
+October 12, 2021
+</time>
+</span>
+<span class=reading-time>
+<i class="fa fa-clock-o" aria-hidden=true></i>
+2-minute read
+</span>
+</div>
+</div>
+</header>
+<div>
+<h2 id=basic-usage>
+Basic Usage
+<a class=heading-link href=#basic-usage>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<p>XCConfig is an external xcode build settings.</p>
+<p>You can list build settings with the following format,</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>BUILD_SETTING_NAME = value
+</code></pre></div><p>Conditional values are available.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES
+</code></pre></div><p>You can access the value in Swift</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-swift data-lang=swift><span style=color:#66d9ef>let</span> object = Bundle.main.object(forInfoDictionaryKey:key)
+</code></pre></div><h2 id=separate-configurationcode>
+Separate configuration/code
+<a class=heading-link href=#separate-configurationcode>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<blockquote>
+<p>Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code. Config varies substantially across deploys, code does not.</p>
+<ul>
+<li><a href=https://www.12factor.net/config>https://www.12factor.net/config</a></li>
+</ul>
+</blockquote>
+<h3 id=bad>
+Bad
+<a class=heading-link href=#bad>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h3>
+<p>The following code has constant values in code.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-swift data-lang=swift><span style=color:#66d9ef>import</span> <span style=color:#a6e22e>Foundation</span>
+ 
+<span style=color:#75715e>#if</span> <span style=color:#75715e>DEBUG</span>
+<span style=color:#66d9ef>let</span> apiBaseURL = URL(string: <span style=color:#e6db74>&#34;https://api.staging.example.com&#34;</span>)<span style=color:#f92672>!</span>
+<span style=color:#75715e>#else</span>
+<span style=color:#66d9ef>let</span> apiBaseURL = URL(string: <span style=color:#e6db74>&#34;https://api.example.com&#34;</span>)<span style=color:#f92672>!</span>
+<span style=color:#75715e>#endif</span>
+</code></pre></div><p>It&rsquo;s a common statement when you use different values per environments. It&rsquo;s a configuration by coding.
+In this example, apiBaseURL is a single value, but the code is more complicated than it should be.
+By introducing XCConfig, you don&rsquo;t need to write the entire code above.</p>
+<h3 id=good>
+Good
+<a class=heading-link href=#good>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h3>
+<p>Let&rsquo;s say, you have 2 XCConfigs, Debug.xcconfig, Release.xcconfig.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>API_BASE_URL = api.staging.example.com
+</code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>API_BASE_URL = api.example.com
+</code></pre></div><p>In Swift, you can just fetch and use the value.</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-swift data-lang=swift><span style=color:#66d9ef>guard</span> <span style=color:#66d9ef>let</span> url = Bundle.main.object(forInfoDictionaryKey:<span style=color:#e6db74>&#34;API_BASE_URL&#34;</span>) <span style=color:#66d9ef>else</span> {
+    <span style=color:#66d9ef>return</span>
+}
+ 
+URLSession...
+</code></pre></div><p>Code is consistent in any environments and the value varies according to the environment.</p>
+<h2 id=important-notes>
+Important Notes
+<a class=heading-link href=#important-notes>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<p>XCConfig is public file like header files. It&rsquo;s visible in the binary package. You must never put credentials or classified information there.</p>
+<h3 id=managing-secret-values>
+Managing Secret Values
+<a class=heading-link href=#managing-secret-values>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h3>
+<blockquote>
+<p>As a general advise, don’t use xcconfig files to store secrets like API keys or other credentials For more information.</p>
+</blockquote>
+<p>Nevertheless, if you really need to manage secret values in XCConfig, it&rsquo;s doable without checking in XCConfig files on VCS(git, subversion, etc.)</p>
+<p>In .gitignore(if you are using git),</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>path/to/Release.xcconfig
+path/to/Debug.xcconfig
+</code></pre></div><p>Still you will be able to access the values through Bundle API. It works like <a href=https://github.com/bkeepers/dotenv>.env</a></p>
+<h2 id=references>
+References
+<a class=heading-link href=#references>
+<i class="fa fa-link" aria-hidden=true></i>
+</a>
+</h2>
+<ul>
+<li><a href=https://nshipster.com/xcconfig/>https://nshipster.com/xcconfig/</a></li>
+<li><a href=https://nshipster.com/secrets/>https://nshipster.com/secrets/</a></li>
+<li><a href=https://github.com/bkeepers/dotenv>https://github.com/bkeepers/dotenv</a></li>
+</ul>
+</div>
+<footer>
+<script src=https://utteranc.es/client.js repo=junkpiano/yusuke.cloud issue-term=pathname theme=github-light crossorigin=anonymous async></script>
+</footer>
+</article>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
+<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}}</script>
+</section>
+</div>
+<footer class=footer>
+<section class=container>
+<p>Welcome to my personal website!</p>
+©
+2021
+Yusuke Ohashi
+</section>
+</footer>
+</main>
+<script src=https://yusuke.cloud/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script>
+</body>
+</html>
