@@ -13,6 +13,7 @@ jobs:
     - name: Cloning repo
       uses: actions/checkout@v2
       with:
+        fetch-depth: 0
         token: ${{ secrets.GH_PRIVATE_PAT }}
         submodules: recursive
     - name: Fetch the latest submodules
