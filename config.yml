@@ -35,6 +35,8 @@ params:
   displayFullLangName: true
   hidecredits: true
   hidecopyright: false
+  ShowShareButtons: true
+  hideSummary: true
   rtl: false
   math: true
   # customCSS:
@@ -44,9 +46,9 @@ params:
     - 'https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg'
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
   
   utterances:
     repo: junkpiano/yusuke.cloud
@@ -103,9 +105,9 @@ languages:
     params:
       info: 'iOS 開発者, DevOps, ブロガー, ゲーマー'
       # home-info mode
-      homeInfoParams:
-        Title: "こんにちは \U0001F44B"
-        Content: ブログへようこそ
+      # homeInfoParams:
+      #   Title: "こんにちは \U0001F44B"
+      #   Content: ブログへようこそ
     menu:
       main:
         - name: ホーム
