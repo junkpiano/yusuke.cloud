@@ -2,10 +2,8 @@ name: Build and Deploy
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
-
+  schedule:
+    - cron: '45 8 * * *'
 jobs:
   build:
 
