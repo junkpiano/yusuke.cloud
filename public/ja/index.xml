@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yusuke Ohashi</title>
     <link>https://yusuke.cloud/ja/</link>
@@ -35,8 +35,10 @@
       <pubDate>Mon, 12 Jul 2021 16:20:37 +0900</pubDate>
       
       <guid>https://yusuke.cloud/ja/about/</guid>
-      <description>主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。 基本的には静的なウェブサイトなんですが、多少技術にはこだわっていてそれについてはこちらにまとめています。
-よろしくお願いします！</description>
+      <description>主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。
+プロフィールに関してはこちらにまとめていきます。
+基本的には静的なウェブサイトなんですが、多少技術にはこだわっていてそれについてはこちらの記事にまとめています。
+よろしくお願いいたします。</description>
     </item>
     
     <item>
