@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Java on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/ja/categories/java/</link>
-    <description>Recent content in Java on Yusuke Ohashi</description>
+    <title>Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/ja/authors/yusuke-ohashi/</link>
+    <description>Recent content on Yusuke Ohashi</description>
     <image>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Apr 2020 11:09:21 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/ja/categories/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jul 2021 08:04:09 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/ja/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugoの多言語化対応</title>
+      <link>https://yusuke.cloud/ja/posts/multilingual-hugo/</link>
+      <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
+      
+      <guid>https://yusuke.cloud/ja/posts/multilingual-hugo/</guid>
+      <description>こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対</description>
+    </item>
+    
     <item>
       <title>Java 101</title>
       <link>https://yusuke.cloud/ja/posts/java-101/</link>

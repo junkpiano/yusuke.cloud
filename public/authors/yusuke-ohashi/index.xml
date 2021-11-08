@@ -10,11 +10,11 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jul 2021 15:01:57 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Jul 2021 06:01:57 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SwiftDoc Action for Fastlane</title>
       <link>https://yusuke.cloud/posts/fastlane-swiftdoc-action/</link>
-      <pubDate>Mon, 19 Jul 2021 15:01:57 +0900</pubDate>
+      <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
       
       <guid>https://yusuke.cloud/posts/fastlane-swiftdoc-action/</guid>
       <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
@@ -28,7 +28,7 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
     <item>
       <title>How I build this blog</title>
       <link>https://yusuke.cloud/posts/how-i-build-this-blog/</link>
-      <pubDate>Wed, 30 Jun 2021 15:49:42 +0900</pubDate>
+      <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
       
       <guid>https://yusuke.cloud/posts/how-i-build-this-blog/</guid>
       <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
