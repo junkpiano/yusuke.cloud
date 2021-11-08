@@ -4,3 +4,6 @@
 [submodule "content"]
 	path = content
 	url = git@github.com:junkpiano/yusuke.cloud-content.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git

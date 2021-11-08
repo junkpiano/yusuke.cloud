@@ -9,3 +9,4 @@ _site/
 deploy-key
 
 resources
+.hugo_build.lock

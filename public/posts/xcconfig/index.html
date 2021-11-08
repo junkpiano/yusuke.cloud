@@ -1,119 +1,94 @@
-<!doctype html><html lang=en>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=content-language content="en">
-<meta name=color-scheme content="light dark">
+<!doctype html><html lang=en dir=auto>
+<head><meta charset=utf-8>
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<meta name=robots content="index, follow">
+<title>XCConfig | Yusuke Ohashi</title>
+<meta name=keywords content>
+<meta name=description content="Do you know XCConfig?">
 <meta name=author content="Yusuke Ohashi">
-<meta name=description content="Basic Usage    XCConfig is an external xcode build settings.
-You can list build settings with the following format,
-BUILD_SETTING_NAME = value Conditional values are available.
-ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
-let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
-<meta name=keywords content="blog,developer,personal">
-<meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg">
-<meta name=twitter:title content="XCConfig">
-<meta name=twitter:description content="Basic Usage    XCConfig is an external xcode build settings.
-You can list build settings with the following format,
-BUILD_SETTING_NAME = value Conditional values are available.
-ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
-let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
-<meta property="og:title" content="XCConfig">
-<meta property="og:description" content="Basic Usage    XCConfig is an external xcode build settings.
-You can list build settings with the following format,
-BUILD_SETTING_NAME = value Conditional values are available.
-ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
-let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code     Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code.">
+<link rel=canonical href=https://yusuke.cloud/posts/xcconfig/>
+<link crossorigin=anonymous href=https://yusuke.cloud/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css integrity="sha256-b2AFbUTT9+tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as=style>
+<script defer crossorigin=anonymous src=https://yusuke.cloud/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5+kdJvBz5iKbt6B5PJI=" onload=hljs.initHighlightingOnLoad()></script>
+<link rel=icon href=https://yusuke.cloud/favicon.ico>
+<link rel=icon type=image/png sizes=16x16 href=https://yusuke.cloud/favicon-16x16.png>
+<link rel=icon type=image/png sizes=32x32 href=https://yusuke.cloud/favicon-32x32.png>
+<link rel=apple-touch-icon href=https://yusuke.cloud/apple-touch-icon.png>
+<link rel=mask-icon href=https://yusuke.cloud/safari-pinned-tab.svg>
+<meta name=theme-color content="#2e2e33">
+<meta name=msapplication-TileColor content="#2e2e33">
+<meta name=generator content="Hugo 0.90.0-DEV">
+<link rel=alternate hreflang=en href=https://yusuke.cloud/posts/xcconfig/>
+<noscript>
+<style>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript>
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script><meta property="og:title" content="XCConfig">
+<meta property="og:description" content="Do you know XCConfig?">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://yusuke.cloud/posts/xcconfig/"><meta property="og:image" content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-10-12T21:00:00+09:00">
 <meta property="article:modified_time" content="2021-10-12T21:00:00+09:00">
-<title>
-XCConfig · Yusuke Ohashi
-</title>
-<link rel=canonical href=https://yusuke.cloud/posts/xcconfig/>
-<link rel=preload href="https://yusuke.cloud/fonts/forkawesome-webfont.woff2?v=1.2.0" as=font type=font/woff2 crossorigin>
-<link rel=stylesheet href=https://yusuke.cloud/css/coder.min.708686f8ab8176e91d44fcbe488a0fe0333b94f405cf18a52383d67ba22f0ccb.css integrity="sha256-cIaG+KuBdukdRPy+SIoP4DM7lPQFzxilI4PWe6IvDMs=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href=https://yusuke.cloud/css/coder-dark.min.aa883b9ce35a8ff4a2a5008619005175e842bb18a8a9f9cc2bbcf44dab2d91fa.css integrity="sha256-qog7nONaj/SipQCGGQBRdehCuxioqfnMK7z0Tastkfo=" crossorigin=anonymous media=screen>
-<link rel=stylesheet href=https://yusuke.cloud/css/gistfix.css>
-<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-32x32.png sizes=32x32>
-<link rel=icon type=image/png href=https://yusuke.cloud/img/favicon-16x16.png sizes=16x16>
-<link rel=apple-touch-icon href=https://yusuke.cloud/images/apple-touch-icon.png>
-<link rel=apple-touch-icon sizes=180x180 href=https://yusuke.cloud/images/apple-touch-icon.png>
-<meta name=generator content="Hugo 0.88.1">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg">
+<meta name=twitter:title content="XCConfig">
+<meta name=twitter:description content="Do you know XCConfig?">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":2,"name":"Posts","item":"https://yusuke.cloud/posts/"},{"@type":"ListItem","position":3,"name":"XCConfig","item":"https://yusuke.cloud/posts/xcconfig/"}]}</script>
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"XCConfig","name":"XCConfig","description":"Do you know XCConfig?","keywords":[],"articleBody":"Basic Usage XCConfig is an external xcode build settings.\nYou can list build settings with the following format,\nBUILD_SETTING_NAME = value Conditional values are available.\nONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift\nlet object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code  Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code. Config varies substantially across deploys, code does not.\n https://www.12factor.net/config   Bad The following code has constant values in code.\nimport Foundation #if DEBUG let apiBaseURL = URL(string: \"https://api.staging.example.com\")! #else let apiBaseURL = URL(string: \"https://api.example.com\")! #endif It’s a common statement when you use different values per environments. It’s a configuration by coding. In this example, apiBaseURL is a single value, but the code is more complicated than it should be. By introducing XCConfig, you don’t need to write the entire code above.\nGood Let’s say, you have 2 XCConfigs, Debug.xcconfig, Release.xcconfig.\nAPI_BASE_URL = api.staging.example.com API_BASE_URL = api.example.com In Swift, you can just fetch and use the value.\nguard let url = Bundle.main.object(forInfoDictionaryKey:\"API_BASE_URL\") else { return } URLSession... Code is consistent in any environments and the value varies according to the environment.\nImportant Notes XCConfig is public file like header files. It’s visible in the binary package. You must never put credentials or classified information there.\nManaging Secret Values  As a general advise, don’t use xcconfig files to store secrets like API keys or other credentials For more information.\n Nevertheless, if you really need to manage secret values in XCConfig, it’s doable without checking in XCConfig files on VCS(git, subversion, etc.)\nIn .gitignore(if you are using git),\npath/to/Release.xcconfig path/to/Debug.xcconfig Still you will be able to access the values through Bundle API. It works like .env\nReferences  https://nshipster.com/xcconfig/ https://nshipster.com/secrets/ https://github.com/bkeepers/dotenv  ","wordCount":"290","inLanguage":"en","datePublished":"2021-10-12T21:00:00+09:00","dateModified":"2021-10-12T21:00:00+09:00","author":{"@type":"Person","name":"Yusuke Ohashi"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://yusuke.cloud/posts/xcconfig/"},"publisher":{"@type":"Organization","name":"Yusuke Ohashi","logo":{"@type":"ImageObject","url":"https://yusuke.cloud/favicon.ico"}}}</script>
 </head>
-<body class="preload-transitions colorscheme-auto">
-<div class=float-container>
-<a id=dark-mode-toggle class=colorscheme-toggle>
-<i class="fa fa-adjust fa-fw" aria-hidden=true></i>
-</a>
-</div>
-<main class=wrapper>
-<nav class=navigation>
-<section class=container>
-<a class=navigation-title href=https://yusuke.cloud/>
-Yusuke Ohashi
-</a>
-<input type=checkbox id=menu-toggle>
-<label class="menu-button float-right" for=menu-toggle>
-<i class="fa fa-bars fa-fw" aria-hidden=true></i>
-</label>
-<ul class=navigation-list>
-<li class=navigation-item>
-<a class=navigation-link href=https://yusuke.cloud/>Home</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=https://yusuke.cloud/about/>About</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=https://yusuke.cloud/posts/>Posts</a>
-</li>
-<li class=navigation-item>
-<a class=navigation-link href=https://yusuke.cloud/index.xml>RSS</a>
-</li>
-<li class="navigation-item menu-separator">
-<span>|</span>
-</li>
-<li class=navigation-item>
-<a href=https://yusuke.cloud/ja/>🇯🇵</a>
+<body id=top>
+<script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<header class=header>
+<nav class=nav>
+<div class=logo>
+<a href=https://yusuke.cloud accesskey=h title="Yusuke Ohashi (Alt + H)">Yusuke Ohashi</a>
+<span class=logo-switches>
+<button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+<ul class=lang-switch><li>|</li>
+<li>
+<a href=https://yusuke.cloud/ja/ title=🇯🇵 aria-label=:jp:>🇯🇵</a>
 </li>
 </ul>
-</section>
-</nav>
-<div class=content>
-<section class="container post">
-<article>
-<header>
-<div class=post-title>
-<h1 class=title>
-<a class=title-link href=https://yusuke.cloud/posts/xcconfig/>
-XCConfig
+</span>
+</div>
+<ul id=menu>
+<li>
+<a href=https://yusuke.cloud/ title=Home>
+<span>Home</span>
 </a>
+</li>
+<li>
+<a href=https://yusuke.cloud/about/ title=About>
+<span>About</span>
+</a>
+</li>
+<li>
+<a href=https://yusuke.cloud/posts/ title=Posts>
+<span>Posts</span>
+</a>
+</li>
+<li>
+<a href=https://yusuke.cloud/index.xml title=RSS>
+<span>RSS</span>
+</a>
+</li>
+</ul>
+</nav>
+</header>
+<main class=main>
+<article class=post-single>
+<header class=post-header>
+<h1 class=post-title>
+XCConfig
 </h1>
+<div class=post-description>
+Do you know XCConfig?
 </div>
-<div class=post-meta>
-<div class=date>
-<span class=posted-on>
-<i class="fa fa-calendar" aria-hidden=true></i>
-<time datetime=2021-10-12T21:00:00+09:00>
-October 12, 2021
-</time>
-</span>
-<span class=reading-time>
-<i class="fa fa-clock-o" aria-hidden=true></i>
-2-minute read
-</span>
-</div>
+<div class=post-meta><span title="2021-10-12 21:00:00 +0900 JST">October 12, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Yusuke Ohashi
 </div>
 </header>
-<div>
-<h2 id=basic-usage>
-Basic Usage
-<a class=heading-link href=#basic-usage>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
+<div class=post-content><h2 id=basic-usage>Basic Usage<a hidden class=anchor aria-hidden=true href=#basic-usage>#</a></h2>
 <p>XCConfig is an external xcode build settings.</p>
 <p>You can list build settings with the following format,</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>BUILD_SETTING_NAME = value
@@ -121,24 +96,14 @@ Basic Usage
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES
 </code></pre></div><p>You can access the value in Swift</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-swift data-lang=swift><span style=color:#66d9ef>let</span> object = Bundle.main.object(forInfoDictionaryKey:key)
-</code></pre></div><h2 id=separate-configurationcode>
-Separate configuration/code
-<a class=heading-link href=#separate-configurationcode>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
+</code></pre></div><h2 id=separate-configurationcode>Separate configuration/code<a hidden class=anchor aria-hidden=true href=#separate-configurationcode>#</a></h2>
 <blockquote>
 <p>Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code. Config varies substantially across deploys, code does not.</p>
 <ul>
 <li><a href=https://www.12factor.net/config>https://www.12factor.net/config</a></li>
 </ul>
 </blockquote>
-<h3 id=bad>
-Bad
-<a class=heading-link href=#bad>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h3>
+<h3 id=bad>Bad<a hidden class=anchor aria-hidden=true href=#bad>#</a></h3>
 <p>The following code has constant values in code.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-swift data-lang=swift><span style=color:#66d9ef>import</span> <span style=color:#a6e22e>Foundation</span>
  
@@ -150,12 +115,7 @@ Bad
 </code></pre></div><p>It&rsquo;s a common statement when you use different values per environments. It&rsquo;s a configuration by coding.
 In this example, apiBaseURL is a single value, but the code is more complicated than it should be.
 By introducing XCConfig, you don&rsquo;t need to write the entire code above.</p>
-<h3 id=good>
-Good
-<a class=heading-link href=#good>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h3>
+<h3 id=good>Good<a hidden class=anchor aria-hidden=true href=#good>#</a></h3>
 <p>Let&rsquo;s say, you have 2 XCConfigs, Debug.xcconfig, Release.xcconfig.</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>API_BASE_URL = api.staging.example.com
 </code></pre></div><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>API_BASE_URL = api.example.com
@@ -166,19 +126,9 @@ Good
  
 URLSession...
 </code></pre></div><p>Code is consistent in any environments and the value varies according to the environment.</p>
-<h2 id=important-notes>
-Important Notes
-<a class=heading-link href=#important-notes>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
+<h2 id=important-notes>Important Notes<a hidden class=anchor aria-hidden=true href=#important-notes>#</a></h2>
 <p>XCConfig is public file like header files. It&rsquo;s visible in the binary package. You must never put credentials or classified information there.</p>
-<h3 id=managing-secret-values>
-Managing Secret Values
-<a class=heading-link href=#managing-secret-values>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h3>
+<h3 id=managing-secret-values>Managing Secret Values<a hidden class=anchor aria-hidden=true href=#managing-secret-values>#</a></h3>
 <blockquote>
 <p>As a general advise, don’t use xcconfig files to store secrets like API keys or other credentials For more information.</p>
 </blockquote>
@@ -187,37 +137,29 @@ Managing Secret Values
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-fallback data-lang=fallback>path/to/Release.xcconfig
 path/to/Debug.xcconfig
 </code></pre></div><p>Still you will be able to access the values through Bundle API. It works like <a href=https://github.com/bkeepers/dotenv>.env</a></p>
-<h2 id=references>
-References
-<a class=heading-link href=#references>
-<i class="fa fa-link" aria-hidden=true></i>
-</a>
-</h2>
+<h2 id=references>References<a hidden class=anchor aria-hidden=true href=#references>#</a></h2>
 <ul>
 <li><a href=https://nshipster.com/xcconfig/>https://nshipster.com/xcconfig/</a></li>
 <li><a href=https://nshipster.com/secrets/>https://nshipster.com/secrets/</a></li>
 <li><a href=https://github.com/bkeepers/dotenv>https://github.com/bkeepers/dotenv</a></li>
 </ul>
 </div>
-<footer>
-<script src=https://utteranc.es/client.js repo=junkpiano/yusuke.cloud issue-term=pathname theme=github-light crossorigin=anonymous async></script>
-</footer>
+<footer class=post-footer>
+</footer><script src=https://utteranc.es/client.js repo=junkpiano/yusuke.cloud issue-term=pathname theme=preferred-color-scheme crossorigin=anonymous async></script>
 </article>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
-<script>MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],processEscapes:!0,processEnvironments:!0},options:{skipHtmlTags:['script','noscript','style','textarea','pre']}}</script>
-</section>
-</div>
-<footer class=footer>
-<section class=container>
-<p>Welcome to my personal website!</p>
-©
-2021
-Yusuke Ohashi
-</section>
-</footer>
 </main>
-<script src=https://yusuke.cloud/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js integrity="sha256-A7F3afT5GuNWZ+HyocqMFvUFYlds+Q/zKzF5kmkU2qU="></script>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script>
+<footer class=footer>
+<span>&copy; 2021 <a href=https://yusuke.cloud>Yusuke Ohashi</a></span>
+<span>
+Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
+</span>
+</footer>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a>
+<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
+<script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 </body>
 </html>

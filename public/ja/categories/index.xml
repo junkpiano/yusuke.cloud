@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Yusuke Ohashi</title><link>https://yusuke.cloud/ja/categories/</link><description>Recent content in Categories on Yusuke Ohashi</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 12 Apr 2020 20:09:21 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/ja/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Java</title><link>https://yusuke.cloud/ja/categories/java/</link><pubDate>Sun, 12 Apr 2020 20:09:21 +0900</pubDate><guid>https://yusuke.cloud/ja/categories/java/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/ja/categories/</link>
+    <description>Recent content in Categories on Yusuke Ohashi</description>
+    <image>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 12 Apr 2020 20:09:21 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/ja/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://yusuke.cloud/ja/categories/java/</link>
+      <pubDate>Sun, 12 Apr 2020 20:09:21 +0900</pubDate>
+      
+      <guid>https://yusuke.cloud/ja/categories/java/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

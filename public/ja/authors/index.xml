@@ -1,1 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on Yusuke Ohashi</title><link>https://yusuke.cloud/ja/authors/</link><description>Recent content in Authors on Yusuke Ohashi</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 12 Jul 2021 17:04:09 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/ja/authors/index.xml" rel="self" type="application/rss+xml"/><item><title>大橋 佑亮</title><link>https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/</link><pubDate>Mon, 12 Jul 2021 17:04:09 +0900</pubDate><guid>https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Authors on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/ja/authors/</link>
+    <description>Recent content in Authors on Yusuke Ohashi</description>
+    <image>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 12 Jul 2021 17:04:09 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/ja/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大橋 佑亮</title>
+      <link>https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/</link>
+      <pubDate>Mon, 12 Jul 2021 17:04:09 +0900</pubDate>
+      
+      <guid>https://yusuke.cloud/ja/authors/%E5%A4%A7%E6%A9%8B-%E4%BD%91%E4%BA%AE/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
