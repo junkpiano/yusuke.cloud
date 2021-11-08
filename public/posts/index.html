@@ -5,10 +5,10 @@
 <meta name=robots content="index, follow">
 <title>Posts | Yusuke Ohashi</title>
 <meta name=keywords content>
-<meta name=description content="Posts - Yusuke Ohashi">
+<meta name=description content="Yusuke Ohashi's personal website">
 <meta name=author content="Yusuke Ohashi">
 <link rel=canonical href=https://yusuke.cloud/posts/>
-<link crossorigin=anonymous href=https://yusuke.cloud/assets/css/stylesheet.min.6f60056d44d3f7eb69a4bc6c332b59960f3a995802bded244750232f33713c49.css integrity="sha256-b2AFbUTT9+tppLxsMytZlg86mVgCve0kR1AjLzNxPEk=" rel="preload stylesheet" as=style>
+<link href=https://yusuke.cloud/assets/css/stylesheet.min.746a86b58bb2b052b5e4df8216510494f04f81e62c08d626150c26c69ca929da.css integrity="sha256-dGqGtYuysFK15N+CFlEElPBPgeYsCNYmFQwmxpypKdo=" rel="preload stylesheet" as=style>
 <link rel=icon href=https://yusuke.cloud/favicon.ico>
 <link rel=icon type=image/png sizes=16x16 href=https://yusuke.cloud/favicon-16x16.png>
 <link rel=icon type=image/png sizes=32x32 href=https://yusuke.cloud/favicon-32x32.png>
@@ -16,15 +16,13 @@
 <link rel=mask-icon href=https://yusuke.cloud/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.90.0-DEV">
+<meta name=generator content="Hugo 0.89.1">
 <link rel=alternate type=application/rss+xml href=https://yusuke.cloud/posts/index.xml>
 <link rel=alternate hreflang=en href=https://yusuke.cloud/posts/>
 <link rel=alternate hreflang=ja href=https://yusuke.cloud/ja/posts/>
-<noscript>
-<style>#theme-toggle,.top-link{display:none}</style>
-<style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
-</noscript>
-<script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script><meta property="og:title" content="Posts">
+<script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-38557572-5','auto'),ga('send','pageview'))</script>
+<script async src=https://www.google-analytics.com/analytics.js></script>
+<meta property="og:title" content="Posts">
 <meta property="og:description" content="Yusuke Ohashi's personal website">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://yusuke.cloud/posts/"><meta property="og:image" content="https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg">
@@ -36,6 +34,10 @@
 </head>
 <body class=list id=top>
 <script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add('dark'):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove('dark'):window.matchMedia('(prefers-color-scheme: dark)').matches&&document.body.classList.add('dark')</script>
+<noscript>
+<style type=text/css>#theme-toggle,.top-link{display:none}</style>
+<style>@media(prefers-color-scheme:dark){:root{--theme:#1d1e20;--entry:#2e2e33;--primary:rgba(255, 255, 255, 0.84);--secondary:rgba(255, 255, 255, 0.56);--tertiary:rgba(255, 255, 255, 0.16);--content:rgba(255, 255, 255, 0.74);--hljs-bg:#2e2e33;--code-bg:#37383e;--border:#333}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style>
+</noscript>
 <header class=header>
 <nav class=nav>
 <div class=logo>
@@ -45,12 +47,12 @@
 </button>
 <ul class=lang-switch><li>|</li>
 <li>
-<a href=https://yusuke.cloud/ja/ title=🇯🇵 aria-label=:jp:>🇯🇵</a>
+<a href=https://yusuke.cloud/ja/ title=:jp: aria-label=:jp:>🇯🇵</a>
 </li>
 </ul>
 </span>
 </div>
-<ul id=menu>
+<ul id=menu onscroll=menu_on_scroll()>
 <li>
 <a href=https://yusuke.cloud/ title=Home>
 <span>Home</span>
@@ -70,8 +72,7 @@
 <a href=https://yusuke.cloud/index.xml title=RSS>
 <span>RSS</span>
 </a>
-</li>
-</ul>
+</li></ul>
 </nav>
 </header>
 <main class=main>
@@ -80,15 +81,26 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
-<h2>XCConfig
+<h2>
+XCConfig
 </h2>
 </header>
-<footer class=entry-footer><span title="2021-10-12 21:00:00 +0900 JST">October 12, 2021</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<section class=entry-content>
+<p>Basic Usage XCConfig is an external xcode build settings.
+You can list build settings with the following format,
+BUILD_SETTING_NAME = value Conditional values are available.
+ONLY_ACTIVE_ARCH[config=Debug][sdk=*][arch=*] = YES You can access the value in Swift
+let object = Bundle.main.object(forInfoDictionaryKey:key) Separate configuration/code Apps sometimes store config as constants in the code. This is a violation of twelve-factor, which requires strict separation of config from code. Config varies substantially across deploys, code does not....</p>
+</section>
+<footer class=entry-footer>
+October 12, 2021&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to XCConfig" href=https://yusuke.cloud/posts/xcconfig/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>SwiftDoc Action for Fastlane
+<h2>
+SwiftDoc Action for Fastlane
 </h2>
 </header>
 <section class=entry-content>
@@ -99,24 +111,30 @@ Place this script into fastlane/actions, and run in Fastfile
 e.g.
 swiftdoc( input: "Sources", module_name: "YourModuleName", output: "docs/", base_url: "/", format: "html" ) You can publish it into github pages, netlify, and so on....</p>
 </section>
-<footer class=entry-footer><span title="2021-07-19 15:01:57 +0900 JST">July 19, 2021</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+July 19, 2021&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to SwiftDoc Action for Fastlane" href=https://yusuke.cloud/posts/fastlane-swiftdoc-action/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>How I build this blog
+<h2>
+How I build this blog
 </h2>
 </header>
 <section class=entry-content>
 <p>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
 Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it’s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code....</p>
 </section>
-<footer class=entry-footer><span title="2021-06-30 15:49:42 +0900 JST">June 30, 2021</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+June 30, 2021&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to How I build this blog" href=https://yusuke.cloud/posts/how-i-build-this-blog/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Make Comment Great Again
+<h2>
+Make Comment Great Again
 </h2>
 </header>
 <section class=entry-content>
@@ -124,12 +142,15 @@ Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker
 Thought of Disqus Disqus has rich UI and features to discuss blog posts, but it allows
 anonymous comments Ads inclusion For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder....</p>
 </section>
-<footer class=entry-footer><span title="2021-06-18 17:04:24 +0900 JST">June 18, 2021</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+June 18, 2021&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Make Comment Great Again" href=https://yusuke.cloud/posts/make-comment-great-again/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>NWPathMonitor
+<h2>
+NWPathMonitor
 </h2>
 </header>
 <section class=entry-content>
@@ -140,12 +161,15 @@ let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list o
 https://developer.apple.com/documentation/network/nwinterface/interfacetype
 Detect network changes monitor.pathUpdateHandler = { path in if path....</p>
 </section>
-<footer class=entry-footer><span title="2021-06-14 16:16:05 +0900 JST">June 14, 2021</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+June 14, 2021&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to NWPathMonitor" href=https://yusuke.cloud/posts/nwpathmonitor/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Munin Installation Memo
+<h2>
+Munin Installation Memo
 </h2>
 </header>
 <section class=entry-content>
@@ -154,24 +178,30 @@ Munin is quite simple and easy to set up.
 Here, I will write down my configuration when I set up munin lately. I suppose that you are using Ubuntu 18.04 LTS.
 $ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server { listen 80 default_server; listen [::]:80 default_server; root /var/www/html; # Add index....</p>
 </section>
-<footer class=entry-footer><span title="2020-04-21 16:02:57 +0900 JST">April 21, 2020</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+April 21, 2020&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Munin Installation Memo" href=https://yusuke.cloud/posts/munin-installation-memo/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>LSP for Swift
+<h2>
+LSP for Swift
 </h2>
 </header>
 <section class=entry-content>
 <p>What is Language Server Protocol(LSP)? Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement Go to definition Error and warnings Auto completion … https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
 Solves m-times-n complexity problems What is Sourcekit-LSP? Apple’s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project As of Xcode 11....</p>
 </section>
-<footer class=entry-footer><span title="2020-04-07 18:01:03 +0900 JST">April 7, 2020</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+April 7, 2020&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to LSP for Swift" href=https://yusuke.cloud/posts/2020-04-07-lsp-for-swift/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Jekyll4
+<h2>
+Jekyll4
 </h2>
 </header>
 <section class=entry-content>
@@ -180,12 +210,15 @@ The only issue that I encountered is deployment on netlify. I am making use of n
 There are 2 versions that you may consider when you are also a netlify user.
 Ruby Version Currently default Ruby version on netlify is 2.3.6. However, Jekyll 4 requires Ruby > 2.4.0. But no worry. There is a workaround....</p>
 </section>
-<footer class=entry-footer><span title="2019-09-08 00:00:00 +0000 UTC">September 8, 2019</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+September 8, 2019&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Jekyll4" href=https://yusuke.cloud/posts/2019-09-08-jekyll-4/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>You need bundler 2.0 or later
+<h2>
+You need bundler 2.0 or later
 </h2>
 </header>
 <section class=entry-content>
@@ -193,12 +226,15 @@ Ruby Version Currently default Ruby version on netlify is 2.3.6. However, Jekyll
 I am using Travis CI and Dokku to automate deployment. Both platforms are using the latest bundler(for now it’s 2.0.1). I’ve been using bundler 1.17.3, since I don’t need to upgrade it.
 Since ruby 2.3.0, bundler >= 2.0 is preferrable unless you have specific reasons, like you are working on Rails &lt; 4.2. I recommend you to upgrade your infrastructures if you are managing them....</p>
 </section>
-<footer class=entry-footer><span title="2019-05-17 00:00:00 +0000 UTC">May 17, 2019</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+May 17, 2019&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to You need bundler 2.0 or later" href=https://yusuke.cloud/posts/2019-05-17-you-need-bundler-2-0-or-later/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>2018 in review
+<h2>
+2018 in review
 </h2>
 </header>
 <section class=entry-content>
@@ -208,12 +244,15 @@ Jenkins CI Exapansion I read this book to learn Jenkins(written in Japanese). As
 Open API Specification OpenAPI Initiative
 Side projects This blog I moved this blog to Linode. What I exactly did is that I moved my blog on docker on Linode instance....</p>
 </section>
-<footer class=entry-footer><span title="2019-01-11 00:00:00 +0000 UTC">January 11, 2019</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+January 11, 2019&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to 2018 in review" href=https://yusuke.cloud/posts/2019-01-11-2018-in-review/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Network Abstraction Layer
+<h2>
+Network Abstraction Layer
 </h2>
 </header>
 <section class=entry-content>
@@ -221,12 +260,15 @@ Side projects This blog I moved this blog to Linode. What I exactly did is that 
 We need to break down client library into three parts.
 Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum....</p>
 </section>
-<footer class=entry-footer><span title="2018-11-10 00:00:00 +0000 UTC">November 10, 2018</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+November 10, 2018&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Network Abstraction Layer" href=https://yusuke.cloud/posts/2018-11-10-network-abstraction-layer/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Crontab Guru
+<h2>
+Crontab Guru
 </h2>
 </header>
 <section class=entry-content>
@@ -234,12 +276,15 @@ Request Normally, you have to construct networking request every time. Instead, 
 crontab guru
 Crontab format is not intuitive. This website tells you how your cron will work. You can input your own cron job in the rounded textfield, and you can check how it works before you start on your server. It will help you avoid significant mistakes before deploying your job.</p>
 </section>
-<footer class=entry-footer><span title="2018-09-12 00:00:00 +0000 UTC">September 12, 2018</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+September 12, 2018&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Crontab Guru" href=https://yusuke.cloud/posts/2018-09-12-crontab-guru/></a>
 </article>
 <article class=post-entry>
 <header class=entry-header>
-<h2>Check npm dependency graph visually
+<h2>
+Check npm dependency graph visually
 </h2>
 </header>
 <section class=entry-content>
@@ -250,21 +295,23 @@ https://npm.anvaka.com/#/view/2d/react-native-maps
 3D You can rotate graph, but 3D doesn’t show module names.
 https://npm.anvaka.com/ Github </p>
 </section>
-<footer class=entry-footer><span title="2018-09-11 00:00:00 +0000 UTC">September 11, 2018</span>&nbsp;·&nbsp;Yusuke Ohashi</footer>
+<footer class=entry-footer>
+September 11, 2018&nbsp;·&nbsp;Yusuke Ohashi
+</footer>
 <a class=entry-link aria-label="post link to Check npm dependency graph visually" href=https://yusuke.cloud/posts/2018-09-11-check-npm-dependency-graph-visually/></a>
 </article>
-</main>
-<footer class=footer>
+</main><footer class=footer>
 <span>&copy; 2021 <a href=https://yusuke.cloud>Yusuke Ohashi</a></span>
-<span>
-Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a>
-</span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+<span>&#183;</span>
+<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span>
 </footer>
-<a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+<a href=#top aria-label="go to top" title="Go to Top (Alt + G)">
+<button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</button>
 </a>
-<script>let menu=document.getElementById('menu');menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
+<script>window.onload=function(){localStorage.getItem("menu-scroll-position")&&(document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position"))};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft)}document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener("click",function(b){b.preventDefault();var a=this.getAttribute("href").substr(1);window.matchMedia('(prefers-reduced-motion: reduce)').matches?document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(a)}']`).scrollIntoView({behavior:"smooth"}),a==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${a}`)})})</script>
 <script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script>
 <script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove('dark'),localStorage.setItem("pref-theme",'light')):(document.body.classList.add('dark'),localStorage.setItem("pref-theme",'dark'))})</script>
 </body>
