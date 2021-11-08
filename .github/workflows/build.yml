@@ -1,4 +1,4 @@
-name: Build
+name: Build and Deploy
 
 on:
   workflow_dispatch:
@@ -31,3 +31,9 @@ jobs:
       with:
         message: '[ci] compile'
         default_author: github_actions
+    - name: Dokku deploy
+      uses: dokku/github-action@master
+      with:
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        git_remote_url: "ssh://dokku@yusuke.cloud:22/weblog"
+        git_push_flags: --force
