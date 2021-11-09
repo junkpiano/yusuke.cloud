@@ -19,6 +19,9 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+permalinks:
+  posts: /:sections[1:]/:slug/
+
 minify:
   disableXML: true
   minifyOutput: true

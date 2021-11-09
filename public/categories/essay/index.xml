@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>essay on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/categories/essay/</link>
+    <description>Recent content in essay on Yusuke Ohashi</description>
+    <image>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/categories/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2018 in review</title>
+      <link>https://yusuke.cloud/2018-in-review/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://yusuke.cloud/2018-in-review/</guid>
+      <description>2018 was yet another awesome year.
+Commitments in work I worked on building mobile development foundation.
+Jenkins CI Exapansion I read this book to learn Jenkins(written in Japanese). Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)
+Open API Specification OpenAPI Initiative
+Side projects This blog I moved this blog to Linode. What I exactly did is that I moved my blog on docker on Linode instance.</description>
+    </item>
+    
+  </channel>
+</rss>

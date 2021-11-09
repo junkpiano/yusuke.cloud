@@ -15,7 +15,7 @@
                 href="https://yusuke.cloud/posts/"
                 />
   </url><url>
-    <loc>https://yusuke.cloud/posts/xcconfig/</loc>
+    <loc>https://yusuke.cloud/xcconfig/</loc>
     <lastmod>2021-10-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yusuke.cloud/</loc>
@@ -44,7 +44,7 @@
                 href="https://yusuke.cloud/authors/"
                 />
   </url><url>
-    <loc>https://yusuke.cloud/posts/fastlane-swiftdoc-action/</loc>
+    <loc>https://yusuke.cloud/swiftdoc-action-for-fastlane/</loc>
     <lastmod>2021-07-19T06:01:57+00:00</lastmod>
   </url><url>
     <loc>https://yusuke.cloud/authors/yusuke-ohashi/</loc>
@@ -73,10 +73,10 @@
                 href="https://yusuke.cloud/about/"
                 />
   </url><url>
-    <loc>https://yusuke.cloud/posts/how-i-build-this-blog/</loc>
+    <loc>https://yusuke.cloud/how-i-build-this-blog/</loc>
     <lastmod>2021-06-30T06:49:42+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/make-comment-great-again/</loc>
+    <loc>https://yusuke.cloud/make-comment-great-again/</loc>
     <lastmod>2021-06-18T08:04:24+00:00</lastmod>
   </url><url>
     <loc>https://yusuke.cloud/categories/</loc>
@@ -95,34 +95,28 @@
     <loc>https://yusuke.cloud/categories/ios/</loc>
     <lastmod>2021-06-14T16:16:05+09:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/nwpathmonitor/</loc>
+    <loc>https://yusuke.cloud/nwpathmonitor/</loc>
     <lastmod>2021-06-14T16:16:05+09:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/munin-installation-memo/</loc>
+    <loc>https://yusuke.cloud/munin-installation-memo/</loc>
     <lastmod>2020-04-21T07:02:57+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/2020-04-07-lsp-for-swift/</loc>
+    <loc>https://yusuke.cloud/lsp-for-swift/</loc>
     <lastmod>2020-04-07T18:01:03+09:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/2019-09-08-jekyll-4/</loc>
-    <lastmod>2019-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yusuke.cloud/categories/web/</loc>
-    <lastmod>2019-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yusuke.cloud/posts/2019-05-17-you-need-bundler-2-0-or-later/</loc>
-    <lastmod>2019-05-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yusuke.cloud/posts/2019-01-11-2018-in-review/</loc>
+    <loc>https://yusuke.cloud/2018-in-review/</loc>
     <lastmod>2019-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/2018-11-10-network-abstraction-layer/</loc>
+    <loc>https://yusuke.cloud/categories/essay/</loc>
+    <lastmod>2019-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yusuke.cloud/network-abstraction-layer/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/2018-09-12-crontab-guru/</loc>
+    <loc>https://yusuke.cloud/crontab-guru/</loc>
     <lastmod>2018-09-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/posts/2018-09-11-check-npm-dependency-graph-visually/</loc>
+    <loc>https://yusuke.cloud/npm-dependency-graph/</loc>
     <lastmod>2018-09-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yusuke.cloud/series/</loc>

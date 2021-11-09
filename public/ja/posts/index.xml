@@ -13,28 +13,28 @@
     <lastBuildDate>Wed, 21 Jul 2021 03:00:00 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自動投稿のテスト代わり</title>
-      <link>https://yusuke.cloud/ja/posts/notes-on-auto-deploy/</link>
+      <link>https://yusuke.cloud/ja/testing-auto-deploy/</link>
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/ja/posts/notes-on-auto-deploy/</guid>
+      <guid>https://yusuke.cloud/ja/testing-auto-deploy/</guid>
       <description>こんにちは。 Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。 後は、コンパイルからデプロイま</description>
     </item>
     
     <item>
       <title>Hugoの多言語化対応</title>
-      <link>https://yusuke.cloud/ja/posts/multilingual-hugo/</link>
+      <link>https://yusuke.cloud/ja/multilingual-hugo/</link>
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/ja/posts/multilingual-hugo/</guid>
+      <guid>https://yusuke.cloud/ja/multilingual-hugo/</guid>
       <description>こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対</description>
     </item>
     
     <item>
       <title>Java 101</title>
-      <link>https://yusuke.cloud/ja/posts/java-101/</link>
+      <link>https://yusuke.cloud/ja/java-101/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/ja/posts/java-101/</guid>
+      <guid>https://yusuke.cloud/ja/java-101/</guid>
       <description>今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、 IntelliJ IdeaでJavaを始めるに当たって、知って</description>
     </item>
     

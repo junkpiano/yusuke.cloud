@@ -13,10 +13,10 @@
     <lastBuildDate>Mon, 19 Jul 2021 06:01:57 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SwiftDoc Action for Fastlane</title>
-      <link>https://yusuke.cloud/posts/fastlane-swiftdoc-action/</link>
+      <link>https://yusuke.cloud/swiftdoc-action-for-fastlane/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/posts/fastlane-swiftdoc-action/</guid>
+      <guid>https://yusuke.cloud/swiftdoc-action-for-fastlane/</guid>
       <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
 SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project. It has very clean UI and also generates beautiful dependency graph. I introduced my private swift project.
 Here is the script.
@@ -27,10 +27,10 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
     
     <item>
       <title>How I build this blog</title>
-      <link>https://yusuke.cloud/posts/how-i-build-this-blog/</link>
+      <link>https://yusuke.cloud/how-i-build-this-blog/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/posts/how-i-build-this-blog/</guid>
+      <guid>https://yusuke.cloud/how-i-build-this-blog/</guid>
       <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
 Core  Linode Dokku  I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
     </item>
