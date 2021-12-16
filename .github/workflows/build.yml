@@ -1,6 +1,9 @@
 name: Build and Deploy
 
 on:
+  push:
+    branches:
+      - master
   workflow_dispatch:
   schedule:
     - cron: '45 8 * * *'
@@ -27,12 +30,24 @@ jobs:
     - name: Build
       run: hugo --minify --gc
     - uses: EndBug/add-and-commit@v7
+      id: ci-commit
       with:
         message: '[ci] compile'
         default_author: github_actions
+    - name: process commit id
+      id: post-commit
+      run: |
+        if [ "${{ steps.ci-commit.outputs.committed }}" = "true" ]; then
+            echo "true"
+            echo "::set-output name=hash::${{steps.ci-commit.outputs.commit_sha}}"
+        else
+            echo "false"
+            echo "::set-output name=hash::${{github.sha}}"
+        fi
     - name: Dokku deploy
       uses: dokku/github-action@master
       with:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         git_remote_url: "ssh://dokku@yusuke.cloud:22/weblog"
         git_push_flags: --force
+        ci_commit: ${ steps.post-commit.outputs.hash }
