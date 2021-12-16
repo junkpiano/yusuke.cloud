@@ -38,10 +38,8 @@ jobs:
       id: post-commit
       run: |
         if [ "${{ steps.ci-commit.outputs.committed }}" = "true" ]; then
-            echo "true"
             echo "::set-output name=hash::${{steps.ci-commit.outputs.commit_sha}}"
         else
-            echo "false"
             echo "::set-output name=hash::${{github.sha}}"
         fi
     - name: Dokku deploy
@@ -50,4 +48,4 @@ jobs:
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
         git_remote_url: "ssh://dokku@yusuke.cloud:22/weblog"
         git_push_flags: --force
-        ci_commit: ${ steps.post-commit.outputs.hash }
+        ci_commit: "${{ steps.post-commit.outputs.hash }}"
