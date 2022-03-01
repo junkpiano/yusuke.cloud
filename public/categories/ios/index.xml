@@ -19,10 +19,10 @@
       <guid>https://yusuke.cloud/nwpathmonitor/</guid>
       <description>Introduction NWPathMonitor is a class in Network framework, which observes network status and monitor network interface. It&amp;rsquo;s available in iOS 12 or later.
 import Network You must retain NWPathMonitor instances to get callbacks.
-class NetworkMonitorViewController: ViewController { let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
+class NetworkMonitorViewController: ViewController {  let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
 let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list of interfaces that NWPathMonitor supports.
 https://developer.apple.com/documentation/network/nwinterface/interfacetype
-Detect network changes monitor.pathUpdateHandler = { path in if path.</description>
+Detect network changes monitor.pathUpdateHandler = { path in  if path.</description>
     </item>
     
     <item>

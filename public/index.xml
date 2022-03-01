@@ -31,7 +31,7 @@ SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated fo
 Here is the script.
  Place this script into fastlane/actions, and run in Fastfile
 e.g.
-swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
+ swiftdoc(  input: &amp;#34;Sources&amp;#34;,  module_name: &amp;#34;YourModuleName&amp;#34;,  output: &amp;#34;docs/&amp;#34;,  base_url: &amp;#34;/&amp;#34;,  format: &amp;#34;html&amp;#34;  ) You can publish it into github pages, netlify, and so on.</description>
     </item>
     
     <item>
@@ -76,10 +76,10 @@ Thought of Disqus Disqus has rich UI and features to discuss blog posts, but it 
       <guid>https://yusuke.cloud/nwpathmonitor/</guid>
       <description>Introduction NWPathMonitor is a class in Network framework, which observes network status and monitor network interface. It&amp;rsquo;s available in iOS 12 or later.
 import Network You must retain NWPathMonitor instances to get callbacks.
-class NetworkMonitorViewController: ViewController { let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
+class NetworkMonitorViewController: ViewController {  let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
 let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list of interfaces that NWPathMonitor supports.
 https://developer.apple.com/documentation/network/nwinterface/interfacetype
-Detect network changes monitor.pathUpdateHandler = { path in if path.</description>
+Detect network changes monitor.pathUpdateHandler = { path in  if path.</description>
     </item>
     
     <item>
@@ -91,7 +91,7 @@ Detect network changes monitor.pathUpdateHandler = { path in if path.</descripti
       <description>Have you ever listened to Munin? Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data
 Munin is quite simple and easy to set up.
 Here, I will write down my configuration when I set up munin lately. I suppose that you are using Ubuntu 18.04 LTS.
-$ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server { listen 80 default_server; listen [::]:80 default_server; root /var/www/html; # Add index.</description>
+$ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server {  listen 80 default_server;  listen [::]:80 default_server;   root /var/www/html;   # Add index.</description>
     </item>
     
     <item>

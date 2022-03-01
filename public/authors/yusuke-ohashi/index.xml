@@ -22,7 +22,7 @@ SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated fo
 Here is the script.
  Place this script into fastlane/actions, and run in Fastfile
 e.g.
-swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
+ swiftdoc(  input: &amp;#34;Sources&amp;#34;,  module_name: &amp;#34;YourModuleName&amp;#34;,  output: &amp;#34;docs/&amp;#34;,  base_url: &amp;#34;/&amp;#34;,  format: &amp;#34;html&amp;#34;  ) You can publish it into github pages, netlify, and so on.</description>
     </item>
     
     <item>
