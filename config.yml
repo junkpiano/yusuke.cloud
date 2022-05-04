@@ -101,6 +101,9 @@ languages:
         - name: RSS
           weight: 4
           url: /index.xml
+        - name: TIL
+          weight: 5
+          url: https://junkpiano.github.io/til/
   ja:
     LanguageName: ':jp:'
     contentDir: content/japanese
@@ -125,3 +128,6 @@ languages:
         - name: 購読
           weight: 4
           url: /ja/index.xml
+        - name: 学び
+          weight: 5
+          url: https://junkpiano.github.io/til/
