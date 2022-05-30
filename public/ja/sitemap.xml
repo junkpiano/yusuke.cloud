@@ -2,8 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://yusuke.cloud/ja/eos-x7i%E3%82%92webcam%E3%81%A8%E3%81%97%E3%81%A6%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E8%A8%98%E9%8C%B2/</loc>
+    <lastmod>2022-05-31T03:17:07+09:00</lastmod>
+  </url><url>
     <loc>https://yusuke.cloud/ja/posts/</loc>
-    <lastmod>2021-07-21T03:00:00+00:00</lastmod>
+    <lastmod>2022-05-31T03:17:07+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,7 +19,7 @@
                 />
   </url><url>
     <loc>https://yusuke.cloud/ja/</loc>
-    <lastmod>2021-07-21T03:00:00+00:00</lastmod>
+    <lastmod>2022-05-31T03:17:07+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
