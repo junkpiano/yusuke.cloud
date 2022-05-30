@@ -13,10 +13,10 @@
     <lastBuildDate>Tue, 31 May 2022 03:17:07 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/ja/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eos X7iをWebcamとして使えなかった記録</title>
-      <link>https://yusuke.cloud/ja/eos-x7i%E3%82%92webcam%E3%81%A8%E3%81%97%E3%81%A6%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E8%A8%98%E9%8C%B2/</link>
+      <link>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</link>
       <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
       
-      <guid>https://yusuke.cloud/ja/eos-x7i%E3%82%92webcam%E3%81%A8%E3%81%97%E3%81%A6%E4%BD%BF%E3%81%88%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F%E8%A8%98%E9%8C%B2/</guid>
+      <guid>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</guid>
       <description>無理でした。というか満足する結果が得られませんでした。
 やったこと#1  EOS Webcam Utilityをインストール こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; https://amzn.to/3avKj1z 手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用  電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。   MacにMini-B USBで接続 ZoomでPreferences-VideoでEOS Webcam Utilityを指定 映像は映るものの、左右に黒いバーが出現。 OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！ 海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣）  やったこと#2  たまたま見つけた記事をやってみた https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/ 完璧に動くことは動くが、左右の黒いバーは消えず。  結論 多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。 餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。</description>
     </item>
