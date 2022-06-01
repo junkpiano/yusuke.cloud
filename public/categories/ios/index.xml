@@ -19,10 +19,10 @@
       <guid>https://yusuke.cloud/nwpathmonitor/</guid>
       <description>Introduction NWPathMonitor is a class in Network framework, which observes network status and monitor network interface. It&amp;rsquo;s available in iOS 12 or later.
 import Network You must retain NWPathMonitor instances to get callbacks.
-class NetworkMonitorViewController: ViewController {  let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
+class NetworkMonitorViewController: ViewController { let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
 let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list of interfaces that NWPathMonitor supports.
 https://developer.apple.com/documentation/network/nwinterface/interfacetype
-Detect network changes monitor.pathUpdateHandler = { path in  if path.</description>
+Detect network changes monitor.pathUpdateHandler = { path in if path.</description>
     </item>
     
     <item>
@@ -31,8 +31,8 @@ Detect network changes monitor.pathUpdateHandler = { path in  if path.</descript
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
       
       <guid>https://yusuke.cloud/lsp-for-swift/</guid>
-      <description>What is Language Server Protocol(LSP)?  Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement  Go to definition Error and warnings Auto completion &amp;hellip;    https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
- Solves m-times-n complexity problems  What is Sourcekit-LSP?  Apple&amp;rsquo;s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project  As of Xcode 11.</description>
+      <description>What is Language Server Protocol(LSP)? Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement Go to definition Error and warnings Auto completion &amp;hellip; https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
+Solves m-times-n complexity problems What is Sourcekit-LSP? Apple&amp;rsquo;s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project As of Xcode 11.</description>
     </item>
     
     <item>

@@ -29,9 +29,9 @@
       <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
 SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project. It has very clean UI and also generates beautiful dependency graph. I introduced my private swift project.
 Here is the script.
- Place this script into fastlane/actions, and run in Fastfile
+Place this script into fastlane/actions, and run in Fastfile
 e.g.
- swiftdoc(  input: &amp;#34;Sources&amp;#34;,  module_name: &amp;#34;YourModuleName&amp;#34;,  output: &amp;#34;docs/&amp;#34;,  base_url: &amp;#34;/&amp;#34;,  format: &amp;#34;html&amp;#34;  ) You can publish it into github pages, netlify, and so on.</description>
+swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ e.g.
       
       <guid>https://yusuke.cloud/how-i-build-this-blog/</guid>
       <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
-Core  Linode Dokku  I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
+Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Core  Linode Dokku  I am running this blog on linode VPS. This blog is in a dock
       <guid>https://yusuke.cloud/make-comment-great-again/</guid>
       <description>I haven&amp;rsquo;t use comment feature on this weblog, but I really wanted to implement it. I have tried Disqus. It was cool but it turned out that it didn&amp;rsquo;t match my needs.
 Thought of Disqus Disqus has rich UI and features to discuss blog posts, but it allows
- anonymous comments Ads inclusion  For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder.</description>
+anonymous comments Ads inclusion For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder.</description>
     </item>
     
     <item>
@@ -63,10 +63,10 @@ Thought of Disqus Disqus has rich UI and features to discuss blog posts, but it 
       <guid>https://yusuke.cloud/nwpathmonitor/</guid>
       <description>Introduction NWPathMonitor is a class in Network framework, which observes network status and monitor network interface. It&amp;rsquo;s available in iOS 12 or later.
 import Network You must retain NWPathMonitor instances to get callbacks.
-class NetworkMonitorViewController: ViewController {  let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
+class NetworkMonitorViewController: ViewController { let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
 let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list of interfaces that NWPathMonitor supports.
 https://developer.apple.com/documentation/network/nwinterface/interfacetype
-Detect network changes monitor.pathUpdateHandler = { path in  if path.</description>
+Detect network changes monitor.pathUpdateHandler = { path in if path.</description>
     </item>
     
     <item>
@@ -78,7 +78,7 @@ Detect network changes monitor.pathUpdateHandler = { path in  if path.</descript
       <description>Have you ever listened to Munin? Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data
 Munin is quite simple and easy to set up.
 Here, I will write down my configuration when I set up munin lately. I suppose that you are using Ubuntu 18.04 LTS.
-$ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server {  listen 80 default_server;  listen [::]:80 default_server;   root /var/www/html;   # Add index.</description>
+$ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server { listen 80 default_server; listen [::]:80 default_server; root /var/www/html; # Add index.</description>
     </item>
     
     <item>
@@ -87,8 +87,8 @@ $ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration 
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
       
       <guid>https://yusuke.cloud/lsp-for-swift/</guid>
-      <description>What is Language Server Protocol(LSP)?  Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement  Go to definition Error and warnings Auto completion &amp;hellip;    https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
- Solves m-times-n complexity problems  What is Sourcekit-LSP?  Apple&amp;rsquo;s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project  As of Xcode 11.</description>
+      <description>What is Language Server Protocol(LSP)? Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement Go to definition Error and warnings Auto completion &amp;hellip; https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
+Solves m-times-n complexity problems What is Sourcekit-LSP? Apple&amp;rsquo;s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project As of Xcode 11.</description>
     </item>
     
     <item>
@@ -137,7 +137,7 @@ This example shows dependency graph of react-native-maps, which I was investigat
 https://npm.anvaka.com/#/view/2d/react-native-maps
 2D You can drag nodes, and highlight node with cursor on.
 3D You can rotate graph, but 3D doesn&amp;rsquo;t show module names.
- https://npm.anvaka.com/ Github  </description>
+https://npm.anvaka.com/ Github </description>
     </item>
     
   </channel>

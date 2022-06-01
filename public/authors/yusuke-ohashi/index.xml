@@ -20,9 +20,9 @@
       <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
 SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project. It has very clean UI and also generates beautiful dependency graph. I introduced my private swift project.
 Here is the script.
- Place this script into fastlane/actions, and run in Fastfile
+Place this script into fastlane/actions, and run in Fastfile
 e.g.
- swiftdoc(  input: &amp;#34;Sources&amp;#34;,  module_name: &amp;#34;YourModuleName&amp;#34;,  output: &amp;#34;docs/&amp;#34;,  base_url: &amp;#34;/&amp;#34;,  format: &amp;#34;html&amp;#34;  ) You can publish it into github pages, netlify, and so on.</description>
+swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@ e.g.
       
       <guid>https://yusuke.cloud/how-i-build-this-blog/</guid>
       <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
-Core  Linode Dokku  I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
+Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
     </item>
     
   </channel>

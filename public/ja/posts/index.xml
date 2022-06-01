@@ -18,7 +18,7 @@
       
       <guid>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</guid>
       <description>無理でした。というか満足する結果が得られませんでした。
-やったこと#1  EOS Webcam Utilityをインストール こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; https://amzn.to/3avKj1z 手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用  電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。   MacにMini-B USBで接続 ZoomでPreferences-VideoでEOS Webcam Utilityを指定 映像は映るものの、左右に黒いバーが出現。 OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！ 海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣）  やったこと#2  たまたま見つけた記事をやってみた https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/ 完璧に動くことは動くが、左右の黒いバーは消えず。  結論 多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。 餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。</description>
+やったこと#1 EOS Webcam Utilityをインストール こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; https://amzn.to/3avKj1z 手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用 電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。 MacにMini-B USBで接続 ZoomでPreferences-VideoでEOS Webcam Utilityを指定 映像は映るものの、左右に黒いバーが出現。 OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！ 海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣） やったこと#2 たまたま見つけた記事をやってみた https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/ 完璧に動くことは動くが、左右の黒いバーは消えず。 結論 多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。 餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。</description>
     </item>
     
     <item>
