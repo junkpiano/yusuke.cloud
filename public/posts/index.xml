@@ -10,7 +10,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Oct 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jul 2022 13:29:23 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Issue Driven Blog</title>
+      <link>https://yusuke.cloud/github-issue-driven-blog/</link>
+      <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
+      
+      <guid>https://yusuke.cloud/github-issue-driven-blog/</guid>
+      <description>I experimented automating my micro blog so that it&amp;rsquo;s generated from github issues.
+In this blog post, I will show you how I redesigned my blogging workflow.
+System Diagram All piplines are run on github platforms.
+Motivation Normally, we google around issues, and paste code from stackoverflow. That&amp;rsquo;s it. Nothing more. However, there should be something we learned there. That&amp;rsquo;s what we should log.
+I love blogging, but writing on my computer is somehow tedious.</description>
+    </item>
+    
     <item>
       <title>XCConfig</title>
       <link>https://yusuke.cloud/xcconfig/</link>
