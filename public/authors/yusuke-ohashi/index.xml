@@ -26,11 +26,11 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
     </item>
     
     <item>
-      <title>How I build this blog</title>
-      <link>https://yusuke.cloud/how-i-build-this-blog/</link>
+      <title>How I built this blog</title>
+      <link>https://yusuke.cloud/how-i-built-this-blog/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
       
-      <guid>https://yusuke.cloud/how-i-build-this-blog/</guid>
+      <guid>https://yusuke.cloud/how-i-built-this-blog/</guid>
       <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
 Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
     </item>
