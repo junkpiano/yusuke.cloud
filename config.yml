@@ -130,4 +130,4 @@ languages:
           url: /ja/index.xml
         - name: 学び
           weight: 5
-          url: https://junkpiano.github.io/til/
+          url: https://til.yusuke.cloud
