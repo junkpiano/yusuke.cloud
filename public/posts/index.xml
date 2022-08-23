@@ -10,7 +10,21 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Jul 2022 13:29:23 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Aug 2022 02:50:09 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Writing C Compiler</title>
+      <link>https://yusuke.cloud/writing-c-compiler/</link>
+      <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
+      
+      <guid>https://yusuke.cloud/writing-c-compiler/</guid>
+      <description>I am now writing c compiler to learn how a compiler works.
+C Compiler translates source code(strings) into assembly language.
+First of all, this Compiler breaks strings into tokens, and then parses strings into nodes using tokens, and finally generates assembly.
+Tokenizer Parser Code Generator Tokenizer Tokenizer traverses strings and creates a linkedlist of tokens.
+Parser Parser parses strings into nodes.
+To implement parser, we need compiler design. Normally we use BNF(Backus-Naur Form) notation to design compiler.</description>
+    </item>
+    
     <item>
       <title>Github Issue Driven Blog</title>
       <link>https://yusuke.cloud/github-issue-driven-blog/</link>
