@@ -19,7 +19,6 @@ jobs:
     - name: Fetch the latest submodules
       run: |
         git submodule update --remote ./content
-        git submodule update --remote ./themes/hugo-coder
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
