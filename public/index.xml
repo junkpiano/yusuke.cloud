@@ -70,8 +70,8 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
       <description>Hello, internet!
 Welcome to my personal website. I am a software engineer in Tokyo, Japan.
 You can find me, of course!, on the internet.
-Mastodon: @junkpiano LinkedIn: Profile This is yet another static website built on top of hugo, but is leveraged by a bunch of tech stacks to streamline my blogging. See more details at this post.
-Don&amp;rsquo;t you think that what&amp;rsquo;s the hardest thing is to understand yourself? Since I often get lost and annoyed, I need to look back and retrospect my life.</description>
+Mastodon: @junkpiano LinkedIn: Profile My official name is &amp;ldquo;Yusuke Ohashi&amp;rdquo;, but I am also using &amp;ldquo;Michael Ling&amp;rdquo; or just &amp;ldquo;Mike&amp;rdquo; for communication. You can call me Mike, Yusuke, or Ohashi-san, if you prefer japanese style.
+This is yet another static website built on top of hugo, but is leveraged by a bunch of tech stacks to streamline my blogging.</description>
     </item>
     
     <item>
