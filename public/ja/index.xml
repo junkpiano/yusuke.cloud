@@ -18,32 +18,7 @@
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/git-on-windows/</guid>
-      <description>Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく。
-環境
-Windows10 Pro Gitをインストールする pureなgitを持っていた方がよいので、こちらから落としておく。
-https://git-scm.com/download/win
-MacOSやLinuxの場合と異なり、Windowsはコマンドラインが使いづらいので、GUIを使っていく方が良い。 私のおススメはForkというクライアント。$49でライセンスを購入しても良いし、永久的に評価版として無料でも使える。
-https://git-fork.com/
-SourceTreeでも良いのだが、Atlassian製というところが引っかかって個人的に使い気が起きない（偏見）。
-gitconfigを編集 Gitをインストールしたはいいが、gitconfigはどこにあるのかというと、普通にユーザーdirectoryの配下にある。
-C:\Users\username\
-GitをインストールしたときにGit(GUI), Git(Bash), Git(CMD)がインストールされるが、そのうちのBashを使うと一応ターミナルアプリみたいな扱いでCUIを扱える(mingw)。
-git config --global -e
-で編集できる。事前に設定したエディタで開かれるの各種好みのエディタを設定しよう。
-e.g. Sublime Text
-git config --global core.editor &amp;quot;&#39;C:\Program Files\Sublime Text\sublime_text.exe&#39; -w&amp;quot;
-GPG private keyをインストールする （こちらは不要な人は省略してもよいが、gitの安全性という意味で強く推奨したい）
-GPGもCUIから操作した方が楽なのだが、とにかくWindowsのCUI環境(cmd promptとかpowershell)が使いづらいため、 GUIツールを使う。
-GPG4Winをまずはインストールする。その中にくっついてくるKleopatraでGPGキーの生成やインポート、エクスポートができる。
-https://www.gpg4win.org/
-インストールしたらKleopatraを開く。
-私はすでに使っているgpgキーがあるのでインポートした。 ちなみに筆者のgpgはこちらです。
-GPGのインポートについてはあちこちで解説されているので省略する。
-gpgのインポートが終わったら忘れずにgitconfigを更新しておこう 以下のようになるはず。
-[user] name = Your Name email = your@email.com signingkey = gpg_signing_key [commit] gpgsign = true
-signingkeyはkleopatraのKey-IDをコピーする。
-まとめ 以上で、gitをwindowsで使うことができる。texteditorやIDEで編集したら、Forkからcommit, pushという感じでスムーズに行えると思う。
-それでは、Happy Coding!</description>
+      <description>Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく</description>
     </item>
     
     <item>
