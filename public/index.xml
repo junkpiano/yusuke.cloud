@@ -71,7 +71,7 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
       <description>Hello, internet!
 Welcome to my personal website. I am a software engineer in Tokyo, Japan.
 You can find me, of course!, on the internet.
-Mastodon: @junkpiano LinkedIn: Profile My official name is &amp;ldquo;Yusuke Ohashi&amp;rdquo;, but I am also using &amp;ldquo;Michael Ling&amp;rdquo; or just &amp;ldquo;Mike&amp;rdquo; for communication. You can call me Mike, Yusuke, or Ohashi-san, if you prefer japanese style.
+Mastodon: @junkpiano Bluesky: @yusuke.cloud Nostr: npub1ukw4ck0vwlnfv7ntpmchs49kgz37st9pdqfxfqc3q93jkt4xvj4q3w30l2 LinkedIn: Profile My official name is &amp;ldquo;Yusuke Ohashi&amp;rdquo;, but I am also using &amp;ldquo;Michael Ling&amp;rdquo; or just &amp;ldquo;Mike&amp;rdquo; for communication. You can call me Mike, Yusuke, or Ohashi-san, if you prefer japanese style.
 This is yet another static website built on top of hugo, but is leveraged by a bunch of tech stacks to streamline my blogging.</description>
     </item>
     
