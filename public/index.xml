@@ -11,7 +11,18 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Feb 2023 18:04:44 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 May 2024 11:08:11 +0900</lastBuildDate><atom:link href="https://yusuke.cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dotfiles</title>
+      <link>https://yusuke.cloud/dotfiles/</link>
+      <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
+      
+      <guid>https://yusuke.cloud/dotfiles/</guid>
+      <description>&amp;ldquo;Dotfiles&amp;rdquo; refer to configuration files in Unix-like operating systems that begin with a dot (.). They are used to customize and configure user environments, applications, and tools. Common examples include .bashrc, .vimrc, and .gitconfig. Managing these configuration files effectively, often referred to as the &amp;ldquo;dotfiles&amp;rdquo; practice, offers several benefits:
+Benefits of Managing Dotfiles Consistency Across Environments:
+By maintaining a set of dotfiles, you can ensure that your development environment is consistent across multiple machines.</description>
+    </item>
+    
     <item>
       <title>Writing C Compiler</title>
       <link>https://yusuke.cloud/writing-c-compiler/</link>
