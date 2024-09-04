@@ -18,12 +18,14 @@
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
       
       <guid>https://yusuke.cloud/swiftdoc-action-for-fastlane/</guid>
-      <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
-SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project. It has very clean UI and also generates beautiful dependency graph. I introduced my private swift project.
-Here is the script.
-Place this script into fastlane/actions, and run in Fastfile
-e.g.
-swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
+      <description>&lt;p&gt;I just want to announce I created a fastlane action for &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt;, since I couldn&amp;rsquo;t find it in the fastlane official docs.&lt;/p&gt;
+&lt;p&gt;SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project.
+It has very clean UI and also generates beautiful dependency graph.
+I introduced my private swift project.&lt;/p&gt;
+&lt;p&gt;Here is the script.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/junkpiano/f37d27f10bde1653f4975cfc8dff6b34.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,8 +34,16 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
       
       <guid>https://yusuke.cloud/how-i-built-this-blog/</guid>
-      <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
-Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
+      <description>&lt;p&gt;This is a snapshot as of 2021/6. I will write about this blog.
+This digram shows my blog architecture.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34; alt=&#34;diagram&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;core&#34;&gt;Core&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;&lt;strong&gt;Linode&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dokku.com/&#34;&gt;&lt;strong&gt;Dokku&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.&lt;/p&gt;</description>
     </item>
     
   </channel>

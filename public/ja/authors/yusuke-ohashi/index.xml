@@ -18,7 +18,9 @@
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/multilingual-hugo/</guid>
-      <description>こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対</description>
+      <description>&lt;p&gt;こんにちは、インターネット。&lt;/p&gt;
+&lt;p&gt;Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎&lt;/p&gt;
+&lt;p&gt;Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,7 +29,9 @@
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/java-101/</guid>
-      <description>今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、 IntelliJ IdeaでJavaを始めるに当たって、知って</description>
+      <description>&lt;p&gt;今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;でJavaを始めるに当たって、知っておいたほうがよさそうなことを書いていきます。
+個人的なまとめノートです。&lt;/p&gt;</description>
     </item>
     
   </channel>

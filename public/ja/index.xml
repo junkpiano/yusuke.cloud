@@ -18,7 +18,7 @@
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/git-on-windows/</guid>
-      <description>Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく</description>
+      <description>&lt;p&gt;Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +27,31 @@
       <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
       
       <guid>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</guid>
-      <description>無理でした。というか満足する結果が得られませんでした。
-やったこと#1 EOS Webcam Utilityをインストール こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; https://amzn.to/3avKj1z 手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用 電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。 MacにMini-B USBで接続 ZoomでPreferences-VideoでEOS Webcam Utilityを指定 映像は映るものの、左右に黒いバーが出現。 OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！ 海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣） やったこと#2 たまたま見つけた記事をやってみた https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/ 完璧に動くことは動くが、左右の黒いバーは消えず。 結論 多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。 餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。</description>
+      <description>&lt;p&gt;無理でした。というか満足する結果が得られませんでした。&lt;/p&gt;
+&lt;h2 id=&#34;やったこと1&#34;&gt;やったこと#1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;EOS Webcam Utilityをインストール&lt;/li&gt;
+&lt;li&gt;こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; &lt;a href=&#34;https://amzn.to/3avKj1z&#34;&gt;https://amzn.to/3avKj1z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用
+&lt;ul&gt;
+&lt;li&gt;電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MacにMini-B USBで接続&lt;/li&gt;
+&lt;li&gt;ZoomでPreferences-VideoでEOS Webcam Utilityを指定&lt;/li&gt;
+&lt;li&gt;映像は映るものの、左右に黒いバーが出現。&lt;/li&gt;
+&lt;li&gt;OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！&lt;/li&gt;
+&lt;li&gt;海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;やったこと2&#34;&gt;やったこと#2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;たまたま見つけた記事をやってみた&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&#34;&gt;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;完璧に動くことは動くが、左右の黒いバーは消えず。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+&lt;p&gt;多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。
+餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,7 +60,7 @@
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/eldenring-translation-dispute/</guid>
-      <description>エルデンリング、英語版でプレイしてるので、実況動画見る時それ何？がよく起こる。例えば misericorde は慈悲の短剣だけど初めて聞いた時何それって感じだった。</description>
+      <description>&lt;p&gt;エルデンリング、英語版でプレイしてるので、実況動画見る時それ何？がよく起こる。例えば misericorde は慈悲の短剣だけど初めて聞いた時何それって感じだった。黄金樹に誓って、Golden Vow とかも最初よく分からなかったけど、繰り返し動画見てたら、いろいろ覚えた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,7 +69,10 @@
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/testing-auto-deploy/</guid>
-      <description>こんにちは。 Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。 後は、コンパイルからデプロイま</description>
+      <description>&lt;p&gt;こんにちは。&lt;/p&gt;
+&lt;p&gt;Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。
+後は、コンパイルからデプロイまで全て自動でやってくれます。markdownを書くだけで良いのでエディターをローカルで立ち上げる必要もありません(Github上で作業)。
+今は、Macbookで作業してますけどね。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,7 +81,9 @@
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/multilingual-hugo/</guid>
-      <description>こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対</description>
+      <description>&lt;p&gt;こんにちは、インターネット。&lt;/p&gt;
+&lt;p&gt;Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎&lt;/p&gt;
+&lt;p&gt;Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,12 +92,103 @@
       <pubDate>Mon, 12 Jul 2021 16:20:37 +0900</pubDate>
       
       <guid>https://yusuke.cloud/ja/about/</guid>
-      <description>主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。
-プロフィールに関してはこちらにまとめていきます。
-基本的には静的なウェブサイトなんですが、多少技術にはこだわっていてそれについてはこちらの記事にまとめています。
-よろしくお願いいたします。
-PS. こちらにマイクロブログもあります。
-GPG -----BEGIN PGP PUBLIC KEY BLOCK----- mQINBFuf/XoBEAC/GFVCHLl6PYX16h93G5owDdPvmA9EcZUu1EGwY1PAhnD4VpIC 1MsRZR5VtT1TeOoKIwfmXpIAGPo4eDcXySsg60iY63h3p1oMzlbfy8owaHrsExhv rMj6JUqSW5olA5WhkYvBHIlcf/PoQ4Uaf2stXUrzqujvvKap9oM9rTj0wI4hD3PP lmcUto19iPNpB9tyIEEfnaplLLywLf9JO5CcnDDDPyKEf3cbwqt01gxt16Z0EpUt r2v1P0eEB9ysjNT3gUyyNm/EI/Ww9dZ/UgO23zFpxlIpL5QpJrPUqQm3aqRb5opi EpHKnQCXu5aD2ESPVn8JsCQBp1qKJm2v0sp3lzmMYp4PVxbW+cvUpGe8BqsO+iVu ZnxP2mhIvHLu+KLbMMJJseevcYx5lH8QzD0zpDkDVcJPmiVijbrtfeYi98NkbOws z653iwrWcYuwoMAG8RAxJwNXera4PTf0PTir+Amw7TgpNSicsSNYqtpfVmkB6wYA ldyiOwYfB2NP3kxjRR78ZEtBk/6JrXTnw7srSmSso0nRawv2siSr8jXhlZFlc3E6 wiCvVd8pQAv3nIi8ZpMxx8poqpZdp/XkVp0Nvi2oUTM7avRGIOfFUlKMeuhlyamI pdyLFb882Upv9xLxPtd3lZ2a2IhARSIFOcWH5SQtu3zfv/mt0ZyYv3X6dwARAQAB tCFZdXN1a2UgT2hhc2hpIDxtYWlsQHl1c3VrZS5jbG91ZD6JAk4EEwEKADgWIQSL L9t2XUUACkzW+y8bNX6uBq0j7QUCZRgYQQIbAwULCQgHAgYVCgkICwIEFgIDAQIe AQIXgAAKCRAbNX6uBq0j7cFMEACzgypEamF+so3M4kPPCpYq0KE6auARR/rTGaGz t4XeLYt/ZRw6ent0fupRxGNk+JvOuCbrIGpFhIgWCIemITC/96H4j0bWz0toH8Hd zh5yIvuFrYpLQroSc9ig/a+O9f5NEr5UKJ6Pkvjb4S9dGxPMRCTOa8MB1N2JLoU+ lFP5y4hXpfjSTTDvqFeqcG6ceqKfZZEMBaxhFJukkA++q2gn486s/fmqrlsD65+f oBQEdzfr6D8xMNZ/0BnyTikL0uVSp8lOQae3vrzjPQmkN+F5RbssLTPJnjED+VVS 0LxMJK3vCb0s6GUlTdc+tR5Q8y9PV8rAzBy8QomUpSxFpjDrzpUfM+gkSWMI5GJL YWB0NNZTrga2ZTpft8jtudhPS/e3Y58JE3fmK3bQf+IJ87o98H5Pv9tq1y6+bQ4l eBB7KGZ//p2SwK8bDiVZwYUTL5rwjCCPzAtyaaSizvvooQIa6NbPcrszzKXmdhGS PG8tbybehhqOvHobgTYGBnUZOzIHyseUNaIWbTiIUakrddFtWuakeflGD1LL/Mkj PlBAqd6u59NgS0niIBzb9vVQmmqf8bprypLakd5ni+TH5/+HfIJFap+CRoNpOh+0 Cw2QXHtElrRstbEmWQEpO9DYwLh5VLWOpV2i7izBVOQV7Em11y8w6BbnugqPA4KD wbffirQ4WXVzdWtlIE9oYXNoaSAoc2VjdXJlIGdpdCBjb21taXRzKSA8Z2l0aHVi QGp1bmtwaWFuby5tZT6JAjYEMAEKACAWIQSLL9t2XUUACkzW+y8bNX6uBq0j7QUC ZRgYpgIdIAAKCRAbNX6uBq0j7TEXD/0d418ngRer90YxN6IMWcPpp2yvSws6FKZo Xhtv0UWi2AL7Ftthb+HUCdn1VBxTxwgYuHKvGmVbd1tP1qeyoc30YAOaE4ekrIXv DHYn/mPxquv0dbbGP4vNPJaq1AnOYsRS/1QiAPLxQ6ao4bVH20r1JLGK+g8375BK KMKqyVv7Wqd9C2H+kVKFV7LN9h2YMukwGi89nORMfsMhbi8i/5dnYzALOGej6wP0 UV8BN4rHXyUuehN9rBErUXtpCqL4eTTobdfRbaYQ/rlmInkptFNF8DDuIzzLBK1n UMY442/oZph1nXKYOWOo+2z33IfKB8UQ+dcGlOifzjI6wLjJsD9RwOc8eUCMJXh9 5bvzgmjZgt7agUY+RHMIug/WyVQabVhFWrdcGem/neMeVozZkF8cNZVmbNokGomE yzJok/Ey+/DUqupjDGo6ex6nPNcfnlH7VFr5Nfu4S0x42+2Zjm10YoSoMYDJzPHN k3pqMoLpm1SSrsesu7qW0t36r+tFQZq8od6/bc7s3mM1gX7CvyrgXskK8Z8JR5VS Jba6E6JbbhGqB/KGEH8N+Iyt+2rVqi5dnXBrOmdtFFarQNBelr8FJj6db23E9cCs b8G3EVhHyxTatKSBcn+o5Egy4mje51Fs5w6ukXkiRgAFdRB7KQF1qdYCJSpLAFpk LJtl0uvOAYkCTgQTAQgAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJbn/16AhsD BQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtPfIP/19OhlwplzCl sud9QdXqn09GTTKpd3oTbWDRS2lHmaXFbxazp/wrLXLxX/5xbC9psSk9srAlJ9TZ NYHKbayp8rr4OLwuw+RAX3B+y7xtklXr0kYr7GwplIrdD6v8S0aO7VvNOry3SdRB rcfo5FzlkX4MjH9CMf9bu76EVfhMDBkwxIQqSOyulW83W6aDfiptUt1D3RWGmVYE d+JF27kyJ+ods2zzJxYCgO1NainpJXrFQ4SaWU0NESuvJ0IOg6K6ERtGPMVao4ez lkYDw8acwlmjNs753W3/911JGchTxJlrt9p/lkz3chwFzkqQD1yOBi1gHZoti71l kp+yjkuMC7OZkDSQjCHtGbp1MpQx0GXPPUH2UszGdPYnDmACrP/J1HX2TWPz0f7r CaPJma/66S3RXh0QPcxYqrTajW808Z7cubYxFTb3AbTzQhO0ZxXk+JYLEafT3ZrE W/LJO3s8kh3PlbvueqaA99sxltPIfMgwGsk1QuL4Rym2Pu4CX6rs24m6+wH5EfSt mxrBK21050BAT4ADtGJTV7g3IWUqFFGZ8NLEDX4VcB/3lu6B4Wg+UDOnpkJrxt81 HFvHoskT2dPlQtnx3iArItOrUDxKLj9QwKawhkUkQs5UfHjnd0GYp0LiKXCgyW6a Obwo5jw8RPAoWiIaG4lGNiGJFHWAu2wstCNZdXN1a2UgT2hhc2hpIDxnaXRodWJA anVua3BpYW5vLm1lPokCTgQTAQoAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJl GButAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtiLIP+wdx eZK4N/WmLzmcg9HMj56qK1bPqeMyEnD2ZBO/J6UVXHNR1itQsUF79tWIOl+aJOq1 ynGcI7k0TYv2a+Pe6w4rwE/WriLM2XpOPRCRACzoGL0U5vZKGPojZMcJvUeaOQmZ Z3skjSNV6cBwwNpNxt2Hi/1U8tXmwey4uq0AuOyUkmvK+igXBTDUhSMLYbL5Bub0 KnCjpa9l6b3V2+LxbFZOTsB/G0MF6DXFwwPEyL0O7+jSck0PyV3b6rIUrGQT+nQG q5Z4wV4fqrl5+JwFDhhkdvRRSPdOZHtZAOeh9NmNMQrcBezxPOWkHshUbY1fuKW5 LZt9b5mtomxo8XQGbiqxBck1Pmg1rnKcL+LNxzpoWeJec+6WOOROS5K3Ay27+sD8 MVn5/90lwa9ozNjKFVoa7tD7xAH0w12yaogRWaTaiYXd4tUkUr8Hem82W5KFHJFn lvkRnBj+FntkH87ObsvCO/SnunerzNAi52OeC1xi5owIxgFqKb8zCQmfzxN40hnY cNBmEo+PBwT3E7+BQIn8odTfOzjWW92xRvzPHJS4OFQyRdBmXKDTkp6AOg9iUYMp JzbyS8aiIcXW8bSh2MKrHJsDyJta2Go7zP1Fd4RvqJttDS8B8cl61wwar/SY6neR KSwLj0LZJPhEOcdVc1FGaSr8aDIDtuvtxoeuyBBwuQINBFuf/XoBEADIrFyP411Q J0DmKNzctsovASKo2lPE1jNwDdt/AcwzcozEnMbvZrmzSKeqZEwMGHl8NYmznSxM vBRoG2xSESPR75Igw20ZhTPEWCYjzu1o01gWdBBer7oIOIXPX+tbJEUvkAFhvl24 OSQthjwp1Ens8Brk04hgPTeVKFUaAi75jm/bm2OsmTnnKAe/pSdflVs4/VIbhgwG qJaj4dwn0BTWvIfy1bV/V1qm2yFz7YdBH2hgI4Gs9p9a9E7RyZJMdMGjwW9U0TdA qnI1Yif3jXYHvUyndetMfl3W0xny8Xw6QlhRy/Ob/10jWThszjeE82H3HK9WID2C mNr03rb3dauxUaO4Wbuv3nI/mKuuyVxLR2YjPk7CxihMnaZjNXAOz3/inLomYy1p ZkAYVrAX2Z3w/bOz9VFjiwRd0gLHI/LjPvzlSEPkjLJFlP6VZCKoLhvw3EdXfR4O nvhsFcioIYvEcvOChCxw92ffZDiNWoG0otQ14egBBDVXnGf1HeQUIQUasp/f+6ZO +xiPzgjnDwSTY9ce9IVE7VAeNTeuF5zx1D3o8TJJZgJsLZD3VwkHa/pFPtH+/eOO y5euhX2xekvbylEnWsTf6iTuxw2tYaesJ7Gm3ZQDL4cNIJZobuyjWiavNGSoePMN QKiQXE6h3+yXkE5OVufOW78SdAGVwLLIWwARAQABiQI2BBgBCAAgFiEEiy/bdl1F AApM1vsvGzV+rgatI+0FAluf/XoCGwwACgkQGzV+rgatI+2mRQ/8D10vh5DzgzJ/ kBJweai/wwMwClFZvM5sVDXpvpA5Qm/lGNnj06H0gE0ONa1RYjG1l4o9pJrDlLM4 XY1+vt641PUb02vgQ2xVZqPr0eo1OMSERZRgaTywT7T7XdOCdMfsPPDGzCzdrIf3 qz9aa2ZvrGNIqSU0j1KdDVAIMGHxkDgnUbCIeoGxKRzr9mpYIsPPp7a90Xw9uKYq quYSO1v71wktprbnygqNWWQ4w9a/A6yjciFAMlE0wGRlZa4Chkjb2D876IbjI5oE iwMC5LIgcUb21FzpdSxxibVRieCUd2x2swXquf90wjvL+4aZ3JRZfn/zvjnEH3u7 1utyf1YBEZrCLchxwuLMNnZVRWbUPJ5pOcNxAq7WzcEs5pq5QgkL+ADUZzA8ks78 AG6vrbVmyO/M+v3Vh1BRkqN9Lmtn9wNqVnQ8VUnhikrg1j9hNGyaSchozi/Hf+Br qWn+3e0PCwVdZJp/DygDXiWZdebf6pPJbjZLp3VlcgSUzsEaIWQe4nrA2jAu5QjI DAWs2zVh9qTSUQg+XOMz65sUlMfdTEWVUKsZgEG9ndhbN0n3mQ7ffi28k4m6q50C WDhUzySVfJ5lBoWiM27N/0mMe4PkV6P3XhqbQ4l5xCc0kz+2xJ1YKbrubmsjVULH 0g1JYYUBjuVWXCh/g4i5rgk/kpqrteg= =HmQB -----END PGP PUBLIC KEY BLOCK----- </description>
+      <description>&lt;p&gt;主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。&lt;/p&gt;
+&lt;p&gt;プロフィールに関しては&lt;a href=&#34;https://github.com/junkpiano&#34;&gt;こちら&lt;/a&gt;にまとめていきます。&lt;/p&gt;
+&lt;p&gt;基本的には静的なウェブサイトなんですが、多少技術にはこだわっていてそれについては&lt;a href=&#34;https://yusuke.cloud/9/&#34;&gt;こちらの記事&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;よろしくお願いいたします。&lt;/p&gt;
+&lt;p&gt;PS. こちらに&lt;a href=&#34;https://junkpiano.github.io/til/&#34;&gt;マイクロブログ&lt;/a&gt;もあります。&lt;/p&gt;
+&lt;h2 id=&#34;gpg&#34;&gt;GPG&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mQINBFuf/XoBEAC/GFVCHLl6PYX16h93G5owDdPvmA9EcZUu1EGwY1PAhnD4VpIC
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1MsRZR5VtT1TeOoKIwfmXpIAGPo4eDcXySsg60iY63h3p1oMzlbfy8owaHrsExhv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rMj6JUqSW5olA5WhkYvBHIlcf/PoQ4Uaf2stXUrzqujvvKap9oM9rTj0wI4hD3PP
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lmcUto19iPNpB9tyIEEfnaplLLywLf9JO5CcnDDDPyKEf3cbwqt01gxt16Z0EpUt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r2v1P0eEB9ysjNT3gUyyNm/EI/Ww9dZ/UgO23zFpxlIpL5QpJrPUqQm3aqRb5opi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;EpHKnQCXu5aD2ESPVn8JsCQBp1qKJm2v0sp3lzmMYp4PVxbW+cvUpGe8BqsO+iVu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZnxP2mhIvHLu+KLbMMJJseevcYx5lH8QzD0zpDkDVcJPmiVijbrtfeYi98NkbOws
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;z653iwrWcYuwoMAG8RAxJwNXera4PTf0PTir+Amw7TgpNSicsSNYqtpfVmkB6wYA
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ldyiOwYfB2NP3kxjRR78ZEtBk/6JrXTnw7srSmSso0nRawv2siSr8jXhlZFlc3E6
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wiCvVd8pQAv3nIi8ZpMxx8poqpZdp/XkVp0Nvi2oUTM7avRGIOfFUlKMeuhlyamI
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pdyLFb882Upv9xLxPtd3lZ2a2IhARSIFOcWH5SQtu3zfv/mt0ZyYv3X6dwARAQAB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tCFZdXN1a2UgT2hhc2hpIDxtYWlsQHl1c3VrZS5jbG91ZD6JAk4EEwEKADgWIQSL
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;L9t2XUUACkzW+y8bNX6uBq0j7QUCZRgYQQIbAwULCQgHAgYVCgkICwIEFgIDAQIe
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AQIXgAAKCRAbNX6uBq0j7cFMEACzgypEamF+so3M4kPPCpYq0KE6auARR/rTGaGz
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t4XeLYt/ZRw6ent0fupRxGNk+JvOuCbrIGpFhIgWCIemITC/96H4j0bWz0toH8Hd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zh5yIvuFrYpLQroSc9ig/a+O9f5NEr5UKJ6Pkvjb4S9dGxPMRCTOa8MB1N2JLoU+
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lFP5y4hXpfjSTTDvqFeqcG6ceqKfZZEMBaxhFJukkA++q2gn486s/fmqrlsD65+f
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;oBQEdzfr6D8xMNZ/0BnyTikL0uVSp8lOQae3vrzjPQmkN+F5RbssLTPJnjED+VVS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0LxMJK3vCb0s6GUlTdc+tR5Q8y9PV8rAzBy8QomUpSxFpjDrzpUfM+gkSWMI5GJL
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;YWB0NNZTrga2ZTpft8jtudhPS/e3Y58JE3fmK3bQf+IJ87o98H5Pv9tq1y6+bQ4l
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eBB7KGZ//p2SwK8bDiVZwYUTL5rwjCCPzAtyaaSizvvooQIa6NbPcrszzKXmdhGS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PG8tbybehhqOvHobgTYGBnUZOzIHyseUNaIWbTiIUakrddFtWuakeflGD1LL/Mkj
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PlBAqd6u59NgS0niIBzb9vVQmmqf8bprypLakd5ni+TH5/+HfIJFap+CRoNpOh+0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Cw2QXHtElrRstbEmWQEpO9DYwLh5VLWOpV2i7izBVOQV7Em11y8w6BbnugqPA4KD
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wbffirQ4WXVzdWtlIE9oYXNoaSAoc2VjdXJlIGdpdCBjb21taXRzKSA8Z2l0aHVi
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;QGp1bmtwaWFuby5tZT6JAjYEMAEKACAWIQSLL9t2XUUACkzW+y8bNX6uBq0j7QUC
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZRgYpgIdIAAKCRAbNX6uBq0j7TEXD/0d418ngRer90YxN6IMWcPpp2yvSws6FKZo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Xhtv0UWi2AL7Ftthb+HUCdn1VBxTxwgYuHKvGmVbd1tP1qeyoc30YAOaE4ekrIXv
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DHYn/mPxquv0dbbGP4vNPJaq1AnOYsRS/1QiAPLxQ6ao4bVH20r1JLGK+g8375BK
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KMKqyVv7Wqd9C2H+kVKFV7LN9h2YMukwGi89nORMfsMhbi8i/5dnYzALOGej6wP0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;UV8BN4rHXyUuehN9rBErUXtpCqL4eTTobdfRbaYQ/rlmInkptFNF8DDuIzzLBK1n
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;UMY442/oZph1nXKYOWOo+2z33IfKB8UQ+dcGlOifzjI6wLjJsD9RwOc8eUCMJXh9
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5bvzgmjZgt7agUY+RHMIug/WyVQabVhFWrdcGem/neMeVozZkF8cNZVmbNokGomE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yzJok/Ey+/DUqupjDGo6ex6nPNcfnlH7VFr5Nfu4S0x42+2Zjm10YoSoMYDJzPHN
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;k3pqMoLpm1SSrsesu7qW0t36r+tFQZq8od6/bc7s3mM1gX7CvyrgXskK8Z8JR5VS
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Jba6E6JbbhGqB/KGEH8N+Iyt+2rVqi5dnXBrOmdtFFarQNBelr8FJj6db23E9cCs
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b8G3EVhHyxTatKSBcn+o5Egy4mje51Fs5w6ukXkiRgAFdRB7KQF1qdYCJSpLAFpk
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LJtl0uvOAYkCTgQTAQgAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJbn/16AhsD
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtPfIP/19OhlwplzCl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sud9QdXqn09GTTKpd3oTbWDRS2lHmaXFbxazp/wrLXLxX/5xbC9psSk9srAlJ9TZ
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NYHKbayp8rr4OLwuw+RAX3B+y7xtklXr0kYr7GwplIrdD6v8S0aO7VvNOry3SdRB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rcfo5FzlkX4MjH9CMf9bu76EVfhMDBkwxIQqSOyulW83W6aDfiptUt1D3RWGmVYE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;d+JF27kyJ+ods2zzJxYCgO1NainpJXrFQ4SaWU0NESuvJ0IOg6K6ERtGPMVao4ez
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lkYDw8acwlmjNs753W3/911JGchTxJlrt9p/lkz3chwFzkqQD1yOBi1gHZoti71l
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kp+yjkuMC7OZkDSQjCHtGbp1MpQx0GXPPUH2UszGdPYnDmACrP/J1HX2TWPz0f7r
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CaPJma/66S3RXh0QPcxYqrTajW808Z7cubYxFTb3AbTzQhO0ZxXk+JYLEafT3ZrE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W/LJO3s8kh3PlbvueqaA99sxltPIfMgwGsk1QuL4Rym2Pu4CX6rs24m6+wH5EfSt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mxrBK21050BAT4ADtGJTV7g3IWUqFFGZ8NLEDX4VcB/3lu6B4Wg+UDOnpkJrxt81
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HFvHoskT2dPlQtnx3iArItOrUDxKLj9QwKawhkUkQs5UfHjnd0GYp0LiKXCgyW6a
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Obwo5jw8RPAoWiIaG4lGNiGJFHWAu2wstCNZdXN1a2UgT2hhc2hpIDxnaXRodWJA
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;anVua3BpYW5vLm1lPokCTgQTAQoAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJl
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GButAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtiLIP+wdx
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eZK4N/WmLzmcg9HMj56qK1bPqeMyEnD2ZBO/J6UVXHNR1itQsUF79tWIOl+aJOq1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ynGcI7k0TYv2a+Pe6w4rwE/WriLM2XpOPRCRACzoGL0U5vZKGPojZMcJvUeaOQmZ
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Z3skjSNV6cBwwNpNxt2Hi/1U8tXmwey4uq0AuOyUkmvK+igXBTDUhSMLYbL5Bub0
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KnCjpa9l6b3V2+LxbFZOTsB/G0MF6DXFwwPEyL0O7+jSck0PyV3b6rIUrGQT+nQG
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;q5Z4wV4fqrl5+JwFDhhkdvRRSPdOZHtZAOeh9NmNMQrcBezxPOWkHshUbY1fuKW5
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LZt9b5mtomxo8XQGbiqxBck1Pmg1rnKcL+LNxzpoWeJec+6WOOROS5K3Ay27+sD8
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MVn5/90lwa9ozNjKFVoa7tD7xAH0w12yaogRWaTaiYXd4tUkUr8Hem82W5KFHJFn
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvkRnBj+FntkH87ObsvCO/SnunerzNAi52OeC1xi5owIxgFqKb8zCQmfzxN40hnY
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cNBmEo+PBwT3E7+BQIn8odTfOzjWW92xRvzPHJS4OFQyRdBmXKDTkp6AOg9iUYMp
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;JzbyS8aiIcXW8bSh2MKrHJsDyJta2Go7zP1Fd4RvqJttDS8B8cl61wwar/SY6neR
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KSwLj0LZJPhEOcdVc1FGaSr8aDIDtuvtxoeuyBBwuQINBFuf/XoBEADIrFyP411Q
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;J0DmKNzctsovASKo2lPE1jNwDdt/AcwzcozEnMbvZrmzSKeqZEwMGHl8NYmznSxM
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vBRoG2xSESPR75Igw20ZhTPEWCYjzu1o01gWdBBer7oIOIXPX+tbJEUvkAFhvl24
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OSQthjwp1Ens8Brk04hgPTeVKFUaAi75jm/bm2OsmTnnKAe/pSdflVs4/VIbhgwG
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qJaj4dwn0BTWvIfy1bV/V1qm2yFz7YdBH2hgI4Gs9p9a9E7RyZJMdMGjwW9U0TdA
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qnI1Yif3jXYHvUyndetMfl3W0xny8Xw6QlhRy/Ob/10jWThszjeE82H3HK9WID2C
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mNr03rb3dauxUaO4Wbuv3nI/mKuuyVxLR2YjPk7CxihMnaZjNXAOz3/inLomYy1p
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZkAYVrAX2Z3w/bOz9VFjiwRd0gLHI/LjPvzlSEPkjLJFlP6VZCKoLhvw3EdXfR4O
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvhsFcioIYvEcvOChCxw92ffZDiNWoG0otQ14egBBDVXnGf1HeQUIQUasp/f+6ZO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+xiPzgjnDwSTY9ce9IVE7VAeNTeuF5zx1D3o8TJJZgJsLZD3VwkHa/pFPtH+/eOO
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y5euhX2xekvbylEnWsTf6iTuxw2tYaesJ7Gm3ZQDL4cNIJZobuyjWiavNGSoePMN
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;QKiQXE6h3+yXkE5OVufOW78SdAGVwLLIWwARAQABiQI2BBgBCAAgFiEEiy/bdl1F
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AApM1vsvGzV+rgatI+0FAluf/XoCGwwACgkQGzV+rgatI+2mRQ/8D10vh5DzgzJ/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kBJweai/wwMwClFZvM5sVDXpvpA5Qm/lGNnj06H0gE0ONa1RYjG1l4o9pJrDlLM4
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;XY1+vt641PUb02vgQ2xVZqPr0eo1OMSERZRgaTywT7T7XdOCdMfsPPDGzCzdrIf3
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qz9aa2ZvrGNIqSU0j1KdDVAIMGHxkDgnUbCIeoGxKRzr9mpYIsPPp7a90Xw9uKYq
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quYSO1v71wktprbnygqNWWQ4w9a/A6yjciFAMlE0wGRlZa4Chkjb2D876IbjI5oE
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;iwMC5LIgcUb21FzpdSxxibVRieCUd2x2swXquf90wjvL+4aZ3JRZfn/zvjnEH3u7
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1utyf1YBEZrCLchxwuLMNnZVRWbUPJ5pOcNxAq7WzcEs5pq5QgkL+ADUZzA8ks78
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AG6vrbVmyO/M+v3Vh1BRkqN9Lmtn9wNqVnQ8VUnhikrg1j9hNGyaSchozi/Hf+Br
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qWn+3e0PCwVdZJp/DygDXiWZdebf6pPJbjZLp3VlcgSUzsEaIWQe4nrA2jAu5QjI
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DAWs2zVh9qTSUQg+XOMz65sUlMfdTEWVUKsZgEG9ndhbN0n3mQ7ffi28k4m6q50C
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WDhUzySVfJ5lBoWiM27N/0mMe4PkV6P3XhqbQ4l5xCc0kz+2xJ1YKbrubmsjVULH
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0g1JYYUBjuVWXCh/g4i5rgk/kpqrteg=
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;=HmQB
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-----END PGP PUBLIC KEY BLOCK-----
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
     </item>
     
     <item>
@@ -78,7 +197,9 @@ GPG -----BEGIN PGP PUBLIC KEY BLOCK----- mQINBFuf/XoBEAC/GFVCHLl6PYX16h93G5owDdP
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/java-101/</guid>
-      <description>今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、 IntelliJ IdeaでJavaを始めるに当たって、知って</description>
+      <description>&lt;p&gt;今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;でJavaを始めるに当たって、知っておいたほうがよさそうなことを書いていきます。
+個人的なまとめノートです。&lt;/p&gt;</description>
     </item>
     
   </channel>

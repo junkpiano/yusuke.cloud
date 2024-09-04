@@ -18,11 +18,18 @@
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/2018-in-review/</guid>
-      <description>2018 was yet another awesome year.
-Commitments in work I worked on building mobile development foundation.
-Jenkins CI Exapansion I read this book to learn Jenkins(written in Japanese). Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)
-Open API Specification OpenAPI Initiative
-Side projects This blog I moved this blog to Linode. What I exactly did is that I moved my blog on docker on Linode instance.</description>
+      <description>&lt;p&gt;2018 was yet another awesome year.&lt;/p&gt;
+&lt;h2 id=&#34;commitments-in-work&#34;&gt;Commitments in work&lt;/h2&gt;
+&lt;p&gt;I worked on building mobile development foundation.&lt;/p&gt;
+&lt;h3 id=&#34;jenkins-ci-exapansion&#34;&gt;Jenkins CI Exapansion&lt;/h3&gt;
+&lt;p&gt;I read &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;this book&lt;/a&gt; to learn Jenkins(written in Japanese).
+Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)&lt;/p&gt;
+&lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.openapis.org/&#34;&gt;OpenAPI Initiative&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;side-projects&#34;&gt;Side projects&lt;/h2&gt;
+&lt;h3 id=&#34;this-blog&#34;&gt;This blog&lt;/h3&gt;
+&lt;p&gt;I moved this blog to &lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;Linode&lt;/a&gt;.
+What I exactly did is that I moved my blog on docker on Linode instance.&lt;/p&gt;</description>
     </item>
     
   </channel>

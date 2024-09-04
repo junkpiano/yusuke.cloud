@@ -18,7 +18,9 @@
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/java-101/</guid>
-      <description>今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、 IntelliJ IdeaでJavaを始めるに当たって、知って</description>
+      <description>&lt;p&gt;今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;でJavaを始めるに当たって、知っておいたほうがよさそうなことを書いていきます。
+個人的なまとめノートです。&lt;/p&gt;</description>
     </item>
     
   </channel>

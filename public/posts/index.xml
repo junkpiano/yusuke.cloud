@@ -18,9 +18,17 @@
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
       
       <guid>https://yusuke.cloud/dotfiles/</guid>
-      <description>&amp;ldquo;Dotfiles&amp;rdquo; refer to configuration files in Unix-like operating systems that begin with a dot (.). They are used to customize and configure user environments, applications, and tools. Common examples include .bashrc, .vimrc, and .gitconfig. Managing these configuration files effectively, often referred to as the &amp;ldquo;dotfiles&amp;rdquo; practice, offers several benefits:
-Benefits of Managing Dotfiles Consistency Across Environments:
-By maintaining a set of dotfiles, you can ensure that your development environment is consistent across multiple machines.</description>
+      <description>&lt;p&gt;&amp;ldquo;Dotfiles&amp;rdquo; refer to configuration files in Unix-like operating systems that begin with a dot (.). They are used to customize and configure user environments, applications, and tools. Common examples include &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.vimrc&lt;/code&gt;, and &lt;code&gt;.gitconfig&lt;/code&gt;. Managing these configuration files effectively, often referred to as the &amp;ldquo;dotfiles&amp;rdquo; practice, offers several benefits:&lt;/p&gt;
+&lt;h3 id=&#34;benefits-of-managing-dotfiles&#34;&gt;Benefits of Managing Dotfiles&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Consistency Across Environments&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By maintaining a set of dotfiles, you can ensure that your development environment is consistent across multiple machines. Whether you are working on your home computer, a work laptop, or a remote server, you can have the same configurations and settings.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt;:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -29,12 +37,19 @@ By maintaining a set of dotfiles, you can ensure that your development environme
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
       
       <guid>https://yusuke.cloud/writing-c-compiler/</guid>
-      <description>I am now writing c compiler to learn how a compiler works.
-C Compiler translates source code(strings) into assembly language.
-First of all, this Compiler breaks strings into tokens, and then parses strings into nodes using tokens, and finally generates assembly.
-Tokenizer Parser Code Generator Tokenizer Tokenizer traverses strings and creates a linkedlist of tokens.
-Parser Parser parses strings into nodes.
-To implement parser, we need compiler design. Normally we use BNF(Backus-Naur Form) notation to design compiler.</description>
+      <description>&lt;p&gt;I am now writing c compiler to learn how a compiler works.&lt;/p&gt;
+&lt;p&gt;C Compiler translates source code(strings) into assembly language.&lt;/p&gt;
+&lt;p&gt;First of all, this Compiler breaks strings into tokens, and then parses strings into nodes using tokens, and finally generates assembly.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tokenizer&lt;/li&gt;
+&lt;li&gt;Parser&lt;/li&gt;
+&lt;li&gt;Code Generator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;tokenizer&#34;&gt;Tokenizer&lt;/h2&gt;
+&lt;p&gt;Tokenizer traverses strings and creates a linkedlist of tokens.&lt;/p&gt;
+&lt;h2 id=&#34;parser&#34;&gt;Parser&lt;/h2&gt;
+&lt;p&gt;Parser parses strings into nodes.&lt;/p&gt;
+&lt;p&gt;To implement parser, we need compiler design. Normally we use BNF(Backus-Naur Form) notation to design compiler.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,11 +58,15 @@ To implement parser, we need compiler design. Normally we use BNF(Backus-Naur Fo
       <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
       
       <guid>https://yusuke.cloud/github-issue-driven-blog/</guid>
-      <description>I experimented automating my micro blog so that it&amp;rsquo;s generated from github issues.
-In this blog post, I will show you how I redesigned my blogging workflow.
-System Diagram All piplines are run on github platforms.
-Motivation Normally, we google around issues, and paste code from stackoverflow. That&amp;rsquo;s it. Nothing more. However, there should be something we learned there. That&amp;rsquo;s what we should log.
-I love blogging, but writing on my computer is somehow tedious.</description>
+      <description>&lt;p&gt;I experimented automating &lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;my micro blog&lt;/a&gt; so that it&amp;rsquo;s generated from github issues.&lt;/p&gt;
+&lt;p&gt;In this blog post, I will show you how I redesigned my blogging workflow.&lt;/p&gt;
+&lt;h2 id=&#34;system-diagram&#34;&gt;System Diagram&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/automate-publishing.drawio.png&#34; alt=&#34;system diagram&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;All piplines are run on github platforms.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Normally, we google around issues, and paste code from stackoverflow. That&amp;rsquo;s it. Nothing more.
+However, there should be something we learned there. That&amp;rsquo;s what we should log.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,12 +84,14 @@ I love blogging, but writing on my computer is somehow tedious.</description>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
       
       <guid>https://yusuke.cloud/swiftdoc-action-for-fastlane/</guid>
-      <description>I just want to announce I created a fastlane action for SwiftDoc, since I couldn&amp;rsquo;t find it in the fastlane official docs.
-SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project. It has very clean UI and also generates beautiful dependency graph. I introduced my private swift project.
-Here is the script.
-Place this script into fastlane/actions, and run in Fastfile
-e.g.
-swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName&amp;#34;, output: &amp;#34;docs/&amp;#34;, base_url: &amp;#34;/&amp;#34;, format: &amp;#34;html&amp;#34; ) You can publish it into github pages, netlify, and so on.</description>
+      <description>&lt;p&gt;I just want to announce I created a fastlane action for &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt;, since I couldn&amp;rsquo;t find it in the fastlane official docs.&lt;/p&gt;
+&lt;p&gt;SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project.
+It has very clean UI and also generates beautiful dependency graph.
+I introduced my private swift project.&lt;/p&gt;
+&lt;p&gt;Here is the script.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/junkpiano/f37d27f10bde1653f4975cfc8dff6b34.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,8 +100,16 @@ swiftdoc( input: &amp;#34;Sources&amp;#34;, module_name: &amp;#34;YourModuleName
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
       
       <guid>https://yusuke.cloud/how-i-built-this-blog/</guid>
-      <description>This is a snapshot as of 2021/6. I will write about this blog. This digram shows my blog architecture.
-Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.</description>
+      <description>&lt;p&gt;This is a snapshot as of 2021/6. I will write about this blog.
+This digram shows my blog architecture.&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34; alt=&#34;diagram&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;core&#34;&gt;Core&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;&lt;strong&gt;Linode&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dokku.com/&#34;&gt;&lt;strong&gt;Dokku&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -89,9 +118,15 @@ Core Linode Dokku I am running this blog on linode VPS. This blog is in a docker
       <pubDate>Fri, 18 Jun 2021 08:04:24 +0000</pubDate>
       
       <guid>https://yusuke.cloud/make-comment-great-again/</guid>
-      <description>I haven&amp;rsquo;t use comment feature on this weblog, but I really wanted to implement it. I have tried Disqus. It was cool but it turned out that it didn&amp;rsquo;t match my needs.
-Thought of Disqus Disqus has rich UI and features to discuss blog posts, but it allows
-anonymous comments Ads inclusion For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder.</description>
+      <description>&lt;p&gt;I haven&amp;rsquo;t use comment feature on this weblog, but I really wanted to implement it.
+I have tried &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. It was cool but it turned out that it didn&amp;rsquo;t match my needs.&lt;/p&gt;
+&lt;h2 id=&#34;thought-of-disqus&#34;&gt;Thought of Disqus&lt;/h2&gt;
+&lt;p&gt;Disqus has rich UI and features to discuss blog posts, but it allows&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;anonymous comments&lt;/li&gt;
+&lt;li&gt;Ads inclusion&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For anonymous comments, my blog thanksfully has almost no comments from readers. However, recently a lot of celebrities receive relentless aggresive comments, and ended up suffering from mental disorder. No one tells that this won&amp;rsquo;t happen on this tiny personal blog.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -100,12 +135,15 @@ anonymous comments Ads inclusion For anonymous comments, my blog thanksfully has
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
       
       <guid>https://yusuke.cloud/nwpathmonitor/</guid>
-      <description>Introduction NWPathMonitor is a class in Network framework, which observes network status and monitor network interface. It&amp;rsquo;s available in iOS 12 or later.
-import Network You must retain NWPathMonitor instances to get callbacks.
-class NetworkMonitorViewController: ViewController { let monitor = NWPathMonitor() } requiredInterface lets you observe the specific network interface.
-let wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi) Here is the list of interfaces that NWPathMonitor supports.
-https://developer.apple.com/documentation/network/nwinterface/interfacetype
-Detect network changes monitor.pathUpdateHandler = { path in if path.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;NWPathMonitor is a class in Network framework, which observes network status and monitor network interface.
+It&amp;rsquo;s available in iOS 12 or later.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You must retain NWPathMonitor instances to get callbacks.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
     </item>
     
     <item>
@@ -114,10 +152,14 @@ Detect network changes monitor.pathUpdateHandler = { path in if path.</descripti
       <pubDate>Tue, 21 Apr 2020 07:02:57 +0000</pubDate>
       
       <guid>https://yusuke.cloud/munin-installation-memo/</guid>
-      <description>Have you ever listened to Munin? Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data
-Munin is quite simple and easy to set up.
-Here, I will write down my configuration when I set up munin lately. I suppose that you are using Ubuntu 18.04 LTS.
-$ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration server { listen 80 default_server; listen [::]:80 default_server; root /var/www/html; # Add index.</description>
+      <description>&lt;p&gt;Have you ever listened to &lt;a href=&#34;http://munin-monitoring.org/&#34;&gt;Munin&lt;/a&gt;?
+Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data&lt;/p&gt;
+&lt;p&gt;Munin is quite simple and easy to set up.&lt;/p&gt;
+&lt;p&gt;Here, I will write down my configuration when I set up munin lately.
+I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4/&#34;&gt;Ubuntu 18.04 LTS&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt install munin munin-node nginx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
     </item>
     
     <item>
@@ -126,8 +168,27 @@ $ sudo apt update $ sudo apt install munin munin-node nginx Nginx Configuration 
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
       
       <guid>https://yusuke.cloud/lsp-for-swift/</guid>
-      <description>What is Language Server Protocol(LSP)? Language Server Protocol defines standardized protocol with which both a text editor or IDE(client) and a language(server) communicate. The protocol is based on JSONRPC. A client(text editor) can implement Go to definition Error and warnings Auto completion &amp;hellip; https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/
-Solves m-times-n complexity problems What is Sourcekit-LSP? Apple&amp;rsquo;s LSP implementation on top of sourcekitd and clangd sourcekitd is a framework that provide IDE features clangd for c-family languages (C/C++/ObjC) language server supports only Swift Package Manager project As of Xcode 11.</description>
+      <description>&lt;h2 id=&#34;what-is-language-server-protocollsp&#34;&gt;What is Language Server Protocol(LSP)?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Language Server Protocol defines &lt;strong&gt;standardized protocol&lt;/strong&gt; with which both a text editor or IDE(client) and a language(server) communicate.&lt;/li&gt;
+&lt;li&gt;The protocol is based on &lt;strong&gt;JSONRPC&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;A client(text editor) can implement
+&lt;ul&gt;
+&lt;li&gt;Go to definition&lt;/li&gt;
+&lt;li&gt;Error and warnings&lt;/li&gt;
+&lt;li&gt;Auto completion&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/img/language-server-sequence.png&#34; alt=&#34;diagram&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&#34;&gt;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Solves &lt;em&gt;m-times-n&lt;/em&gt; complexity problems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png&#34; alt=&#34;width:600px&#34;  /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -136,11 +197,18 @@ Solves m-times-n complexity problems What is Sourcekit-LSP? Apple&amp;rsquo;s LS
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/2018-in-review/</guid>
-      <description>2018 was yet another awesome year.
-Commitments in work I worked on building mobile development foundation.
-Jenkins CI Exapansion I read this book to learn Jenkins(written in Japanese). Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)
-Open API Specification OpenAPI Initiative
-Side projects This blog I moved this blog to Linode. What I exactly did is that I moved my blog on docker on Linode instance.</description>
+      <description>&lt;p&gt;2018 was yet another awesome year.&lt;/p&gt;
+&lt;h2 id=&#34;commitments-in-work&#34;&gt;Commitments in work&lt;/h2&gt;
+&lt;p&gt;I worked on building mobile development foundation.&lt;/p&gt;
+&lt;h3 id=&#34;jenkins-ci-exapansion&#34;&gt;Jenkins CI Exapansion&lt;/h3&gt;
+&lt;p&gt;I read &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;this book&lt;/a&gt; to learn Jenkins(written in Japanese).
+Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)&lt;/p&gt;
+&lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.openapis.org/&#34;&gt;OpenAPI Initiative&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;side-projects&#34;&gt;Side projects&lt;/h2&gt;
+&lt;h3 id=&#34;this-blog&#34;&gt;This blog&lt;/h3&gt;
+&lt;p&gt;I moved this blog to &lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;Linode&lt;/a&gt;.
+What I exactly did is that I moved my blog on docker on Linode instance.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -149,9 +217,13 @@ Side projects This blog I moved this blog to Linode. What I exactly did is that 
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/network-abstraction-layer/</guid>
-      <description>I am experimenting a new way for network request in Kiri library. Kiri is Moya inspired abstract networking layer. I was very impressed by Moya architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D
-We need to break down client library into three parts.
-Request Normally, you have to construct networking request every time. Instead, in Kiri, your network configuration is compiled in one place, like class, enum.</description>
+      <description>&lt;p&gt;I am experimenting a new way for network request in &lt;code&gt;Kiri&lt;/code&gt; library.
+&lt;code&gt;Kiri&lt;/code&gt; is &lt;code&gt;Moya&lt;/code&gt; inspired abstract networking layer. I was very impressed by &lt;code&gt;Moya&lt;/code&gt; architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D&lt;/p&gt;
+&lt;p&gt;We need to break down client library into three parts.&lt;/p&gt;
+&lt;h2 id=&#34;request&#34;&gt;Request&lt;/h2&gt;
+&lt;p&gt;Normally, you have to construct networking request every time.
+Instead, in Kiri, your network configuration is compiled in one place, like class, enum.
+And the class, enum must conform to &lt;code&gt;RequestContainer&lt;/code&gt; protocol.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -160,9 +232,13 @@ Request Normally, you have to construct networking request every time. Instead, 
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/crontab-guru/</guid>
-      <description>If you use google whenever you write crontab, this website is good for you.
-crontab guru
-Crontab format is not intuitive. This website tells you how your cron will work. You can input your own cron job in the rounded textfield, and you can check how it works before you start on your server. It will help you avoid significant mistakes before deploying your job.</description>
+      <description>&lt;p&gt;If you use google whenever you write crontab, this website is good for you.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34; alt=&#34;crontab guru screenshot&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Crontab format is not intuitive. This website tells you how your cron will work.
+You can input your own cron job in the rounded textfield, and you can check how it works before you start on your server.
+It will help you avoid significant mistakes before deploying your job.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -171,12 +247,21 @@ Crontab format is not intuitive. This website tells you how your cron will work.
       <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/npm-dependency-graph/</guid>
-      <description>I found the awesome tool to visualize npm dependency graph.
-This example shows dependency graph of react-native-maps, which I was investigating last night.
-https://npm.anvaka.com/#/view/2d/react-native-maps
-2D You can drag nodes, and highlight node with cursor on.
-3D You can rotate graph, but 3D doesn&amp;rsquo;t show module names.
-https://npm.anvaka.com/ Github </description>
+      <description>&lt;p&gt;I found the awesome tool to visualize npm dependency graph.&lt;/p&gt;
+&lt;p&gt;This example shows dependency graph of &lt;code&gt;react-native-maps&lt;/code&gt;, which I was investigating last night.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2d&#34;&gt;2D&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-2d.png&#34; alt=&#34;2d&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;You can drag nodes, and highlight node with cursor on.&lt;/p&gt;
+&lt;h2 id=&#34;3d&#34;&gt;3D&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-3d.png&#34; alt=&#34;3d&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;You can rotate graph, but 3D doesn&amp;rsquo;t show module names.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://npm.anvaka.com/&#34;&gt;https://npm.anvaka.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anvaka/npmgraph.an&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

@@ -18,7 +18,7 @@
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/git-on-windows/</guid>
-      <description>Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく</description>
+      <description>&lt;p&gt;Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -27,8 +27,31 @@
       <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
       
       <guid>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</guid>
-      <description>無理でした。というか満足する結果が得られませんでした。
-やったこと#1 EOS Webcam Utilityをインストール こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; https://amzn.to/3avKj1z 手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用 電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。 MacにMini-B USBで接続 ZoomでPreferences-VideoでEOS Webcam Utilityを指定 映像は映るものの、左右に黒いバーが出現。 OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！ 海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣） やったこと#2 たまたま見つけた記事をやってみた https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/ 完璧に動くことは動くが、左右の黒いバーは消えず。 結論 多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。 餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。</description>
+      <description>&lt;p&gt;無理でした。というか満足する結果が得られませんでした。&lt;/p&gt;
+&lt;h2 id=&#34;やったこと1&#34;&gt;やったこと#1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;EOS Webcam Utilityをインストール&lt;/li&gt;
+&lt;li&gt;こちらの電源に繋ぐ怪しいアダプターを購入 -&amp;gt; &lt;a href=&#34;https://amzn.to/3avKj1z&#34;&gt;https://amzn.to/3avKj1z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;手元にあるモバイルバッテリーにそのアダプターを繋ぎ、X7iの電池として使用
+&lt;ul&gt;
+&lt;li&gt;電池の蓋の閉め忘れに注意。蓋閉めないとバッテリーとして使えません。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;MacにMini-B USBで接続&lt;/li&gt;
+&lt;li&gt;ZoomでPreferences-VideoでEOS Webcam Utilityを指定&lt;/li&gt;
+&lt;li&gt;映像は映るものの、左右に黒いバーが出現。&lt;/li&gt;
+&lt;li&gt;OBSなどではクロップできるけど、なんか嫌なので普通に良さげなwebカメラを買った方が良いのでは？ -&amp;gt; イマココ！&lt;/li&gt;
+&lt;li&gt;海外フォーラムでは指摘多数の現象らしいが、日本語圏だとEOS Webcam Utility動いた！報告しかない。（泣）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;やったこと2&#34;&gt;やったこと#2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;たまたま見つけた記事をやってみた&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&#34;&gt;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;完璧に動くことは動くが、左右の黒いバーは消えず。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;結論&#34;&gt;結論&lt;/h2&gt;
+&lt;p&gt;多分、カメラの問題っぽいので、webカメラとして使うのではなく、普通に一眼レフカメラとして使います。
+餅は餅屋で、webカメラはなんかしら良さげなのを探してみようと思います。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -37,7 +60,7 @@
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/eldenring-translation-dispute/</guid>
-      <description>エルデンリング、英語版でプレイしてるので、実況動画見る時それ何？がよく起こる。例えば misericorde は慈悲の短剣だけど初めて聞いた時何それって感じだった。</description>
+      <description>&lt;p&gt;エルデンリング、英語版でプレイしてるので、実況動画見る時それ何？がよく起こる。例えば misericorde は慈悲の短剣だけど初めて聞いた時何それって感じだった。黄金樹に誓って、Golden Vow とかも最初よく分からなかったけど、繰り返し動画見てたら、いろいろ覚えた。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -46,7 +69,10 @@
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/testing-auto-deploy/</guid>
-      <description>こんにちは。 Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。 後は、コンパイルからデプロイま</description>
+      <description>&lt;p&gt;こんにちは。&lt;/p&gt;
+&lt;p&gt;Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。
+後は、コンパイルからデプロイまで全て自動でやってくれます。markdownを書くだけで良いのでエディターをローカルで立ち上げる必要もありません(Github上で作業)。
+今は、Macbookで作業してますけどね。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,7 +81,9 @@
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/multilingual-hugo/</guid>
-      <description>こんにちは、インターネット。 Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎 Hugoはそもそも多言語化に対</description>
+      <description>&lt;p&gt;こんにちは、インターネット。&lt;/p&gt;
+&lt;p&gt;Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎&lt;/p&gt;
+&lt;p&gt;Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,7 +92,9 @@
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       
       <guid>https://yusuke.cloud/ja/java-101/</guid>
-      <description>今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、 IntelliJ IdeaでJavaを始めるに当たって、知って</description>
+      <description>&lt;p&gt;今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、
+&lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;でJavaを始めるに当たって、知っておいたほうがよさそうなことを書いていきます。
+個人的なまとめノートです。&lt;/p&gt;</description>
     </item>
     
   </channel>
