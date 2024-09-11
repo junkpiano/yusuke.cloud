@@ -25,7 +25,16 @@ I introduced my private swift project.&lt;/p&gt;
 &lt;p&gt;Here is the script.&lt;/p&gt;
 &lt;script src=&#34;https://gist.github.com/junkpiano/f37d27f10bde1653f4975cfc8dff6b34.js&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;</description>
+&lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      input: &amp;#34;Sources&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      module_name: &amp;#34;YourModuleName&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      output: &amp;#34;docs/&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      base_url: &amp;#34;/&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      format: &amp;#34;html&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    )
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can publish it into github pages, netlify, and so on.&lt;/p&gt;</description>
     </item>
     
     <item>

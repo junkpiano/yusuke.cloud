@@ -26,7 +26,18 @@ It&amp;rsquo;s available in iOS 12 or later.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;requiredInterface&lt;/code&gt; lets you observe the specific network interface.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here is the list of interfaces that NWPathMonitor supports.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/documentation/network/nwinterface/interfacetype&#34;&gt;https://developer.apple.com/documentation/network/nwinterface/interfacetype&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;detect-network-changes&#34;&gt;Detect network changes&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; path.status == .satisfied {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Connected&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;start-observation&#34;&gt;Start observation&lt;/h2&gt;
+&lt;p&gt;Create a background queue, then pass it to &lt;code&gt;start()&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,7 +66,17 @@ It&amp;rsquo;s available in iOS 12 or later.&lt;/p&gt;
 &lt;li&gt;Solves &lt;em&gt;m-times-n&lt;/em&gt; complexity problems&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png&#34; alt=&#34;width:600px&#34;  /&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+&lt;h2 id=&#34;what-is-sourcekit-lsp&#34;&gt;What is Sourcekit-LSP?&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/source_kit_lsp_github.png&#34; alt=&#34;width:800px&#34;  /&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apple&amp;rsquo;s LSP implementation on top of &lt;code&gt;sourcekitd&lt;/code&gt; and &lt;code&gt;clangd&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sourcekitd&lt;/code&gt; is a framework that provide IDE features&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clangd&lt;/code&gt; for c-family languages (C/C++/ObjC) language server&lt;/li&gt;
+&lt;li&gt;supports &lt;strong&gt;only Swift Package Manager project&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As of Xcode 11.4, SourceKit-LSP is a built-in tool.&lt;/p&gt;</description>
     </item>
     
     <item>
