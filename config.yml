@@ -8,7 +8,9 @@ enableRobotsTXT: true
 ignoreFiles:
   - \.gitignore$
   - ^README.md$
-paginate: 20
+pagination:
+  pagerSize: 20
+
 canonifyurls: true
 pygmentsstyle: monokai
 pygmentscodefences: true

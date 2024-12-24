@@ -2,24 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/ja/categories/git/</link>
+    <link>http://localhost:1313/ja/categories/git/</link>
     <description>Recent content in Git on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo -- 0.140.1</generator>
     <language>ja</language>
-    <lastBuildDate>Sat, 25 Nov 2023 08:50:00 +0000</lastBuildDate><atom:link href="https://yusuke.cloud/ja/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Nov 2023 08:50:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git on Windows</title>
-      <link>https://yusuke.cloud/ja/git-on-windows/</link>
+      <link>http://localhost:1313/ja/git-on-windows/</link>
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
-      
-      <guid>https://yusuke.cloud/ja/git-on-windows/</guid>
+      <guid>http://localhost:1313/ja/git-on-windows/</guid>
       <description>&lt;p&gt;Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
