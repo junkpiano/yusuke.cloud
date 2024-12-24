@@ -15,7 +15,7 @@ canonifyurls: true
 pygmentsstyle: monokai
 pygmentscodefences: true
 pygmentscodefencesguesssyntax: true
-googleAnalytics: UA-38557572-5
+googleAnalytics: G-BYJK9D038N
 
 buildDrafts: false
 buildFuture: false
@@ -58,6 +58,7 @@ params:
   utterances:
     repo: junkpiano/yusuke.cloud
     issueTerm: pathname
+  social: true
   socialIcons:
     - name: Github
       icon: fa fa-github fa-2x

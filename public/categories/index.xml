@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Yusuke Ohashi</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://yusuke.cloud/categories/</link>
     <description>Recent content in Categories on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,19 +12,19 @@
     <generator>Hugo -- 0.140.1</generator>
     <language>en</language>
     <lastBuildDate>Mon, 14 Jun 2021 16:16:05 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IOS</title>
-      <link>http://localhost:1313/categories/ios/</link>
+      <link>https://yusuke.cloud/categories/ios/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>http://localhost:1313/categories/ios/</guid>
+      <guid>https://yusuke.cloud/categories/ios/</guid>
       <description></description>
     </item>
     <item>
       <title>Essay</title>
-      <link>http://localhost:1313/categories/essay/</link>
+      <link>https://yusuke.cloud/categories/essay/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/essay/</guid>
+      <guid>https://yusuke.cloud/categories/essay/</guid>
       <description></description>
     </item>
   </channel>
