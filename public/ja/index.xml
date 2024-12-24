@@ -83,102 +83,14 @@
       <pubDate>Mon, 12 Jul 2021 16:20:37 +0900</pubDate>
       <guid>https://yusuke.cloud/ja/about/</guid>
       <description>&lt;p&gt;主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。&lt;/p&gt;
-&lt;p&gt;プロフィールに関しては&lt;a href=&#34;https://github.com/junkpiano&#34;&gt;こちら&lt;/a&gt;にまとめていきます。&lt;/p&gt;
-&lt;p&gt;基本的には静的なウェブサイトなんですが、多少技術にはこだわっていてそれについては&lt;a href=&#34;https://yusuke.cloud/9/&#34;&gt;こちらの記事&lt;/a&gt;にまとめています。&lt;/p&gt;
-&lt;p&gt;よろしくお願いいたします。&lt;/p&gt;
-&lt;p&gt;PS. こちらに&lt;a href=&#34;https://junkpiano.github.io/til/&#34;&gt;マイクロブログ&lt;/a&gt;もあります。&lt;/p&gt;
-&lt;h2 id=&#34;gpg&#34;&gt;GPG&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-----BEGIN PGP PUBLIC KEY BLOCK-----
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mQINBFuf/XoBEAC/GFVCHLl6PYX16h93G5owDdPvmA9EcZUu1EGwY1PAhnD4VpIC
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1MsRZR5VtT1TeOoKIwfmXpIAGPo4eDcXySsg60iY63h3p1oMzlbfy8owaHrsExhv
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rMj6JUqSW5olA5WhkYvBHIlcf/PoQ4Uaf2stXUrzqujvvKap9oM9rTj0wI4hD3PP
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lmcUto19iPNpB9tyIEEfnaplLLywLf9JO5CcnDDDPyKEf3cbwqt01gxt16Z0EpUt
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;r2v1P0eEB9ysjNT3gUyyNm/EI/Ww9dZ/UgO23zFpxlIpL5QpJrPUqQm3aqRb5opi
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;EpHKnQCXu5aD2ESPVn8JsCQBp1qKJm2v0sp3lzmMYp4PVxbW+cvUpGe8BqsO+iVu
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZnxP2mhIvHLu+KLbMMJJseevcYx5lH8QzD0zpDkDVcJPmiVijbrtfeYi98NkbOws
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;z653iwrWcYuwoMAG8RAxJwNXera4PTf0PTir+Amw7TgpNSicsSNYqtpfVmkB6wYA
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ldyiOwYfB2NP3kxjRR78ZEtBk/6JrXTnw7srSmSso0nRawv2siSr8jXhlZFlc3E6
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wiCvVd8pQAv3nIi8ZpMxx8poqpZdp/XkVp0Nvi2oUTM7avRGIOfFUlKMeuhlyamI
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pdyLFb882Upv9xLxPtd3lZ2a2IhARSIFOcWH5SQtu3zfv/mt0ZyYv3X6dwARAQAB
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;tCFZdXN1a2UgT2hhc2hpIDxtYWlsQHl1c3VrZS5jbG91ZD6JAk4EEwEKADgWIQSL
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;L9t2XUUACkzW+y8bNX6uBq0j7QUCZRgYQQIbAwULCQgHAgYVCgkICwIEFgIDAQIe
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AQIXgAAKCRAbNX6uBq0j7cFMEACzgypEamF+so3M4kPPCpYq0KE6auARR/rTGaGz
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;t4XeLYt/ZRw6ent0fupRxGNk+JvOuCbrIGpFhIgWCIemITC/96H4j0bWz0toH8Hd
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;zh5yIvuFrYpLQroSc9ig/a+O9f5NEr5UKJ6Pkvjb4S9dGxPMRCTOa8MB1N2JLoU+
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lFP5y4hXpfjSTTDvqFeqcG6ceqKfZZEMBaxhFJukkA++q2gn486s/fmqrlsD65+f
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;oBQEdzfr6D8xMNZ/0BnyTikL0uVSp8lOQae3vrzjPQmkN+F5RbssLTPJnjED+VVS
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0LxMJK3vCb0s6GUlTdc+tR5Q8y9PV8rAzBy8QomUpSxFpjDrzpUfM+gkSWMI5GJL
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;YWB0NNZTrga2ZTpft8jtudhPS/e3Y58JE3fmK3bQf+IJ87o98H5Pv9tq1y6+bQ4l
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eBB7KGZ//p2SwK8bDiVZwYUTL5rwjCCPzAtyaaSizvvooQIa6NbPcrszzKXmdhGS
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PG8tbybehhqOvHobgTYGBnUZOzIHyseUNaIWbTiIUakrddFtWuakeflGD1LL/Mkj
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PlBAqd6u59NgS0niIBzb9vVQmmqf8bprypLakd5ni+TH5/+HfIJFap+CRoNpOh+0
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Cw2QXHtElrRstbEmWQEpO9DYwLh5VLWOpV2i7izBVOQV7Em11y8w6BbnugqPA4KD
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wbffirQ4WXVzdWtlIE9oYXNoaSAoc2VjdXJlIGdpdCBjb21taXRzKSA8Z2l0aHVi
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;QGp1bmtwaWFuby5tZT6JAjYEMAEKACAWIQSLL9t2XUUACkzW+y8bNX6uBq0j7QUC
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZRgYpgIdIAAKCRAbNX6uBq0j7TEXD/0d418ngRer90YxN6IMWcPpp2yvSws6FKZo
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Xhtv0UWi2AL7Ftthb+HUCdn1VBxTxwgYuHKvGmVbd1tP1qeyoc30YAOaE4ekrIXv
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DHYn/mPxquv0dbbGP4vNPJaq1AnOYsRS/1QiAPLxQ6ao4bVH20r1JLGK+g8375BK
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KMKqyVv7Wqd9C2H+kVKFV7LN9h2YMukwGi89nORMfsMhbi8i/5dnYzALOGej6wP0
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;UV8BN4rHXyUuehN9rBErUXtpCqL4eTTobdfRbaYQ/rlmInkptFNF8DDuIzzLBK1n
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;UMY442/oZph1nXKYOWOo+2z33IfKB8UQ+dcGlOifzjI6wLjJsD9RwOc8eUCMJXh9
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;5bvzgmjZgt7agUY+RHMIug/WyVQabVhFWrdcGem/neMeVozZkF8cNZVmbNokGomE
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;yzJok/Ey+/DUqupjDGo6ex6nPNcfnlH7VFr5Nfu4S0x42+2Zjm10YoSoMYDJzPHN
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;k3pqMoLpm1SSrsesu7qW0t36r+tFQZq8od6/bc7s3mM1gX7CvyrgXskK8Z8JR5VS
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Jba6E6JbbhGqB/KGEH8N+Iyt+2rVqi5dnXBrOmdtFFarQNBelr8FJj6db23E9cCs
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;b8G3EVhHyxTatKSBcn+o5Egy4mje51Fs5w6ukXkiRgAFdRB7KQF1qdYCJSpLAFpk
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LJtl0uvOAYkCTgQTAQgAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJbn/16AhsD
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;BQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtPfIP/19OhlwplzCl
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sud9QdXqn09GTTKpd3oTbWDRS2lHmaXFbxazp/wrLXLxX/5xbC9psSk9srAlJ9TZ
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;NYHKbayp8rr4OLwuw+RAX3B+y7xtklXr0kYr7GwplIrdD6v8S0aO7VvNOry3SdRB
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;rcfo5FzlkX4MjH9CMf9bu76EVfhMDBkwxIQqSOyulW83W6aDfiptUt1D3RWGmVYE
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;d+JF27kyJ+ods2zzJxYCgO1NainpJXrFQ4SaWU0NESuvJ0IOg6K6ERtGPMVao4ez
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lkYDw8acwlmjNs753W3/911JGchTxJlrt9p/lkz3chwFzkqQD1yOBi1gHZoti71l
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kp+yjkuMC7OZkDSQjCHtGbp1MpQx0GXPPUH2UszGdPYnDmACrP/J1HX2TWPz0f7r
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;CaPJma/66S3RXh0QPcxYqrTajW808Z7cubYxFTb3AbTzQhO0ZxXk+JYLEafT3ZrE
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;W/LJO3s8kh3PlbvueqaA99sxltPIfMgwGsk1QuL4Rym2Pu4CX6rs24m6+wH5EfSt
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mxrBK21050BAT4ADtGJTV7g3IWUqFFGZ8NLEDX4VcB/3lu6B4Wg+UDOnpkJrxt81
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;HFvHoskT2dPlQtnx3iArItOrUDxKLj9QwKawhkUkQs5UfHjnd0GYp0LiKXCgyW6a
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Obwo5jw8RPAoWiIaG4lGNiGJFHWAu2wstCNZdXN1a2UgT2hhc2hpIDxnaXRodWJA
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;anVua3BpYW5vLm1lPokCTgQTAQoAOBYhBIsv23ZdRQAKTNb7Lxs1fq4GrSPtBQJl
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;GButAhsDBQsJCAcCBhUKCQgLAgQWAgMBAh4BAheAAAoJEBs1fq4GrSPtiLIP+wdx
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;eZK4N/WmLzmcg9HMj56qK1bPqeMyEnD2ZBO/J6UVXHNR1itQsUF79tWIOl+aJOq1
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ynGcI7k0TYv2a+Pe6w4rwE/WriLM2XpOPRCRACzoGL0U5vZKGPojZMcJvUeaOQmZ
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;Z3skjSNV6cBwwNpNxt2Hi/1U8tXmwey4uq0AuOyUkmvK+igXBTDUhSMLYbL5Bub0
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KnCjpa9l6b3V2+LxbFZOTsB/G0MF6DXFwwPEyL0O7+jSck0PyV3b6rIUrGQT+nQG
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;q5Z4wV4fqrl5+JwFDhhkdvRRSPdOZHtZAOeh9NmNMQrcBezxPOWkHshUbY1fuKW5
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;LZt9b5mtomxo8XQGbiqxBck1Pmg1rnKcL+LNxzpoWeJec+6WOOROS5K3Ay27+sD8
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;MVn5/90lwa9ozNjKFVoa7tD7xAH0w12yaogRWaTaiYXd4tUkUr8Hem82W5KFHJFn
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;lvkRnBj+FntkH87ObsvCO/SnunerzNAi52OeC1xi5owIxgFqKb8zCQmfzxN40hnY
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cNBmEo+PBwT3E7+BQIn8odTfOzjWW92xRvzPHJS4OFQyRdBmXKDTkp6AOg9iUYMp
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;JzbyS8aiIcXW8bSh2MKrHJsDyJta2Go7zP1Fd4RvqJttDS8B8cl61wwar/SY6neR
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;KSwLj0LZJPhEOcdVc1FGaSr8aDIDtuvtxoeuyBBwuQINBFuf/XoBEADIrFyP411Q
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;J0DmKNzctsovASKo2lPE1jNwDdt/AcwzcozEnMbvZrmzSKeqZEwMGHl8NYmznSxM
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vBRoG2xSESPR75Igw20ZhTPEWCYjzu1o01gWdBBer7oIOIXPX+tbJEUvkAFhvl24
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;OSQthjwp1Ens8Brk04hgPTeVKFUaAi75jm/bm2OsmTnnKAe/pSdflVs4/VIbhgwG
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qJaj4dwn0BTWvIfy1bV/V1qm2yFz7YdBH2hgI4Gs9p9a9E7RyZJMdMGjwW9U0TdA
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qnI1Yif3jXYHvUyndetMfl3W0xny8Xw6QlhRy/Ob/10jWThszjeE82H3HK9WID2C
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mNr03rb3dauxUaO4Wbuv3nI/mKuuyVxLR2YjPk7CxihMnaZjNXAOz3/inLomYy1p
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ZkAYVrAX2Z3w/bOz9VFjiwRd0gLHI/LjPvzlSEPkjLJFlP6VZCKoLhvw3EdXfR4O
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nvhsFcioIYvEcvOChCxw92ffZDiNWoG0otQ14egBBDVXnGf1HeQUIQUasp/f+6ZO
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;+xiPzgjnDwSTY9ce9IVE7VAeNTeuF5zx1D3o8TJJZgJsLZD3VwkHa/pFPtH+/eOO
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;y5euhX2xekvbylEnWsTf6iTuxw2tYaesJ7Gm3ZQDL4cNIJZobuyjWiavNGSoePMN
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;QKiQXE6h3+yXkE5OVufOW78SdAGVwLLIWwARAQABiQI2BBgBCAAgFiEEiy/bdl1F
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AApM1vsvGzV+rgatI+0FAluf/XoCGwwACgkQGzV+rgatI+2mRQ/8D10vh5DzgzJ/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;kBJweai/wwMwClFZvM5sVDXpvpA5Qm/lGNnj06H0gE0ONa1RYjG1l4o9pJrDlLM4
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;XY1+vt641PUb02vgQ2xVZqPr0eo1OMSERZRgaTywT7T7XdOCdMfsPPDGzCzdrIf3
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qz9aa2ZvrGNIqSU0j1KdDVAIMGHxkDgnUbCIeoGxKRzr9mpYIsPPp7a90Xw9uKYq
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;quYSO1v71wktprbnygqNWWQ4w9a/A6yjciFAMlE0wGRlZa4Chkjb2D876IbjI5oE
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;iwMC5LIgcUb21FzpdSxxibVRieCUd2x2swXquf90wjvL+4aZ3JRZfn/zvjnEH3u7
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;1utyf1YBEZrCLchxwuLMNnZVRWbUPJ5pOcNxAq7WzcEs5pq5QgkL+ADUZzA8ks78
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;AG6vrbVmyO/M+v3Vh1BRkqN9Lmtn9wNqVnQ8VUnhikrg1j9hNGyaSchozi/Hf+Br
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;qWn+3e0PCwVdZJp/DygDXiWZdebf6pPJbjZLp3VlcgSUzsEaIWQe4nrA2jAu5QjI
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;DAWs2zVh9qTSUQg+XOMz65sUlMfdTEWVUKsZgEG9ndhbN0n3mQ7ffi28k4m6q50C
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WDhUzySVfJ5lBoWiM27N/0mMe4PkV6P3XhqbQ4l5xCc0kz+2xJ1YKbrubmsjVULH
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0g1JYYUBjuVWXCh/g4i5rgk/kpqrteg=
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;=HmQB
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;-----END PGP PUBLIC KEY BLOCK-----
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;p&gt;ただの静的なウェブサイトなんですが、少しばかり技術にはこだわっていてそれについては&lt;a href=&#34;https://yusuke.cloud/9/&#34;&gt;こちらの記事&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;日々学んだことは、こちらに&lt;a href=&#34;https://junkpiano.github.io/til/&#34;&gt;マイクロブログ&lt;/a&gt;書くこともあります。&lt;/p&gt;
+&lt;p&gt;SNSは主に&lt;a href=&#34;https://nosta.me/npub1ukw4ck0vwlnfv7ntpmchs49kgz37st9pdqfxfqc3q93jkt4xvj4q3w30l2&#34;&gt;nostr&lt;/a&gt;を使っているので、ご自由にFollowしてください。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;nostr: npub1ukw4ck0vwlnfv7ntpmchs49kgz37st9pdqfxfqc3q93jkt4xvj4q3w30l2&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LN: &lt;a href=&#34;mailto:pay@yusuke.cloud&#34;&gt;pay@yusuke.cloud&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PGP: 8B2F DB76 5D45 000A 4CD6 FB2F 1B35 7EAE 06AD 23ED&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Java 101</title>
