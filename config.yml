@@ -106,7 +106,10 @@ languages:
           url: /index.xml
         - name: TIL
           weight: 5
-          url: https://junkpiano.github.io/til/
+          url: https://til.yusuke.cloud
+        - name: nostr
+          weight: 6
+          url: https://nostr.yusuke.cloud
   ja:
     LanguageName: ':jp:'
     contentDir: content/japanese
@@ -134,3 +137,6 @@ languages:
         - name: 学び
           weight: 5
           url: https://til.yusuke.cloud
+        - name: nostr
+          weight: 6
+          url: https://nostr.yusuke.cloud
