@@ -57,8 +57,7 @@
       <description>&lt;p&gt;I experimented automating &lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;my micro blog&lt;/a&gt; so that it&amp;rsquo;s generated from github issues.&lt;/p&gt;
 &lt;p&gt;In this blog post, I will show you how I redesigned my blogging workflow.&lt;/p&gt;
 &lt;h2 id=&#34;system-diagram&#34;&gt;System Diagram&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/automate-publishing.drawio.png&#34; alt=&#34;system diagram&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;system diagram&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/automate-publishing.drawio.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;All piplines are run on github platforms.&lt;/p&gt;
 &lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
 &lt;p&gt;Normally, we google around issues, and paste code from stackoverflow. That&amp;rsquo;s it. Nothing more.
@@ -103,8 +102,7 @@ I introduced my private swift project.&lt;/p&gt;
       <guid>http://localhost:1313/how-i-built-this-blog/</guid>
       <description>&lt;p&gt;This is a snapshot as of 2021/6. I will write about this blog.
 This digram shows my blog architecture.&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34; alt=&#34;diagram&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;diagram&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;core&#34;&gt;Core&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;&lt;strong&gt;Linode&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
@@ -210,17 +208,14 @@ I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/img/language-server-sequence.png&#34; alt=&#34;diagram&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;diagram&#34; loading=&#34;lazy&#34; src=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/img/language-server-sequence.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&#34;&gt;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Solves &lt;em&gt;m-times-n&lt;/em&gt; complexity problems&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png&#34; alt=&#34;width:600px&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;width:600px&#34; loading=&#34;lazy&#34; src=&#34;https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;what-is-sourcekit-lsp&#34;&gt;What is Sourcekit-LSP?&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/source_kit_lsp_github.png&#34; alt=&#34;width:800px&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;width:800px&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/source_kit_lsp_github.png&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Apple&amp;rsquo;s LSP implementation on top of &lt;code&gt;sourcekitd&lt;/code&gt; and &lt;code&gt;clangd&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sourcekitd&lt;/code&gt; is a framework that provide IDE features&lt;/li&gt;
@@ -267,8 +262,7 @@ And the class, enum must conform to &lt;code&gt;RequestContainer&lt;/code&gt; pr
       <guid>http://localhost:1313/crontab-guru/</guid>
       <description>&lt;p&gt;If you use google whenever you write crontab, this website is good for you.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34; alt=&#34;crontab guru screenshot&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;crontab guru screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Crontab format is not intuitive. This website tells you how your cron will work.
 You can input your own cron job in the rounded textfield, and you can check how it works before you start on your server.
 It will help you avoid significant mistakes before deploying your job.&lt;/p&gt;</description>
@@ -282,12 +276,10 @@ It will help you avoid significant mistakes before deploying your job.&lt;/p&gt;
 &lt;p&gt;This example shows dependency graph of &lt;code&gt;react-native-maps&lt;/code&gt;, which I was investigating last night.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;2d&#34;&gt;2D&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-2d.png&#34; alt=&#34;2d&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;2d&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-2d.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You can drag nodes, and highlight node with cursor on.&lt;/p&gt;
 &lt;h2 id=&#34;3d&#34;&gt;3D&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-3d.png&#34; alt=&#34;3d&#34;  /&gt;
-&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;3d&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-3d.png&#34;&gt;&lt;/p&gt;
 &lt;p&gt;You can rotate graph, but 3D doesn&amp;rsquo;t show module names.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://npm.anvaka.com/&#34;&gt;https://npm.anvaka.com/&lt;/a&gt;&lt;/li&gt;
