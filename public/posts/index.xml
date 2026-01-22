@@ -11,43 +11,28 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 May 2024 11:08:11 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keycloak: The Architect&#39;s Guide to Identity and Access Management</title>
+      <link>https://yusuke.cloud/keycloak-architects-guide-iam/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/keycloak-architects-guide-iam/</guid>
+      <description>A comprehensive guide to Keycloak for software architects, covering authentication, authorization, and IAM best practices</description>
+    </item>
     <item>
       <title>Dotfiles</title>
       <link>https://yusuke.cloud/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
       <guid>https://yusuke.cloud/dotfiles/</guid>
-      <description>&lt;p&gt;&amp;ldquo;Dotfiles&amp;rdquo; refer to configuration files in Unix-like operating systems that begin with a dot (.). They are used to customize and configure user environments, applications, and tools. Common examples include &lt;code&gt;.bashrc&lt;/code&gt;, &lt;code&gt;.vimrc&lt;/code&gt;, and &lt;code&gt;.gitconfig&lt;/code&gt;. Managing these configuration files effectively, often referred to as the &amp;ldquo;dotfiles&amp;rdquo; practice, offers several benefits:&lt;/p&gt;
-&lt;h3 id=&#34;benefits-of-managing-dotfiles&#34;&gt;Benefits of Managing Dotfiles&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Consistency Across Environments&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;By maintaining a set of dotfiles, you can ensure that your development environment is consistent across multiple machines. Whether you are working on your home computer, a work laptop, or a remote server, you can have the same configurations and settings.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Version Control&lt;/strong&gt;:&lt;/p&gt;</description>
+      <description>A comprehensive guide to managing dotfiles for consistent development environments across multiple machines</description>
     </item>
     <item>
       <title>Writing C Compiler</title>
       <link>https://yusuke.cloud/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
       <guid>https://yusuke.cloud/writing-c-compiler/</guid>
-      <description>&lt;p&gt;I am now writing c compiler to learn how a compiler works.&lt;/p&gt;
-&lt;p&gt;C Compiler translates source code(strings) into assembly language.&lt;/p&gt;
-&lt;p&gt;First of all, this Compiler breaks strings into tokens, and then parses strings into nodes using tokens, and finally generates assembly.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Tokenizer&lt;/li&gt;
-&lt;li&gt;Parser&lt;/li&gt;
-&lt;li&gt;Code Generator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;tokenizer&#34;&gt;Tokenizer&lt;/h2&gt;
-&lt;p&gt;Tokenizer traverses strings and creates a linkedlist of tokens.&lt;/p&gt;
-&lt;h2 id=&#34;parser&#34;&gt;Parser&lt;/h2&gt;
-&lt;p&gt;Parser parses strings into nodes.&lt;/p&gt;
-&lt;p&gt;To implement parser, we need compiler design. Normally we use BNF(Backus-Naur Form) notation to design compiler.&lt;/p&gt;</description>
+      <description>A journey into compiler development: building a C compiler with tokenizer, parser, and code generator</description>
     </item>
     <item>
       <title>Github Issue Driven Blog</title>
