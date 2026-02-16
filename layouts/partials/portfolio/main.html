@@ -121,8 +121,7 @@
 
   {{- with .Params.footer -}}
   <footer class="pm-portfolio__footer">
-    <p>{{ . | markdownify }}</p>
+    <div class="pm-portfolio__footer-content">{{ . | markdownify }}</div>
   </footer>
   {{- end -}}
 </article>
-
