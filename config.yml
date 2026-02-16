@@ -105,7 +105,7 @@ languages:
           url: https://til.yusuke.cloud
         - name: nostr
           weight: 5
-          url: https://nostr.yusuke.cloud
+          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
   ja:
     LanguageName: ':jp:'
     contentDir: content/japanese
@@ -128,4 +128,4 @@ languages:
           url: https://til.yusuke.cloud
         - name: nostr
           weight: 5
-          url: https://nostr.yusuke.cloud
+          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
