@@ -21,3 +21,27 @@ HUGO_VERSION = "0.69.2"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/about"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/about/"
+to = "/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/ja/about"
+to = "/ja/"
+status = 301
+force = true
+
+[[redirects]]
+from = "/ja/about/"
+to = "/ja/"
+status = 301
+force = true
