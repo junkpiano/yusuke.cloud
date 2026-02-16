@@ -97,17 +97,20 @@ languages:
         - name: About
           weight: 2
           url: /about/
-        - name: Posts
+        - name: Portfolio
           weight: 3
+          url: /portfolio/
+        - name: Posts
+          weight: 4
           url: /posts/
         - name: RSS
-          weight: 4
+          weight: 5
           url: /index.xml
         - name: TIL
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nostr.yusuke.cloud
   ja:
     LanguageName: ':jp:'
@@ -123,15 +126,18 @@ languages:
         - name: これは何？
           weight: 2
           url: /about/
-        - name: 記事
+        - name: ポートフォリオ
           weight: 3
+          url: /portfolio/
+        - name: 記事
+          weight: 4
           url: /posts/
         - name: 購読
-          weight: 4
+          weight: 5
           url: /ja/index.xml
         - name: 学び
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nostr.yusuke.cloud

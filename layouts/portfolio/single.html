@@ -1,0 +1,132 @@
+{{- define "main" -}}
+
+{{- /* A custom single template for /portfolio/. Content is driven by front matter params. */ -}}
+
+<article class="pm-portfolio">
+  <header class="pm-portfolio__hero">
+    <div class="pm-portfolio__hero-inner">
+      <p class="pm-portfolio__kicker">{{ .Params.kicker | default "Portfolio" }}</p>
+      <h1 class="pm-portfolio__title">
+        {{- .Params.heroTitle | default .Title -}}
+      </h1>
+      {{- with (.Params.tagline | default site.Params.info) -}}
+      <p class="pm-portfolio__tagline">{{ . }}</p>
+      {{- end -}}
+
+      {{- with .Params.links -}}
+      <div class="pm-portfolio__cta">
+        {{- range . -}}
+          {{- $label := .label | default "Link" -}}
+          {{- $url := .url -}}
+          {{- if $url -}}
+          <a class="pm-portfolio__btn" href="{{ $url | safeURL }}" rel="noopener noreferrer">
+            {{- $label -}}
+          </a>
+          {{- end -}}
+        {{- end -}}
+      </div>
+      {{- end -}}
+
+      {{- with .Params.highlights -}}
+      <ul class="pm-portfolio__highlights">
+        {{- range . -}}
+        <li>{{ . }}</li>
+        {{- end -}}
+      </ul>
+      {{- end -}}
+    </div>
+  </header>
+
+  {{- if .Content -}}
+  <section class="pm-portfolio__section pm-portfolio__section--intro">
+    <div class="pm-portfolio__prose">
+      {{ .Content }}
+    </div>
+  </section>
+  {{- end -}}
+
+  {{- with .Params.projects -}}
+  <section class="pm-portfolio__section">
+    <div class="pm-portfolio__section-head">
+      <h2 class="pm-portfolio__h2">{{ $.Params.projectsTitle | default "Projects" }}</h2>
+      {{- with $.Params.projectsNote -}}<p class="pm-portfolio__muted">{{ . }}</p>{{- end -}}
+    </div>
+
+    <div class="pm-portfolio__grid">
+      {{- range . -}}
+      <article class="pm-portfolio__card">
+        <header class="pm-portfolio__card-head">
+          <h3 class="pm-portfolio__h3">{{ .title }}</h3>
+          {{- with .meta -}}<p class="pm-portfolio__meta">{{ . }}</p>{{- end -}}
+        </header>
+
+        {{- with .summary -}}
+        <p class="pm-portfolio__summary">{{ . }}</p>
+        {{- end -}}
+
+        {{- with .bullets -}}
+        <ul class="pm-portfolio__bullets">
+          {{- range . -}}<li>{{ . }}</li>{{- end -}}
+        </ul>
+        {{- end -}}
+
+        {{- with .tech -}}
+        <ul class="pm-portfolio__tags" aria-label="Tech">
+          {{- range . -}}<li>{{ . }}</li>{{- end -}}
+        </ul>
+        {{- end -}}
+
+        {{- with .links -}}
+        <div class="pm-portfolio__links">
+          {{- range . -}}
+            {{- if and .label .url -}}
+            <a class="pm-portfolio__link" href="{{ .url | safeURL }}" rel="noopener noreferrer">{{ .label }}</a>
+            {{- end -}}
+          {{- end -}}
+        </div>
+        {{- end -}}
+      </article>
+      {{- end -}}
+    </div>
+  </section>
+  {{- end -}}
+
+  {{- with .Params.skills -}}
+  <section class="pm-portfolio__section">
+    <div class="pm-portfolio__section-head">
+      <h2 class="pm-portfolio__h2">{{ $.Params.skillsTitle | default "Skills" }}</h2>
+    </div>
+    <ul class="pm-portfolio__skills">
+      {{- range . -}}<li>{{ . }}</li>{{- end -}}
+    </ul>
+  </section>
+  {{- end -}}
+
+  <section class="pm-portfolio__section">
+    <div class="pm-portfolio__section-head">
+      <h2 class="pm-portfolio__h2">{{ .Params.writingTitle | default "Recent Writing" }}</h2>
+      <p class="pm-portfolio__muted">{{ .Params.writingNote | default "A few recent posts from this site." }}</p>
+    </div>
+
+    {{- $posts := where site.RegularPages "Type" "posts" -}}
+    {{- $posts = where $posts "Lang" .Lang -}}
+    {{- $posts = first 5 (sort $posts "Date" "desc") -}}
+    <div class="pm-portfolio__list">
+      {{- range $posts -}}
+      <a class="pm-portfolio__row" href="{{ .RelPermalink }}">
+        <span class="pm-portfolio__row-title">{{ .Title }}</span>
+        <span class="pm-portfolio__row-date">{{ .Date.Format "2006-01-02" }}</span>
+      </a>
+      {{- end -}}
+    </div>
+  </section>
+
+  {{- with .Params.footer -}}
+  <footer class="pm-portfolio__footer">
+    <p>{{ . | markdownify }}</p>
+  </footer>
+  {{- end -}}
+</article>
+
+{{- end -}}
+
