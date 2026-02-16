@@ -354,10 +354,38 @@ html[data-theme="dark"] .pm-portfolio__row:hover {
 
 .pm-portfolio__footer {
   margin-top: 24px;
-  padding: 16px 16px;
+  padding: 18px 18px;
   border-radius: 16px;
   border: 1px solid var(--p-border);
   background: var(--p-card);
   color: var(--p-muted);
 }
 
+/* Footer content is authored in Markdown; normalize margins and spacing so the card feels "tight". */
+.pm-portfolio__footer-content {
+  display: grid;
+  gap: 10px;
+}
+
+.pm-portfolio__footer-content > :first-child { margin-top: 0; }
+.pm-portfolio__footer-content > :last-child { margin-bottom: 0; }
+
+.pm-portfolio__footer-content p {
+  margin: 0;
+}
+
+.pm-portfolio__footer-content h2 {
+  margin: 10px 0 0;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+  color: var(--p-ink);
+}
+
+.pm-portfolio__footer-content ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.pm-portfolio__footer-content li {
+  margin: 6px 0;
+}
