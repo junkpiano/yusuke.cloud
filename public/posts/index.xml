@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.155.3</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keycloak: The Architect&#39;s Guide to Identity and Access Management</title>
-      <link>https://yusuke.cloud/keycloak-architects-guide-iam/</link>
+      <link>http://localhost:1313/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/keycloak-architects-guide-iam/</guid>
+      <guid>http://localhost:1313/keycloak-architects-guide-iam/</guid>
       <description>A comprehensive guide to Keycloak for software architects, covering authentication, authorization, and IAM best practices</description>
     </item>
     <item>
       <title>Dotfiles</title>
-      <link>https://yusuke.cloud/dotfiles/</link>
+      <link>http://localhost:1313/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>https://yusuke.cloud/dotfiles/</guid>
+      <guid>http://localhost:1313/dotfiles/</guid>
       <description>A comprehensive guide to managing dotfiles for consistent development environments across multiple machines</description>
     </item>
     <item>
       <title>Writing C Compiler</title>
-      <link>https://yusuke.cloud/writing-c-compiler/</link>
+      <link>http://localhost:1313/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>https://yusuke.cloud/writing-c-compiler/</guid>
+      <guid>http://localhost:1313/writing-c-compiler/</guid>
       <description>A journey into compiler development: building a C compiler with tokenizer, parser, and code generator</description>
     </item>
     <item>
       <title>Github Issue Driven Blog</title>
-      <link>https://yusuke.cloud/github-issue-driven-blog/</link>
+      <link>http://localhost:1313/github-issue-driven-blog/</link>
       <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
-      <guid>https://yusuke.cloud/github-issue-driven-blog/</guid>
+      <guid>http://localhost:1313/github-issue-driven-blog/</guid>
       <description>&lt;p&gt;I experimented automating &lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;my micro blog&lt;/a&gt; so that it&amp;rsquo;s generated from github issues.&lt;/p&gt;
 &lt;p&gt;In this blog post, I will show you how I redesigned my blogging workflow.&lt;/p&gt;
 &lt;h2 id=&#34;system-diagram&#34;&gt;System Diagram&lt;/h2&gt;
@@ -52,16 +52,16 @@ I need to establish publishing method that I can do on my mobile phone.&lt;/p&gt
     </item>
     <item>
       <title>XCConfig</title>
-      <link>https://yusuke.cloud/xcconfig/</link>
+      <link>http://localhost:1313/xcconfig/</link>
       <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/xcconfig/</guid>
+      <guid>http://localhost:1313/xcconfig/</guid>
       <description>Externalize build information from Info.plist</description>
     </item>
     <item>
       <title>SwiftDoc Action for Fastlane</title>
-      <link>https://yusuke.cloud/swiftdoc-action-for-fastlane/</link>
+      <link>http://localhost:1313/swiftdoc-action-for-fastlane/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
-      <guid>https://yusuke.cloud/swiftdoc-action-for-fastlane/</guid>
+      <guid>http://localhost:1313/swiftdoc-action-for-fastlane/</guid>
       <description>&lt;p&gt;I just want to announce I created a fastlane action for &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt;, since I couldn&amp;rsquo;t find it in the fastlane official docs.&lt;/p&gt;
 &lt;p&gt;SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project.
 It has very clean UI and also generates beautiful dependency graph.
@@ -71,7 +71,7 @@ I introduced my private swift project.&lt;/p&gt;
 
 &lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;e.g.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      input: &amp;#34;Sources&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      module_name: &amp;#34;YourModuleName&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      output: &amp;#34;docs/&amp;#34;,
@@ -82,9 +82,9 @@ I introduced my private swift project.&lt;/p&gt;
     </item>
     <item>
       <title>How I built this blog</title>
-      <link>https://yusuke.cloud/how-i-built-this-blog/</link>
+      <link>http://localhost:1313/how-i-built-this-blog/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
-      <guid>https://yusuke.cloud/how-i-built-this-blog/</guid>
+      <guid>http://localhost:1313/how-i-built-this-blog/</guid>
       <description>&lt;p&gt;This is a snapshot as of 2021/6. I will write about this blog.
 This digram shows my blog architecture.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;diagram&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
@@ -97,9 +97,9 @@ This digram shows my blog architecture.&lt;/p&gt;
     </item>
     <item>
       <title>Make Comment Great Again</title>
-      <link>https://yusuke.cloud/make-comment-great-again/</link>
+      <link>http://localhost:1313/make-comment-great-again/</link>
       <pubDate>Fri, 18 Jun 2021 08:04:24 +0000</pubDate>
-      <guid>https://yusuke.cloud/make-comment-great-again/</guid>
+      <guid>http://localhost:1313/make-comment-great-again/</guid>
       <description>&lt;p&gt;I haven&amp;rsquo;t use comment feature on this weblog, but I really wanted to implement it.
 I have tried &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. It was cool but it turned out that it didn&amp;rsquo;t match my needs.&lt;/p&gt;
 &lt;h2 id=&#34;thought-of-disqus&#34;&gt;Thought of Disqus&lt;/h2&gt;
@@ -112,23 +112,23 @@ I have tried &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;. It wa
     </item>
     <item>
       <title>NWPathMonitor</title>
-      <link>https://yusuke.cloud/nwpathmonitor/</link>
+      <link>http://localhost:1313/nwpathmonitor/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>https://yusuke.cloud/nwpathmonitor/</guid>
+      <guid>http://localhost:1313/nwpathmonitor/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;NWPathMonitor is a class in Network framework, which observes network status and monitor network interface.
 It&amp;rsquo;s available in iOS 12 or later.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You must retain NWPathMonitor instances to get callbacks.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;requiredInterface&lt;/code&gt; lets you observe the specific network interface.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here is the list of interfaces that NWPathMonitor supports.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.apple.com/documentation/network/nwinterface/interfacetype&#34;&gt;https://developer.apple.com/documentation/network/nwinterface/interfacetype&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;detect-network-changes&#34;&gt;Detect network changes&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; path.status == .satisfied {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Connected&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
@@ -138,18 +138,18 @@ It&amp;rsquo;s available in iOS 12 or later.&lt;/p&gt;
     </item>
     <item>
       <title>Munin Installation Memo</title>
-      <link>https://yusuke.cloud/munin-installation-memo/</link>
+      <link>http://localhost:1313/munin-installation-memo/</link>
       <pubDate>Tue, 21 Apr 2020 07:02:57 +0000</pubDate>
-      <guid>https://yusuke.cloud/munin-installation-memo/</guid>
+      <guid>http://localhost:1313/munin-installation-memo/</guid>
       <description>&lt;p&gt;Have you ever listened to &lt;a href=&#34;http://munin-monitoring.org/&#34;&gt;Munin&lt;/a&gt;?
 Munin is a server resource monitoring tool, which provides graphical interfaces for a bunch of data&lt;/p&gt;
 &lt;p&gt;Munin is quite simple and easy to set up.&lt;/p&gt;
 &lt;p&gt;Here, I will write down my configuration when I set up munin lately.
 I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4/&#34;&gt;Ubuntu 18.04 LTS&lt;/a&gt;.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt update
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt update
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt install munin munin-node nginx
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;nginx-configuration&#34;&gt;Nginx Configuration&lt;/h3&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;server {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;server {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        listen &lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; default_server;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        listen [::]:&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; default_server;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
@@ -177,9 +177,9 @@ I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4
     </item>
     <item>
       <title>LSP for Swift</title>
-      <link>https://yusuke.cloud/lsp-for-swift/</link>
+      <link>http://localhost:1313/lsp-for-swift/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
-      <guid>https://yusuke.cloud/lsp-for-swift/</guid>
+      <guid>http://localhost:1313/lsp-for-swift/</guid>
       <description>&lt;h2 id=&#34;what-is-language-server-protocollsp&#34;&gt;What is Language Server Protocol(LSP)?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Language Server Protocol defines &lt;strong&gt;standardized protocol&lt;/strong&gt; with which both a text editor or IDE(client) and a language(server) communicate.&lt;/li&gt;
@@ -211,9 +211,9 @@ I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4
     </item>
     <item>
       <title>2018 in review</title>
-      <link>https://yusuke.cloud/2018-in-review/</link>
+      <link>http://localhost:1313/2018-in-review/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/2018-in-review/</guid>
+      <guid>http://localhost:1313/2018-in-review/</guid>
       <description>&lt;p&gt;2018 was yet another awesome year.&lt;/p&gt;
 &lt;h2 id=&#34;commitments-in-work&#34;&gt;Commitments in work&lt;/h2&gt;
 &lt;p&gt;I worked on building mobile development foundation.&lt;/p&gt;
@@ -229,9 +229,9 @@ What I exactly did is that I moved my blog on docker on Linode instance.&lt;/p&g
     </item>
     <item>
       <title>Network Abstraction Layer</title>
-      <link>https://yusuke.cloud/network-abstraction-layer/</link>
+      <link>http://localhost:1313/network-abstraction-layer/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/network-abstraction-layer/</guid>
+      <guid>http://localhost:1313/network-abstraction-layer/</guid>
       <description>&lt;p&gt;I am experimenting a new way for network request in &lt;code&gt;Kiri&lt;/code&gt; library.
 &lt;code&gt;Kiri&lt;/code&gt; is &lt;code&gt;Moya&lt;/code&gt; inspired abstract networking layer. I was very impressed by &lt;code&gt;Moya&lt;/code&gt; architecture, so to learn from it the most, I decided to trace the same architecture by writing by myself, instead of copy and paste. :D&lt;/p&gt;
 &lt;p&gt;We need to break down client library into three parts.&lt;/p&gt;
@@ -242,9 +242,9 @@ And the class, enum must conform to &lt;code&gt;RequestContainer&lt;/code&gt; pr
     </item>
     <item>
       <title>Crontab Guru</title>
-      <link>https://yusuke.cloud/crontab-guru/</link>
+      <link>http://localhost:1313/crontab-guru/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/crontab-guru/</guid>
+      <guid>http://localhost:1313/crontab-guru/</guid>
       <description>&lt;p&gt;If you use google whenever you write crontab, this website is good for you.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;crontab guru screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34;&gt;&lt;/p&gt;
@@ -254,9 +254,9 @@ It will help you avoid significant mistakes before deploying your job.&lt;/p&gt;
     </item>
     <item>
       <title>NPM Dependency Graph</title>
-      <link>https://yusuke.cloud/npm-dependency-graph/</link>
+      <link>http://localhost:1313/npm-dependency-graph/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/npm-dependency-graph/</guid>
+      <guid>http://localhost:1313/npm-dependency-graph/</guid>
       <description>&lt;p&gt;I found the awesome tool to visualize npm dependency graph.&lt;/p&gt;
 &lt;p&gt;This example shows dependency graph of &lt;code&gt;react-native-maps&lt;/code&gt;, which I was investigating last night.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;
