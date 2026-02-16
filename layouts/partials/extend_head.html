@@ -1,7 +1,7 @@
 <a rel="me" href="https://pawoo.net/@junkpiano"></a>
 
 {{- /* Portfolio page-only styles/fonts */ -}}
-{{- if or (eq .Type "portfolio") (eq .Section "portfolio") -}}
+{{- if or (eq .Kind "home") (eq .Type "portfolio") (eq .Section "portfolio") -}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
