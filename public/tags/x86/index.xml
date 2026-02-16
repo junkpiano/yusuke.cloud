@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>X86 on Yusuke Ohashi</title>
-    <link>http://localhost:1313/tags/x86/</link>
+    <link>https://yusuke.cloud/tags/x86/</link>
     <description>Recent content in X86 on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Aug 2022 02:50:09 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/x86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/tags/x86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing C Compiler</title>
-      <link>http://localhost:1313/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/writing-c-compiler/</guid>
       <description>A journey into compiler development: building a C compiler with tokenizer, parser, and code generator</description>
     </item>
   </channel>

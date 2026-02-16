@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yusuke Ohashi</title>
-    <link>http://localhost:1313/authors/yusuke-ohashi/</link>
+    <link>https://yusuke.cloud/authors/yusuke-ohashi/</link>
     <description>Recent content on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.155.3</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keycloak: The Architect&#39;s Guide to Identity and Access Management</title>
-      <link>http://localhost:1313/keycloak-architects-guide-iam/</link>
+      <link>https://yusuke.cloud/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/keycloak-architects-guide-iam/</guid>
+      <guid>https://yusuke.cloud/keycloak-architects-guide-iam/</guid>
       <description>A comprehensive guide to Keycloak for software architects, covering authentication, authorization, and IAM best practices</description>
     </item>
     <item>
       <title>Dotfiles</title>
-      <link>http://localhost:1313/dotfiles/</link>
+      <link>https://yusuke.cloud/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>http://localhost:1313/dotfiles/</guid>
+      <guid>https://yusuke.cloud/dotfiles/</guid>
       <description>A comprehensive guide to managing dotfiles for consistent development environments across multiple machines</description>
     </item>
     <item>
       <title>Writing C Compiler</title>
-      <link>http://localhost:1313/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/writing-c-compiler/</guid>
       <description>A journey into compiler development: building a C compiler with tokenizer, parser, and code generator</description>
     </item>
     <item>
       <title>SwiftDoc Action for Fastlane</title>
-      <link>http://localhost:1313/swiftdoc-action-for-fastlane/</link>
+      <link>https://yusuke.cloud/swiftdoc-action-for-fastlane/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
-      <guid>http://localhost:1313/swiftdoc-action-for-fastlane/</guid>
+      <guid>https://yusuke.cloud/swiftdoc-action-for-fastlane/</guid>
       <description>&lt;p&gt;I just want to announce I created a fastlane action for &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt;, since I couldn&amp;rsquo;t find it in the fastlane official docs.&lt;/p&gt;
 &lt;p&gt;SwiftDoc is yet another documentation generator, and it&amp;rsquo;s dedicated for Swift project.
 It has very clean UI and also generates beautiful dependency graph.
@@ -48,7 +48,7 @@ I introduced my private swift project.&lt;/p&gt;
 
 &lt;p&gt;Place this script into &lt;code&gt;fastlane/actions&lt;/code&gt;, and run in &lt;code&gt;Fastfile&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;e.g.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      input: &amp;#34;Sources&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      module_name: &amp;#34;YourModuleName&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      output: &amp;#34;docs/&amp;#34;,
@@ -59,9 +59,9 @@ I introduced my private swift project.&lt;/p&gt;
     </item>
     <item>
       <title>How I built this blog</title>
-      <link>http://localhost:1313/how-i-built-this-blog/</link>
+      <link>https://yusuke.cloud/how-i-built-this-blog/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
-      <guid>http://localhost:1313/how-i-built-this-blog/</guid>
+      <guid>https://yusuke.cloud/how-i-built-this-blog/</guid>
       <description>&lt;p&gt;This is a snapshot as of 2021/6. I will write about this blog.
 This digram shows my blog architecture.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;diagram&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;

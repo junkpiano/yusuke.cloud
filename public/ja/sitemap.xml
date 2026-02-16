@@ -2,130 +2,143 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ja/categories/</loc>
+    <loc>https://yusuke.cloud/ja/categories/</loc>
     <lastmod>2023-11-25T08:50:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/categories/"
+                href="https://yusuke.cloud/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/categories/"
+                href="https://yusuke.cloud/ja/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/categories/git/</loc>
+    <loc>https://yusuke.cloud/ja/categories/git/</loc>
     <lastmod>2023-11-25T08:50:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/git-on-windows/</loc>
+    <loc>https://yusuke.cloud/ja/git-on-windows/</loc>
     <lastmod>2023-11-25T08:50:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/</loc>
+    <loc>https://yusuke.cloud/ja/posts/</loc>
+    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yusuke.cloud/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yusuke.cloud/ja/posts/"
+                />
+  </url><url>
+    <loc>https://yusuke.cloud/ja/</loc>
     <lastmod>2026-02-16T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="https://yusuke.cloud/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/"
+                href="https://yusuke.cloud/ja/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/eos-x7i-webcam-failure/</loc>
+    <loc>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</loc>
     <lastmod>2022-05-31T03:17:07+09:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/eldenring-translation-dispute/</loc>
+    <loc>https://yusuke.cloud/ja/eldenring-translation-dispute/</loc>
     <lastmod>2021-07-21T03:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/testing-auto-deploy/</loc>
+    <loc>https://yusuke.cloud/ja/testing-auto-deploy/</loc>
     <lastmod>2021-07-21T03:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/authors/</loc>
+    <loc>https://yusuke.cloud/ja/authors/</loc>
     <lastmod>2021-07-12T08:04:09+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/"
+                href="https://yusuke.cloud/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/authors/"
+                href="https://yusuke.cloud/ja/authors/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/multilingual-hugo/</loc>
+    <loc>https://yusuke.cloud/ja/multilingual-hugo/</loc>
     <lastmod>2021-07-12T08:04:09+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/authors/yusuke-ohashi/</loc>
+    <loc>https://yusuke.cloud/ja/authors/yusuke-ohashi/</loc>
     <lastmod>2021-07-12T08:04:09+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/authors/yusuke-ohashi/"
+                href="https://yusuke.cloud/authors/yusuke-ohashi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/authors/yusuke-ohashi/"
+                href="https://yusuke.cloud/ja/authors/yusuke-ohashi/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/about/</loc>
+    <loc>https://yusuke.cloud/ja/about/</loc>
     <lastmod>2021-07-12T16:20:37+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="https://yusuke.cloud/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/about/"
+                href="https://yusuke.cloud/ja/about/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/portfolio/</loc>
+    <loc>https://yusuke.cloud/ja/portfolio/</loc>
     <lastmod>2026-02-16T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/portfolio/"
+                href="https://yusuke.cloud/portfolio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/portfolio/"
+                href="https://yusuke.cloud/ja/portfolio/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/categories/java/</loc>
+    <loc>https://yusuke.cloud/ja/categories/java/</loc>
     <lastmod>2020-04-12T11:09:21+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/java-101/</loc>
+    <loc>https://yusuke.cloud/ja/java-101/</loc>
     <lastmod>2020-04-12T11:09:21+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ja/series/</loc>
+    <loc>https://yusuke.cloud/ja/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/series/"
+                href="https://yusuke.cloud/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/series/"
+                href="https://yusuke.cloud/ja/series/"
                 />
   </url><url>
-    <loc>http://localhost:1313/ja/tags/</loc>
+    <loc>https://yusuke.cloud/ja/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="https://yusuke.cloud/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ja"
-                href="http://localhost:1313/ja/tags/"
+                href="https://yusuke.cloud/ja/tags/"
                 />
   </url>
 </urlset>
