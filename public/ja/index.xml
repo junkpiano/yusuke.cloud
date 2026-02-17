@@ -9,9 +9,9 @@
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo -- 0.154.5</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Nov 2023 08:50:00 +0000</lastBuildDate>
     <atom:link href="https://yusuke.cloud/ja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git on Windows</title>
@@ -91,13 +91,6 @@
 &lt;li&gt;&lt;strong&gt;LN: &lt;a href=&#34;mailto:pay@yusuke.cloud&#34;&gt;pay@yusuke.cloud&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;PGP: 8B2F DB76 5D45 000A 4CD6 FB2F 1B35 7EAE 06AD 23ED&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>ポートフォリオ</title>
-      <link>https://yusuke.cloud/ja/portfolio/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/ja/portfolio/</guid>
-      <description>プロジェクトの抜粋とリンク集。</description>
     </item>
     <item>
       <title>Java 101</title>
