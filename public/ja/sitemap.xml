@@ -21,8 +21,21 @@
     <loc>https://yusuke.cloud/ja/git-on-windows/</loc>
     <lastmod>2023-11-25T08:50:00+00:00</lastmod>
   </url><url>
-    <loc>https://yusuke.cloud/ja/</loc>
+    <loc>https://yusuke.cloud/ja/posts/</loc>
     <lastmod>2023-11-25T08:50:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yusuke.cloud/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yusuke.cloud/ja/posts/"
+                />
+  </url><url>
+    <loc>https://yusuke.cloud/ja/</loc>
+    <lastmod>2026-02-16T00:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -83,6 +96,19 @@
                 rel="alternate"
                 hreflang="ja"
                 href="https://yusuke.cloud/ja/about/"
+                />
+  </url><url>
+    <loc>https://yusuke.cloud/ja/portfolio/</loc>
+    <lastmod>2026-02-16T00:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yusuke.cloud/portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yusuke.cloud/ja/portfolio/"
                 />
   </url><url>
     <loc>https://yusuke.cloud/ja/categories/java/</loc>
