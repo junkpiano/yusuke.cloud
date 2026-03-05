@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="https://yusuke.cloud/ja/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>今注目されている git worktree とは何か？</title>
+      <link>https://yusuke.cloud/ja/git-worktree/</link>
+      <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/git-worktree/</guid>
+      <description>&lt;h2 id=&#34;なぜ-ai-agent-と相性が良いのか&#34;&gt;なぜ AI Agent と相性が良いのか&lt;/h2&gt;
+&lt;p&gt;最近、AI Agent を使った開発（Claude Code / Cursor / OpenAI Codex など）が広がるにつれて、&lt;strong&gt;git worktree&lt;/strong&gt;が再び注目されています。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Git on Windows</title>
       <link>https://yusuke.cloud/ja/git-on-windows/</link>

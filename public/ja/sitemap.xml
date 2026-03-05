@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://yusuke.cloud/ja/categories/</loc>
-    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -16,13 +16,20 @@
                 />
   </url><url>
     <loc>https://yusuke.cloud/ja/categories/git/</loc>
-    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
-  </url><url>
-    <loc>https://yusuke.cloud/ja/git-on-windows/</loc>
-    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://yusuke.cloud/categories/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://yusuke.cloud/ja/categories/git/"
+                />
   </url><url>
     <loc>https://yusuke.cloud/ja/posts/</loc>
-    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -35,7 +42,7 @@
                 />
   </url><url>
     <loc>https://yusuke.cloud/ja/</loc>
-    <lastmod>2026-02-16T00:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -46,6 +53,12 @@
                 hreflang="ja"
                 href="https://yusuke.cloud/ja/"
                 />
+  </url><url>
+    <loc>https://yusuke.cloud/ja/git-worktree/</loc>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://yusuke.cloud/ja/git-on-windows/</loc>
+    <lastmod>2023-11-25T08:50:00+00:00</lastmod>
   </url><url>
     <loc>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</loc>
     <lastmod>2022-05-31T03:17:07+09:00</lastmod>
@@ -99,7 +112,7 @@
                 />
   </url><url>
     <loc>https://yusuke.cloud/ja/portfolio/</loc>
-    <lastmod>2026-02-16T00:00:00+09:00</lastmod>
+    <lastmod>2026-03-05T09:00:00+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
