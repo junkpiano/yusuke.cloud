@@ -129,3 +129,49 @@ languages:
         - name: nostr
           weight: 5
           url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+  zh:
+    LanguageName: ':cn:'
+    contentDir: content/chinese
+    footercontent: 欢迎来到我的个人网站！
+    params:
+      info: 'iOS 开发者、DevOps、博主、游戏玩家'
+    menu:
+      main:
+        - name: 首页
+          url: /
+          weight: 1
+        - name: 文章
+          weight: 2
+          url: /posts/
+        - name: 订阅
+          weight: 3
+          url: /zh/index.xml
+        - name: TIL
+          weight: 4
+          url: https://til.yusuke.cloud
+        - name: nostr
+          weight: 5
+          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+  de:
+    LanguageName: ':de:'
+    contentDir: content/german
+    footercontent: Willkommen auf meiner persönlichen Website!
+    params:
+      info: 'iOS-Entwickler, DevOps, Blogger und Gamer'
+    menu:
+      main:
+        - name: Startseite
+          url: /
+          weight: 1
+        - name: Beiträge
+          weight: 2
+          url: /posts/
+        - name: RSS
+          weight: 3
+          url: /de/index.xml
+        - name: TIL
+          weight: 4
+          url: https://til.yusuke.cloud
+        - name: nostr
+          weight: 5
+          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
