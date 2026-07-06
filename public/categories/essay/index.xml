@@ -21,7 +21,7 @@
       <description>&lt;p&gt;2018 was yet another awesome year.&lt;/p&gt;
 &lt;h2 id=&#34;commitments-in-work&#34;&gt;Commitments in work&lt;/h2&gt;
 &lt;p&gt;I worked on building mobile development foundation.&lt;/p&gt;
-&lt;h3 id=&#34;jenkins-ci-exapansion&#34;&gt;Jenkins CI Exapansion&lt;/h3&gt;
+&lt;h3 id=&#34;jenkins-ci-expansion&#34;&gt;Jenkins CI Expansion&lt;/h3&gt;
 &lt;p&gt;I read &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;this book&lt;/a&gt; to learn Jenkins(written in Japanese).
 Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)&lt;/p&gt;
 &lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;

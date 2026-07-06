@@ -9,9 +9,23 @@
   </sitemap>
   
   <sitemap>
+    <loc>https://yusuke.cloud/de/sitemap.xml</loc>
+    
+      <lastmod>2026-04-15T00:00:00+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
     <loc>https://yusuke.cloud/ja/sitemap.xml</loc>
     
       <lastmod>2026-04-15T09:00:00+09:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://yusuke.cloud/zh/sitemap.xml</loc>
+    
+      <lastmod>2026-04-15T00:00:00+09:00</lastmod>
     
   </sitemap>
   

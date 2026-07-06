@@ -45,6 +45,20 @@
       <description>A comprehensive guide to managing dotfiles for consistent development environments across multiple machines</description>
     </item>
     <item>
+      <title>Git on Windows</title>
+      <link>https://yusuke.cloud/git-on-windows/</link>
+      <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/git-on-windows/</guid>
+      <description>&lt;p&gt;When I use git on Windows, I basically do everything through a GUI, which works quite differently from my usual CUI workflow. Looking things up every single time is a pain, so I am putting it all together here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Windows10 Pro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;installing-git&#34;&gt;Installing Git&lt;/h2&gt;
+&lt;p&gt;It is good to have pure git around, so grab it from here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unlike on MacOS or Linux, the command line on Windows is awkward to use, so you are better off going with a GUI. My recommendation is a client called Fork. You can buy a license for $49, or use it as an evaluation version for free, forever.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Writing C Compiler</title>
       <link>https://yusuke.cloud/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
@@ -68,11 +82,61 @@ However, there should be something we learned there. That&amp;rsquo;s what we sh
 I need to establish publishing method that I can do on my mobile phone.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>A Record of Failing to Use the Eos X7i as a Webcam</title>
+      <link>https://yusuke.cloud/eos-x7i-webcam-failure/</link>
+      <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
+      <guid>https://yusuke.cloud/eos-x7i-webcam-failure/</guid>
+      <description>&lt;p&gt;It did not work out. Or rather, I could not get a result I was happy with.&lt;/p&gt;
+&lt;h2 id=&#34;what-i-tried-take-1&#34;&gt;What I tried, take 1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Installed EOS Webcam Utility&lt;/li&gt;
+&lt;li&gt;Bought this sketchy adapter that plugs into a power source -&amp;gt; &lt;a href=&#34;https://amzn.to/3avKj1z&#34;&gt;https://amzn.to/3avKj1z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Plugged the adapter into a power bank I had lying around and used it as the X7i&amp;rsquo;s battery
+&lt;ul&gt;
+&lt;li&gt;Careful not to forget to close the battery compartment door. If the door is open, it will not work as a battery.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Connected it to my Mac via Mini-B USB&lt;/li&gt;
+&lt;li&gt;In Zoom, selected EOS Webcam Utility under Preferences-Video&lt;/li&gt;
+&lt;li&gt;The picture shows up, but black bars appear on the left and right.&lt;/li&gt;
+&lt;li&gt;You can crop them out in OBS and the like, but that just feels wrong—would it not be better to simply buy a decent webcam? -&amp;gt; This is where I am now!&lt;/li&gt;
+&lt;li&gt;Apparently this issue is reported all over foreign forums, but in the Japanese-speaking web there are only &amp;ldquo;EOS Webcam Utility works!&amp;rdquo; posts. (sob)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;what-i-tried-take-2&#34;&gt;What I tried, take 2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Followed an article I happened to stumble upon&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&#34;&gt;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;It does work flawlessly as far as it goes, but the black bars on both sides never went away.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;It is most likely an issue with the camera itself, so instead of using it as a webcam, I will just use it as a regular DSLR.
+Better to leave things to the specialists—I will go look for a proper, decent webcam.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>XCConfig</title>
       <link>https://yusuke.cloud/xcconfig/</link>
       <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
       <guid>https://yusuke.cloud/xcconfig/</guid>
       <description>Externalize build information from Info.plist</description>
+    </item>
+    <item>
+      <title>Something Like a Test of Auto-Deployment</title>
+      <link>https://yusuke.cloud/testing-auto-deploy/</link>
+      <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/testing-auto-deploy/</guid>
+      <description>&lt;p&gt;Hello.&lt;/p&gt;
+&lt;p&gt;I have set up automated publishing using Github Actions, so now all I have to do is scribble something down and git push.
+Everything else, from compiling to deployment, happens automatically. Since writing markdown is all it takes, there is no need to even fire up an editor locally (I can work on Github).
+Right now I am working on a Macbook, though.&lt;/p&gt;
+&lt;p&gt;From here on, I can get everything done with just my phone, which makes me very happy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Elden Ring Translation Dispute</title>
+      <link>https://yusuke.cloud/eldenring-translation-dispute/</link>
+      <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/eldenring-translation-dispute/</guid>
+      <description>&lt;p&gt;I am playing Elden Ring in English, so when I watch Japanese let&amp;rsquo;s-play videos, &amp;ldquo;wait, what is that?&amp;rdquo; happens all the time. For example, misericorde is 慈悲の短剣 (&amp;ldquo;dagger of mercy&amp;rdquo;) in Japanese—the first time I heard the Japanese name, I had no idea what it was. 黄金樹に誓って versus Golden Vow also confused me at first, but after watching the videos over and over, I picked up quite a lot.&lt;/p&gt;
+&lt;p&gt;This post&lt;/p&gt;</description>
     </item>
     <item>
       <title>SwiftDoc Action for Fastlane</title>
@@ -96,6 +160,22 @@ I introduced my private swift project.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      format: &amp;#34;html&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    )
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can publish it into github pages, netlify, and so on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making Hugo Multilingual</title>
+      <link>https://yusuke.cloud/multilingual-hugo/</link>
+      <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
+      <guid>https://yusuke.cloud/multilingual-hugo/</guid>
+      <description>&lt;p&gt;Hello, internet.&lt;/p&gt;
+&lt;p&gt;The multilingual setup for Hugo is done, so blogging in Japanese has finally become easy. 😎&lt;/p&gt;
+&lt;p&gt;Hugo supports multiple languages out of the box, so it is fairly straightforward, but you do need to add a few settings.&lt;/p&gt;
+&lt;p&gt;First, the blog content has to be separated by language.
+There are two ways to do this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;separate file names&lt;/li&gt;
+&lt;li&gt;separate folders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With separate file names, you end up with too many files and things get hard to manage, so I went with separate folders.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I built this blog</title>
@@ -193,6 +273,17 @@ I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Restart nginx.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Java 101</title>
+      <link>https://yusuke.cloud/java-101/</link>
+      <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
+      <guid>https://yusuke.cloud/java-101/</guid>
+      <description>&lt;p&gt;Writing about Java at this point may seem a little late to the party, but I wanted to organize my knowledge again, so here are the things worth knowing when getting started with Java in &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;.
+These are just my personal study notes.&lt;/p&gt;
+&lt;h2 id=&#34;things-to-watch-out-for-when-installing-java&#34;&gt;Things to watch out for when installing Java&lt;/h2&gt;
+&lt;p&gt;Currently, if you use OracleJDK, free usage is limited to &lt;strong&gt;personal use and development purposes only&lt;/strong&gt;.
+If you are only using Java for learning, there is nothing to worry about, but if you are planning to use Java in production, it costs money, so be careful.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>LSP for Swift</title>
       <link>https://yusuke.cloud/lsp-for-swift/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
@@ -234,7 +325,7 @@ I suppose that you are using &lt;a href=&#34;https://releases.ubuntu.com/18.04.4
       <description>&lt;p&gt;2018 was yet another awesome year.&lt;/p&gt;
 &lt;h2 id=&#34;commitments-in-work&#34;&gt;Commitments in work&lt;/h2&gt;
 &lt;p&gt;I worked on building mobile development foundation.&lt;/p&gt;
-&lt;h3 id=&#34;jenkins-ci-exapansion&#34;&gt;Jenkins CI Exapansion&lt;/h3&gt;
+&lt;h3 id=&#34;jenkins-ci-expansion&#34;&gt;Jenkins CI Expansion&lt;/h3&gt;
 &lt;p&gt;I read &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;this book&lt;/a&gt; to learn Jenkins(written in Japanese).
 Aside from maintaining jenkins, I learned to modify several Jenkins modules, such as Git plugin.(We are using my forked Git plugin now.)&lt;/p&gt;
 &lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;

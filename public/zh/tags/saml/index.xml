@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saml on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/zh/tags/saml/</link>
+    <description>Recent content in Saml on Yusuke Ohashi</description>
+    <image>
+      <title>Yusuke Ohashi</title>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yusuke.cloud/zh/tags/saml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keycloak：写给架构师的身份与访问管理指南</title>
+      <link>https://yusuke.cloud/zh/keycloak-architects-guide-iam/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/zh/keycloak-architects-guide-iam/</guid>
+      <description>一份面向软件架构师的 Keycloak 完整指南，涵盖认证、授权以及 IAM 最佳实践</description>
+    </item>
+  </channel>
+</rss>

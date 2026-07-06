@@ -58,6 +58,22 @@ I introduced my private swift project.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can publish it into github pages, netlify, and so on.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Making Hugo Multilingual</title>
+      <link>https://yusuke.cloud/multilingual-hugo/</link>
+      <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
+      <guid>https://yusuke.cloud/multilingual-hugo/</guid>
+      <description>&lt;p&gt;Hello, internet.&lt;/p&gt;
+&lt;p&gt;The multilingual setup for Hugo is done, so blogging in Japanese has finally become easy. 😎&lt;/p&gt;
+&lt;p&gt;Hugo supports multiple languages out of the box, so it is fairly straightforward, but you do need to add a few settings.&lt;/p&gt;
+&lt;p&gt;First, the blog content has to be separated by language.
+There are two ways to do this:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;separate file names&lt;/li&gt;
+&lt;li&gt;separate folders&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With separate file names, you end up with too many files and things get hard to manage, so I went with separate folders.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How I built this blog</title>
       <link>https://yusuke.cloud/how-i-built-this-blog/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
@@ -71,6 +87,17 @@ This digram shows my blog architecture.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://dokku.com/&#34;&gt;&lt;strong&gt;Dokku&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I am running this blog on linode VPS. This blog is in a docker container and I am using dokku to manage containers(apps). Dokku is script based Paas and an OSS. Heroku buildpacks are compatible with Dokku since it&amp;rsquo;s a heroku alternative. Thanksfully, you can run any applications on Dokku just by pushing your code.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java 101</title>
+      <link>https://yusuke.cloud/java-101/</link>
+      <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
+      <guid>https://yusuke.cloud/java-101/</guid>
+      <description>&lt;p&gt;Writing about Java at this point may seem a little late to the party, but I wanted to organize my knowledge again, so here are the things worth knowing when getting started with Java in &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;.
+These are just my personal study notes.&lt;/p&gt;
+&lt;h2 id=&#34;things-to-watch-out-for-when-installing-java&#34;&gt;Things to watch out for when installing Java&lt;/h2&gt;
+&lt;p&gt;Currently, if you use OracleJDK, free usage is limited to &lt;strong&gt;personal use and development purposes only&lt;/strong&gt;.
+If you are only using Java for learning, there is nothing to worry about, but if you are planning to use Java in production, it costs money, so be careful.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

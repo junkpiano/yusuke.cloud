@@ -11,8 +11,39 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>ja</language>
-    <lastBuildDate>Mon, 12 Jul 2021 08:04:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
     <atom:link href="https://yusuke.cloud/ja/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Keycloak: アーキテクトのためのID・アクセス管理ガイド</title>
+      <link>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</guid>
+      <description>ソフトウェアアーキテクト向けのKeycloak総合ガイド。認証・認可、そしてIAMのベストプラクティスを解説します</description>
+    </item>
+    <item>
+      <title>Dotfiles</title>
+      <link>https://yusuke.cloud/ja/dotfiles/</link>
+      <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/dotfiles/</guid>
+      <description>複数のマシンで一貫した開発環境を実現するためのdotfiles管理の総合ガイド</description>
+    </item>
+    <item>
+      <title>Cコンパイラを書く</title>
+      <link>https://yusuke.cloud/ja/writing-c-compiler/</link>
+      <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/writing-c-compiler/</guid>
+      <description>コンパイラ開発への第一歩：トークナイザ、パーサ、コードジェネレータを備えたCコンパイラの制作</description>
+    </item>
+    <item>
+      <title>Fastlane 用の SwiftDoc アクション</title>
+      <link>https://yusuke.cloud/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+      <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
+      <guid>https://yusuke.cloud/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
+      <description>&lt;p&gt;fastlane の公式ドキュメントに見当たらなかったので、&lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt; 用の fastlane アクションを作ったことをお知らせします。&lt;/p&gt;
+&lt;p&gt;SwiftDoc はドキュメント生成ツールのひとつで、Swift プロジェクト専用です。
+とてもクリーンな UI で、美しい依存関係グラフも生成してくれます。
+私のプライベートな Swift プロジェクトに導入してみました。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugoの多言語化対応</title>
       <link>https://yusuke.cloud/ja/multilingual-hugo/</link>
@@ -21,6 +52,21 @@
       <description>&lt;p&gt;こんにちは、インターネット。&lt;/p&gt;
 &lt;p&gt;Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎&lt;/p&gt;
 &lt;p&gt;Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>このブログの作り方</title>
+      <link>https://yusuke.cloud/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</link>
+      <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
+      <guid>https://yusuke.cloud/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</guid>
+      <description>&lt;p&gt;これは 2021 年 6 月時点のスナップショットです。このブログについて書きます。
+この図がブログのアーキテクチャを示しています。&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;構成図&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;コア&#34;&gt;コア&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;&lt;strong&gt;Linode&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dokku.com/&#34;&gt;&lt;strong&gt;Dokku&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;このブログは Linode の VPS 上で動いています。ブログは Docker コンテナの中にあり、コンテナ(アプリ)の管理には Dokku を使っています。Dokku はスクリプトベースの PaaS で、OSS です。Heroku の代替として作られているので、Heroku の buildpack がそのまま使えます。ありがたいことに、コードをプッシュするだけでどんなアプリケーションでも Dokku 上で動かせます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java 101</title>

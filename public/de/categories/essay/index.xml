@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Essay on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/de/categories/essay/</link>
+    <description>Recent content in Essay on Yusuke Ohashi</description>
+    <image>
+      <title>Yusuke Ohashi</title>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>de</language>
+    <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yusuke.cloud/de/categories/essay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2018 im Rückblick</title>
+      <link>https://yusuke.cloud/de/2018-im-r%C3%BCckblick/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/2018-im-r%C3%BCckblick/</guid>
+      <description>&lt;p&gt;2018 war wieder einmal ein großartiges Jahr.&lt;/p&gt;
+&lt;h2 id=&#34;beruflich&#34;&gt;Beruflich&lt;/h2&gt;
+&lt;p&gt;Ich habe am Aufbau einer Grundlage für die Mobile-Entwicklung gearbeitet.&lt;/p&gt;
+&lt;h3 id=&#34;ausbau-der-jenkins-ci&#34;&gt;Ausbau der Jenkins CI&lt;/h3&gt;
+&lt;p&gt;Um Jenkins zu lernen, habe ich &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;dieses Buch&lt;/a&gt; gelesen (auf Japanisch).
+Neben der Wartung von Jenkins habe ich gelernt, verschiedene Jenkins-Module anzupassen, etwa das Git-Plugin. (Wir verwenden inzwischen mein geforktes Git-Plugin.)&lt;/p&gt;
+&lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.openapis.org/&#34;&gt;OpenAPI Initiative&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;side-projects&#34;&gt;Side Projects&lt;/h2&gt;
+&lt;h3 id=&#34;dieser-blog&#34;&gt;Dieser Blog&lt;/h3&gt;
+&lt;p&gt;Ich habe diesen Blog zu &lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;Linode&lt;/a&gt; umgezogen.
+Genauer gesagt läuft der Blog jetzt in Docker auf einer Linode-Instanz.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

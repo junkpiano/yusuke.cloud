@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/de/posts/</link>
+    <description>Recent content in Posts on Yusuke Ohashi</description>
+    <image>
+      <title>Yusuke Ohashi</title>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yusuke.cloud/de/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was ist Git Worktree – und warum es gerade jetzt relevant ist</title>
+      <link>https://yusuke.cloud/de/git-worktree/</link>
+      <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/git-worktree/</guid>
+      <description>&lt;h2 id=&#34;warum-es-so-gut-zu-ai-agents-passt&#34;&gt;Warum es so gut zu AI-Agents passt&lt;/h2&gt;
+&lt;p&gt;Mit der zunehmenden Verbreitung von KI-gestützter Entwicklung (Claude Code, Cursor, OpenAI Codex und andere) bekommt &lt;strong&gt;git worktree&lt;/strong&gt; wieder Aufmerksamkeit.&lt;/p&gt;
+&lt;p&gt;Das Feature gibt es in Git schon lange, aber richtig stark wird es, wenn mehrere Agents parallel arbeiten.&lt;/p&gt;
+&lt;p&gt;Darum geht es in diesem Beitrag:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;was git worktree ist&lt;/li&gt;
+&lt;li&gt;warum es gerade jetzt Aufmerksamkeit bekommt&lt;/li&gt;
+&lt;li&gt;warum es so gut mit AI-Agents funktioniert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;was-ist-git-worktree&#34;&gt;Was ist Git Worktree?&lt;/h2&gt;
+&lt;p&gt;Mit &lt;code&gt;git worktree&lt;/code&gt; kannst du aus einem einzigen Repository mehrere Arbeitsverzeichnisse erstellen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Keycloak: Der Architekten-Leitfaden für Identity und Access Management</title>
+      <link>https://yusuke.cloud/de/keycloak-architects-guide-iam/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/keycloak-architects-guide-iam/</guid>
+      <description>Ein umfassender Keycloak-Leitfaden für Softwarearchitekten zu Authentifizierung, Autorisierung und IAM-Best-Practices</description>
+    </item>
+    <item>
+      <title>Dotfiles</title>
+      <link>https://yusuke.cloud/de/dotfiles/</link>
+      <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/dotfiles/</guid>
+      <description>Ein umfassender Leitfaden zur Verwaltung von Dotfiles für konsistente Entwicklungsumgebungen auf mehreren Rechnern</description>
+    </item>
+    <item>
+      <title>Git on Windows</title>
+      <link>https://yusuke.cloud/de/git-on-windows/</link>
+      <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/git-on-windows/</guid>
+      <description>&lt;p&gt;Wenn ich git unter Windows verwende, mache ich grundsätzlich alles über die GUI — das läuft ganz anders als mein üblicher CUI-Workflow. Jedes Mal nachschlagen ist mir zu mühsam, also halte ich es hier fest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Umgebung&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Windows10 Pro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;git-installieren&#34;&gt;Git installieren&lt;/h2&gt;
+&lt;p&gt;Ein pures git sollte man auf jeden Fall haben, also hier herunterladen:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anders als unter MacOS oder Linux ist die Kommandozeile unter Windows unbequem, deshalb fährt man mit einer GUI besser. Meine Empfehlung ist ein Client namens Fork. Man kann für $49 eine Lizenz kaufen oder ihn dauerhaft kostenlos als Evaluierungsversion nutzen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Einen C-Compiler schreiben</title>
+      <link>https://yusuke.cloud/de/writing-c-compiler/</link>
+      <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/writing-c-compiler/</guid>
+      <description>Eine Reise in die Compiler-Entwicklung: ein C-Compiler mit Tokenizer, Parser und Codegenerator</description>
+    </item>
+    <item>
+      <title>GitHub-Issue-getriebener Blog</title>
+      <link>https://yusuke.cloud/de/github-issue-getriebener-blog/</link>
+      <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/github-issue-getriebener-blog/</guid>
+      <description>&lt;p&gt;Ich habe damit experimentiert, &lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;meinen Microblog&lt;/a&gt; zu automatisieren, sodass er aus GitHub Issues generiert wird.&lt;/p&gt;
+&lt;p&gt;In diesem Blogpost zeige ich, wie ich meinen Blogging-Workflow neu gestaltet habe.&lt;/p&gt;
+&lt;h2 id=&#34;systemdiagramm&#34;&gt;Systemdiagramm&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;Systemdiagramm&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/automate-publishing.drawio.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Alle Pipelines laufen auf der GitHub-Plattform.&lt;/p&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Normalerweise googeln wir unsere Probleme und kopieren Code von Stack Overflow. Das war&amp;rsquo;s. Mehr nicht.
+Aber irgendetwas haben wir dabei doch gelernt — und genau das sollten wir festhalten.&lt;/p&gt;
+&lt;p&gt;Ich blogge gerne, aber das Schreiben am Computer ist irgendwie mühsam.
+Ich brauchte eine Publishing-Methode, die auch auf dem Smartphone funktioniert.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Protokoll eines gescheiterten Versuchs, die Eos X7i als Webcam zu nutzen</title>
+      <link>https://yusuke.cloud/de/eos-x7i-webcam-failure/</link>
+      <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/eos-x7i-webcam-failure/</guid>
+      <description>&lt;p&gt;Es hat nicht geklappt. Genauer gesagt: Ich habe kein zufriedenstellendes Ergebnis hinbekommen.&lt;/p&gt;
+&lt;h2 id=&#34;versuch-1&#34;&gt;Versuch #1&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;EOS Webcam Utility installiert&lt;/li&gt;
+&lt;li&gt;Diesen dubiosen Adapter gekauft, den man an eine Stromquelle anschließt -&amp;gt; &lt;a href=&#34;https://amzn.to/3avKj1z&#34;&gt;https://amzn.to/3avKj1z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Den Adapter an eine herumliegende Powerbank gehängt und als Akku der X7i verwendet
+&lt;ul&gt;
+&lt;li&gt;Nicht vergessen, die Akkufachklappe zu schließen. Bleibt die Klappe offen, funktioniert das Ganze nicht als Akku.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Per Mini-B USB an den Mac angeschlossen&lt;/li&gt;
+&lt;li&gt;In Zoom unter Preferences-Video die EOS Webcam Utility ausgewählt&lt;/li&gt;
+&lt;li&gt;Das Bild kommt zwar, aber links und rechts erscheinen schwarze Balken.&lt;/li&gt;
+&lt;li&gt;In OBS und Co. könnte man das wegcroppen, aber das fühlt sich irgendwie falsch an — wäre es nicht besser, einfach eine ordentliche Webcam zu kaufen? -&amp;gt; Genau hier stehe ich gerade!&lt;/li&gt;
+&lt;li&gt;In ausländischen Foren wird das Phänomen offenbar vielfach beklagt, im japanischsprachigen Netz gibt es dagegen nur „EOS Webcam Utility läuft!“-Berichte. (heul)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;versuch-2&#34;&gt;Versuch #2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Einen zufällig gefundenen Artikel ausprobiert&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&#34;&gt;https://dev.classmethod.jp/articles/want-to-zoom-bae-use-of-old-digital-camera-without-captureboard/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Funktionieren tut es einwandfrei, aber die schwarzen Balken links und rechts verschwinden nicht.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fazit&#34;&gt;Fazit&lt;/h2&gt;
+&lt;p&gt;Vermutlich liegt es an der Kamera selbst — also verwende ich sie nicht als Webcam, sondern ganz normal als Spiegelreflexkamera.
+Schuster, bleib bei deinen Leisten: Für die Webcam suche ich mir lieber ein ordentliches dediziertes Modell.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XCConfig</title>
+      <link>https://yusuke.cloud/de/xcconfig/</link>
+      <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/xcconfig/</guid>
+      <description>Build-Informationen aus der Info.plist auslagern</description>
+    </item>
+    <item>
+      <title>Die Übersetzungskontroverse um Elden Ring</title>
+      <link>https://yusuke.cloud/de/eldenring-translation-dispute/</link>
+      <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/eldenring-translation-dispute/</guid>
+      <description>&lt;p&gt;Ich spiele Elden Ring auf Englisch, und wenn ich japanische Let&amp;rsquo;s-Play-Videos schaue, passiert mir ständig ein „Moment, was ist das?“. Zum Beispiel heißt misericorde auf Japanisch 慈悲の短剣 („Dolch der Barmherzigkeit“) — als ich den japanischen Namen zum ersten Mal hörte, wusste ich überhaupt nicht, was gemeint war. Auch 黄金樹に誓って und Golden Vow konnte ich anfangs nicht zusammenbringen, aber nachdem ich die Videos immer wieder gesehen hatte, habe ich einiges gelernt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Quasi ein Test des Auto-Deployments</title>
+      <link>https://yusuke.cloud/de/testing-auto-deploy/</link>
+      <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/testing-auto-deploy/</guid>
+      <description>&lt;p&gt;Hallo.&lt;/p&gt;
+&lt;p&gt;Ich habe automatisches Veröffentlichen per Github Actions eingerichtet — jetzt reicht es, irgendetwas hinzuschreiben und git push auszuführen.
+Den Rest, vom Kompilieren bis zum Deployment, erledigt alles die Automatik. Da nur Markdown geschrieben werden muss, braucht man nicht einmal lokal einen Editor zu starten (man kann direkt auf Github arbeiten).
+Im Moment arbeite ich allerdings noch am Macbook.&lt;/p&gt;
+&lt;p&gt;Künftig lässt sich alles nur mit dem Smartphone erledigen — das freut mich wirklich sehr.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SwiftDoc-Action für Fastlane</title>
+      <link>https://yusuke.cloud/de/swiftdoc-action-f%C3%BCr-fastlane/</link>
+      <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/swiftdoc-action-f%C3%BCr-fastlane/</guid>
+      <description>&lt;p&gt;Ich möchte kurz ankündigen, dass ich eine fastlane-Action für &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt; geschrieben habe, da ich in der offiziellen fastlane-Dokumentation keine finden konnte.&lt;/p&gt;
+&lt;p&gt;SwiftDoc ist ein weiterer Dokumentationsgenerator, der speziell für Swift-Projekte gedacht ist.
+Er hat eine sehr aufgeräumte Oberfläche und erzeugt außerdem schöne Abhängigkeitsgraphen.
+Ich habe ihn in meinem privaten Swift-Projekt eingeführt.&lt;/p&gt;
+&lt;p&gt;Hier ist das Skript.&lt;/p&gt;
+&lt;script src=&#34;https://gist.github.com/junkpiano/f37d27f10bde1653f4975cfc8dff6b34.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Legt dieses Skript unter &lt;code&gt;fastlane/actions&lt;/code&gt; ab und ruft es im &lt;code&gt;Fastfile&lt;/code&gt; auf.&lt;/p&gt;
+&lt;p&gt;Zum Beispiel:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      input: &amp;#34;Sources&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      module_name: &amp;#34;YourModuleName&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      output: &amp;#34;docs/&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      base_url: &amp;#34;/&amp;#34;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      format: &amp;#34;html&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    )
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Das Ergebnis lässt sich anschließend auf github pages, netlify usw. veröffentlichen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo mehrsprachig machen</title>
+      <link>https://yusuke.cloud/de/multilingual-hugo/</link>
+      <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/multilingual-hugo/</guid>
+      <description>&lt;p&gt;Hallo, Internet.&lt;/p&gt;
+&lt;p&gt;Die Mehrsprachigkeit von Hugo ist eingerichtet — endlich lässt sich dieser Blog bequem auch auf Japanisch schreiben. 😎&lt;/p&gt;
+&lt;p&gt;Hugo unterstützt Mehrsprachigkeit von Haus aus, insofern ist es nicht schwer, aber ein paar zusätzliche Einstellungen braucht es schon.&lt;/p&gt;
+&lt;p&gt;Zunächst muss der Blog-Content nach Sprachen getrennt werden.
+Dafür gibt es zwei Wege:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;getrennte Dateinamen&lt;/li&gt;
+&lt;li&gt;getrennte Ordner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Bei getrennten Dateinamen werden es zu viele Dateien und die Verwaltung wird unübersichtlich, also habe ich mich für getrennte Ordner entschieden.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wie ich diesen Blog gebaut habe</title>
+      <link>https://yusuke.cloud/de/wie-ich-diesen-blog-gebaut-habe/</link>
+      <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/wie-ich-diesen-blog-gebaut-habe/</guid>
+      <description>&lt;p&gt;Das ist eine Momentaufnahme, Stand Juni 2021. Ich schreibe hier über diesen Blog.
+Dieses Diagramm zeigt die Architektur meines Blogs.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Diagramm&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;kern&#34;&gt;Kern&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;&lt;strong&gt;Linode&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dokku.com/&#34;&gt;&lt;strong&gt;Dokku&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dieser Blog läuft auf einem Linode-VPS. Er steckt in einem Docker-Container, und zur Verwaltung der Container (Apps) nutze ich Dokku. Dokku ist ein skriptbasiertes PaaS und Open Source. Da es eine Heroku-Alternative ist, sind Heroku Buildpacks mit Dokku kompatibel. Erfreulicherweise kann man auf Dokku beliebige Anwendungen betreiben — einfach, indem man seinen Code pusht.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kommentare wieder großartig machen</title>
+      <link>https://yusuke.cloud/de/kommentare-wieder-gro%C3%9Fartig-machen/</link>
+      <pubDate>Fri, 18 Jun 2021 08:04:24 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/kommentare-wieder-gro%C3%9Fartig-machen/</guid>
+      <description>&lt;p&gt;Ich habe die Kommentarfunktion in diesem Blog bisher nicht genutzt, wollte sie aber unbedingt einbauen.
+Ich habe &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt; ausprobiert. Es war cool, aber es stellte sich heraus, dass es nicht zu meinen Anforderungen passt.&lt;/p&gt;
+&lt;h2 id=&#34;gedanken-zu-disqus&#34;&gt;Gedanken zu Disqus&lt;/h2&gt;
+&lt;p&gt;Disqus bietet eine umfangreiche UI und viele Features, um über Blogposts zu diskutieren, erlaubt aber:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;anonyme Kommentare&lt;/li&gt;
+&lt;li&gt;eingeblendete Werbung&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Was anonyme Kommentare angeht: Glücklicherweise bekommt dieser Blog kaum Kommentare von Lesern. Allerdings erhalten in letzter Zeit viele Prominente unerbittlich aggressive Kommentare und leiden am Ende unter psychischen Problemen. Niemand kann garantieren, dass das nicht auch auf diesem winzigen persönlichen Blog passiert.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NWPathMonitor</title>
+      <link>https://yusuke.cloud/de/nwpathmonitor/</link>
+      <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/nwpathmonitor/</guid>
+      <description>&lt;h2 id=&#34;einführung&#34;&gt;Einführung&lt;/h2&gt;
+&lt;p&gt;NWPathMonitor ist eine Klasse aus dem Network-Framework, die den Netzwerkstatus beobachtet und das Netzwerk-Interface überwacht.
+Sie ist ab iOS 12 verfügbar.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Um Callbacks zu erhalten, muss man die NWPathMonitor-Instanz festhalten (retainen).&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mit &lt;code&gt;requiredInterface&lt;/code&gt; lässt sich gezielt ein bestimmtes Netzwerk-Interface beobachten.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hier ist die Liste der Interfaces, die NWPathMonitor unterstützt.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.apple.com/documentation/network/nwinterface/interfacetype&#34;&gt;https://developer.apple.com/documentation/network/nwinterface/interfacetype&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;netzwerkänderungen-erkennen&#34;&gt;Netzwerkänderungen erkennen&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; path.status == .satisfied {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Connected&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;beobachtung-starten&#34;&gt;Beobachtung starten&lt;/h2&gt;
+&lt;p&gt;Eine Background-Queue erstellen und an &lt;code&gt;start()&lt;/code&gt; übergeben.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Notizen zur Munin-Installation</title>
+      <link>https://yusuke.cloud/de/munin-installation-memo/</link>
+      <pubDate>Tue, 21 Apr 2020 07:02:57 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/munin-installation-memo/</guid>
+      <description>&lt;p&gt;Habt ihr schon einmal von &lt;a href=&#34;http://munin-monitoring.org/&#34;&gt;Munin&lt;/a&gt; gehört?
+Munin ist ein Tool zum Monitoring von Server-Ressourcen, das eine Menge Daten grafisch aufbereitet.&lt;/p&gt;
+&lt;p&gt;Munin ist ziemlich simpel und schnell aufgesetzt.&lt;/p&gt;
+&lt;p&gt;Hier halte ich die Konfiguration fest, die ich kürzlich beim Einrichten von munin verwendet habe.
+Ich gehe davon aus, dass ihr &lt;a href=&#34;https://releases.ubuntu.com/18.04.4/&#34;&gt;Ubuntu 18.04 LTS&lt;/a&gt; verwendet.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt update
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ sudo apt install munin munin-node nginx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;nginx-konfiguration&#34;&gt;Nginx-Konfiguration&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;server {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        listen &lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; default_server;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        listen [::]:&lt;span style=&#34;color:#ae81ff&#34;&gt;80&lt;/span&gt; default_server;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        root &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;www&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;html;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;# Add index.php to the list if you are using PHP&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        index index&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;html index&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;htm index&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;nginx&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;debian&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;html;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        server_name _;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        location &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            alias &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;www&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;html&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        location &lt;span style=&#34;color:#f92672&#34;&gt;^~&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;cgi&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;cgi&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;graph&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            access_log off;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fastcgi_split_path_info &lt;span style=&#34;color:#f92672&#34;&gt;^&lt;/span&gt;(&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;cgi&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;cgi&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;graph)(&lt;span style=&#34;color:#f92672&#34;&gt;.*&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fastcgi_param PATH_INFO &lt;span style=&#34;color:#f92672&#34;&gt;$&lt;/span&gt;fastcgi_path_info;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            fastcgi_pass unix:&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;run&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;munin&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;fastcgi&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;graph&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;sock;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            include fastcgi_params;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Nginx neu starten.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java 101</title>
+      <link>https://yusuke.cloud/de/java-101/</link>
+      <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/java-101/</guid>
+      <description>&lt;p&gt;Ausgerechnet jetzt noch über Java zu schreiben, mag etwas spät wirken, aber ich wollte mein Wissen noch einmal ordnen. Deshalb schreibe ich hier auf, was man wissen sollte, wenn man mit &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt; in Java einsteigt.
+Das Ganze ist als persönliche Notizsammlung gedacht.&lt;/p&gt;
+&lt;h2 id=&#34;worauf-man-bei-der-java-installation-achten-sollte&#34;&gt;Worauf man bei der Java-Installation achten sollte&lt;/h2&gt;
+&lt;p&gt;Wer aktuell das OracleJDK verwendet, darf es kostenlos nur für &lt;strong&gt;private Zwecke und zur Entwicklung&lt;/strong&gt; nutzen.
+Wenn man Java nur zum Lernen einsetzt, muss einen das überhaupt nicht kümmern — wer Java aber in Produktion einsetzen will, muss zahlen. Also Vorsicht.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LSP für Swift</title>
+      <link>https://yusuke.cloud/de/lsp-f%C3%BCr-swift/</link>
+      <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/lsp-f%C3%BCr-swift/</guid>
+      <description>&lt;h2 id=&#34;was-ist-das-language-server-protocol-lsp&#34;&gt;Was ist das Language Server Protocol (LSP)?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Das Language Server Protocol definiert ein &lt;strong&gt;standardisiertes Protokoll&lt;/strong&gt;, über das ein Texteditor bzw. eine IDE (Client) mit einer Sprache (Server) kommuniziert.&lt;/li&gt;
+&lt;li&gt;Das Protokoll basiert auf &lt;strong&gt;JSONRPC&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ein Client (Texteditor) kann damit Features umsetzen wie
+&lt;ul&gt;
+&lt;li&gt;Go to Definition&lt;/li&gt;
+&lt;li&gt;Fehler und Warnungen&lt;/li&gt;
+&lt;li&gt;Autovervollständigung&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;diagram&#34; loading=&#34;lazy&#34; src=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/img/language-server-sequence.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&#34;&gt;https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Löst das &lt;em&gt;m-mal-n&lt;/em&gt;-Komplexitätsproblem&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt=&#34;width:600px&#34; loading=&#34;lazy&#34; src=&#34;https://code.visualstudio.com/assets/api/language-extensions/language-server-extension-guide/lsp-languages-editors.png&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;was-ist-sourcekit-lsp&#34;&gt;Was ist Sourcekit-LSP?&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;width:800px&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/source_kit_lsp_github.png&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apples LSP-Implementierung auf Basis von &lt;code&gt;sourcekitd&lt;/code&gt; und &lt;code&gt;clangd&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sourcekitd&lt;/code&gt; ist ein Framework, das IDE-Features bereitstellt&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;clangd&lt;/code&gt; ist der Language Server für die C-Sprachfamilie (C/C++/ObjC)&lt;/li&gt;
+&lt;li&gt;unterstützt &lt;strong&gt;ausschließlich Swift-Package-Manager-Projekte&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Seit Xcode 11.4 ist SourceKit-LSP als Tool direkt mit dabei.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2018 im Rückblick</title>
+      <link>https://yusuke.cloud/de/2018-im-r%C3%BCckblick/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/2018-im-r%C3%BCckblick/</guid>
+      <description>&lt;p&gt;2018 war wieder einmal ein großartiges Jahr.&lt;/p&gt;
+&lt;h2 id=&#34;beruflich&#34;&gt;Beruflich&lt;/h2&gt;
+&lt;p&gt;Ich habe am Aufbau einer Grundlage für die Mobile-Entwicklung gearbeitet.&lt;/p&gt;
+&lt;h3 id=&#34;ausbau-der-jenkins-ci&#34;&gt;Ausbau der Jenkins CI&lt;/h3&gt;
+&lt;p&gt;Um Jenkins zu lernen, habe ich &lt;a href=&#34;https://amzn.to/2sDcqm7&#34;&gt;dieses Buch&lt;/a&gt; gelesen (auf Japanisch).
+Neben der Wartung von Jenkins habe ich gelernt, verschiedene Jenkins-Module anzupassen, etwa das Git-Plugin. (Wir verwenden inzwischen mein geforktes Git-Plugin.)&lt;/p&gt;
+&lt;h3 id=&#34;open-api-specification&#34;&gt;Open API Specification&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.openapis.org/&#34;&gt;OpenAPI Initiative&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;side-projects&#34;&gt;Side Projects&lt;/h2&gt;
+&lt;h3 id=&#34;dieser-blog&#34;&gt;Dieser Blog&lt;/h3&gt;
+&lt;p&gt;Ich habe diesen Blog zu &lt;a href=&#34;https://www.linode.com/?r=5f4b41dbdb0e009af64882ea35ee82ecf0ef0290&#34;&gt;Linode&lt;/a&gt; umgezogen.
+Genauer gesagt läuft der Blog jetzt in Docker auf einer Linode-Instanz.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Netzwerk-Abstraktionsschicht</title>
+      <link>https://yusuke.cloud/de/network-abstraction-layer/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/network-abstraction-layer/</guid>
+      <description>&lt;p&gt;Ich experimentiere in meiner Library &lt;code&gt;Kiri&lt;/code&gt; gerade mit einem neuen Ansatz für Netzwerk-Requests.
+&lt;code&gt;Kiri&lt;/code&gt; ist eine von &lt;code&gt;Moya&lt;/code&gt; inspirierte abstrakte Networking-Schicht. Die Architektur von &lt;code&gt;Moya&lt;/code&gt; hat mich sehr beeindruckt, und um möglichst viel daraus zu lernen, habe ich beschlossen, dieselbe Architektur selbst nachzubauen, statt sie per Copy-and-paste zu übernehmen. :D&lt;/p&gt;
+&lt;p&gt;Eine Client-Library lässt sich in drei Teile zerlegen.&lt;/p&gt;
+&lt;h2 id=&#34;request&#34;&gt;Request&lt;/h2&gt;
+&lt;p&gt;Normalerweise muss man den Netzwerk-Request jedes Mal neu zusammenbauen.
+In Kiri dagegen wird die gesamte Netzwerkkonfiguration an einer Stelle gebündelt, etwa in einer Klasse oder einem Enum.
+Diese Klasse bzw. dieses Enum muss dem Protokoll &lt;code&gt;RequestContainer&lt;/code&gt; entsprechen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Crontab Guru</title>
+      <link>https://yusuke.cloud/de/crontab-guru/</link>
+      <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/crontab-guru/</guid>
+      <description>&lt;p&gt;Wenn du jedes Mal googeln musst, sobald du eine crontab schreibst, ist diese Website genau das Richtige für dich.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;crontab guru Screenshot&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Das Crontab-Format ist nicht gerade intuitiv. Diese Website zeigt dir, wie dein Cron-Job laufen wird.
+Du kannst deinen eigenen Cron-Job in das abgerundete Textfeld eingeben und prüfen, wie er sich verhält, bevor du ihn auf deinem Server einrichtest.
+So vermeidest du schwerwiegende Fehler, bevor du deinen Job deployst.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NPM-Abhängigkeitsgraph</title>
+      <link>https://yusuke.cloud/de/npm-dependency-graph/</link>
+      <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/npm-dependency-graph/</guid>
+      <description>&lt;p&gt;Ich habe ein großartiges Tool gefunden, mit dem sich der npm-Abhängigkeitsgraph visualisieren lässt.&lt;/p&gt;
+&lt;p&gt;Dieses Beispiel zeigt den Abhängigkeitsgraphen von &lt;code&gt;react-native-maps&lt;/code&gt;, den ich mir gestern Abend angesehen habe.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;2d&#34;&gt;2D&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;2d&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-2d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Man kann Knoten verschieben und sie per Mouseover hervorheben.&lt;/p&gt;
+&lt;h2 id=&#34;3d&#34;&gt;3D&lt;/h2&gt;
+&lt;p&gt;&lt;img alt=&#34;3d&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/npm-dependency-graph-3d.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Man kann den Graphen drehen, allerdings zeigt die 3D-Ansicht keine Modulnamen an.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://npm.anvaka.com/&#34;&gt;https://npm.anvaka.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anvaka/npmgraph.an&#34;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -30,5 +30,19 @@
 &lt;h2 id=&#34;what-is-git-worktree&#34;&gt;What Is Git Worktree?&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;git worktree&lt;/code&gt; lets you create multiple working directories from a single repository.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Git on Windows</title>
+      <link>https://yusuke.cloud/git-on-windows/</link>
+      <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/git-on-windows/</guid>
+      <description>&lt;p&gt;When I use git on Windows, I basically do everything through a GUI, which works quite differently from my usual CUI workflow. Looking things up every single time is a pain, so I am putting it all together here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Windows10 Pro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;installing-git&#34;&gt;Installing Git&lt;/h2&gt;
+&lt;p&gt;It is good to have pure git around, so grab it from here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unlike on MacOS or Linux, the command line on Windows is awkward to use, so you are better off going with a GUI. My recommendation is a client called Fork. You can buy a license for $49, or use it as an evaluation version for free, forever.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

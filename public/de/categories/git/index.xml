@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Git on Yusuke Ohashi</title>
+    <link>https://yusuke.cloud/de/categories/git/</link>
+    <description>Recent content in Git on Yusuke Ohashi</description>
+    <image>
+      <title>Yusuke Ohashi</title>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>de</language>
+    <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="https://yusuke.cloud/de/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Was ist Git Worktree – und warum es gerade jetzt relevant ist</title>
+      <link>https://yusuke.cloud/de/git-worktree/</link>
+      <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/de/git-worktree/</guid>
+      <description>&lt;h2 id=&#34;warum-es-so-gut-zu-ai-agents-passt&#34;&gt;Warum es so gut zu AI-Agents passt&lt;/h2&gt;
+&lt;p&gt;Mit der zunehmenden Verbreitung von KI-gestützter Entwicklung (Claude Code, Cursor, OpenAI Codex und andere) bekommt &lt;strong&gt;git worktree&lt;/strong&gt; wieder Aufmerksamkeit.&lt;/p&gt;
+&lt;p&gt;Das Feature gibt es in Git schon lange, aber richtig stark wird es, wenn mehrere Agents parallel arbeiten.&lt;/p&gt;
+&lt;p&gt;Darum geht es in diesem Beitrag:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;was git worktree ist&lt;/li&gt;
+&lt;li&gt;warum es gerade jetzt Aufmerksamkeit bekommt&lt;/li&gt;
+&lt;li&gt;warum es so gut mit AI-Agents funktioniert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;was-ist-git-worktree&#34;&gt;Was ist Git Worktree?&lt;/h2&gt;
+&lt;p&gt;Mit &lt;code&gt;git worktree&lt;/code&gt; kannst du aus einem einzigen Repository mehrere Arbeitsverzeichnisse erstellen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git on Windows</title>
+      <link>https://yusuke.cloud/de/git-on-windows/</link>
+      <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/de/git-on-windows/</guid>
+      <description>&lt;p&gt;Wenn ich git unter Windows verwende, mache ich grundsätzlich alles über die GUI — das läuft ganz anders als mein üblicher CUI-Workflow. Jedes Mal nachschlagen ist mir zu mühsam, also halte ich es hier fest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Umgebung&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Windows10 Pro
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;git-installieren&#34;&gt;Git installieren&lt;/h2&gt;
+&lt;p&gt;Ein pures git sollte man auf jeden Fall haben, also hier herunterladen:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Anders als unter MacOS oder Linux ist die Kommandozeile unter Windows unbequem, deshalb fährt man mit einer GUI besser. Meine Empfehlung ist ein Client namens Fork. Man kann für $49 eine Lizenz kaufen oder ihn dauerhaft kostenlos als Evaluierungsversion nutzen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

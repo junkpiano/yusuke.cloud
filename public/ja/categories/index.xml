@@ -21,10 +21,52 @@
       <description></description>
     </item>
     <item>
+      <title>Devops</title>
+      <link>https://yusuke.cloud/ja/categories/devops/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>https://yusuke.cloud/ja/categories/security/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://yusuke.cloud/ja/categories/development/</link>
+      <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://yusuke.cloud/ja/categories/programming/</link>
+      <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IOS</title>
+      <link>https://yusuke.cloud/ja/categories/ios/</link>
+      <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/ios/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Java</title>
       <link>https://yusuke.cloud/ja/categories/java/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
       <guid>https://yusuke.cloud/ja/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Essay</title>
+      <link>https://yusuke.cloud/ja/categories/essay/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://yusuke.cloud/ja/categories/essay/</guid>
       <description></description>
     </item>
   </channel>
