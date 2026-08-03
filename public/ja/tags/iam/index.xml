@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Iam on Yusuke Ohashi</title>
-    <link>http://localhost:1313/ja/tags/iam/</link>
+    <link>https://yusuke.cloud/ja/tags/iam/</link>
     <description>Recent content in Iam on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/ja/tags/iam/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/ja/tags/iam/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keycloak: アーキテクトのためのID・アクセス管理ガイド</title>
-      <link>http://localhost:1313/ja/keycloak-architects-guide-iam/</link>
+      <link>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/keycloak-architects-guide-iam/</guid>
+      <guid>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</guid>
       <description>ソフトウェアアーキテクト向けのKeycloak総合ガイド。認証・認可、そしてIAMのベストプラクティスを解説します</description>
     </item>
   </channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yusuke Ohashi</title>
-    <link>http://localhost:1313/ja/</link>
+    <link>https://yusuke.cloud/ja/</link>
     <description>Recent content on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/ja/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/ja/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自宅リスニング環境の信号経路メモ</title>
-      <link>http://localhost:1313/ja/home-listening-signal-path/</link>
+      <link>https://yusuke.cloud/ja/home-listening-signal-path/</link>
       <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/home-listening-signal-path/</guid>
+      <guid>https://yusuke.cloud/ja/home-listening-signal-path/</guid>
       <description>&lt;p&gt;Apple Music を聴いている環境で「設定が正しくないのでは」と気づいたのを機に、
 デジタル音声がどこを通ってどう書き換わるのかを整理したノート。&lt;/p&gt;
 &lt;hr&gt;
@@ -26,60 +26,52 @@
     </item>
     <item>
       <title>Turso: Embedded Replica とクラウド同期を備えた SQLite の再発明</title>
-      <link>http://localhost:1313/ja/turso/</link>
+      <link>https://yusuke.cloud/ja/turso/</link>
       <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/turso/</guid>
+      <guid>https://yusuke.cloud/ja/turso/</guid>
       <description>&lt;p&gt;最近 &lt;a href=&#34;https://docs.turso.tech/introduction&#34;&gt;Turso&lt;/a&gt; をいじっているのですが、SQLite のシンプルさとクラウドデータベースの便利さを両立していて、まさに「これが欲しかった」というポイントを突いてきます。&lt;/p&gt;</description>
     </item>
     <item>
       <title>今注目されている git worktree とは何か？</title>
-      <link>http://localhost:1313/ja/git-worktree/</link>
+      <link>https://yusuke.cloud/ja/git-worktree/</link>
       <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/git-worktree/</guid>
+      <guid>https://yusuke.cloud/ja/git-worktree/</guid>
       <description>&lt;h2 id=&#34;なぜ-ai-agent-と相性が良いのか&#34;&gt;なぜ AI Agent と相性が良いのか&lt;/h2&gt;
 &lt;p&gt;最近、AI Agent を使った開発（Claude Code / Cursor / OpenAI Codex など）が広がるにつれて、&lt;strong&gt;git worktree&lt;/strong&gt;が再び注目されています。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keycloak: アーキテクトのためのID・アクセス管理ガイド</title>
-      <link>http://localhost:1313/ja/keycloak-architects-guide-iam/</link>
+      <link>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/ja/keycloak-architects-guide-iam/</guid>
+      <guid>https://yusuke.cloud/ja/keycloak-architects-guide-iam/</guid>
       <description>ソフトウェアアーキテクト向けのKeycloak総合ガイド。認証・認可、そしてIAMのベストプラクティスを解説します</description>
     </item>
     <item>
-      <title>個人開発を行う上での知見</title>
-      <link>http://localhost:1313/ja/how-i-work-as-indie-dev/</link>
-      <pubDate>Mon, 01 Sep 2025 08:50:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/how-i-work-as-indie-dev/</guid>
-      <description>&lt;p&gt;めったに更新していませんが、2025年9月に入り、個人開発をどう行っていくかみたいなことを書きたくなったので書く。
-動機としてはAIエージェント、特にcoding agentの進化を日々体感して仕事だけではなく個人としてもいかに成果を出していくかについて現時点でのスナップショットを書いておく。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Dotfiles</title>
-      <link>http://localhost:1313/ja/dotfiles/</link>
+      <link>https://yusuke.cloud/ja/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>http://localhost:1313/ja/dotfiles/</guid>
+      <guid>https://yusuke.cloud/ja/dotfiles/</guid>
       <description>複数のマシンで一貫した開発環境を実現するためのdotfiles管理の総合ガイド</description>
     </item>
     <item>
       <title>Git on Windows</title>
-      <link>http://localhost:1313/ja/git-on-windows/</link>
+      <link>https://yusuke.cloud/ja/git-on-windows/</link>
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/git-on-windows/</guid>
+      <guid>https://yusuke.cloud/ja/git-on-windows/</guid>
       <description>&lt;p&gt;Windowsでgitを使うとき、基本的にGUIのみで行うので、普段のCUIとは勝手が違う。 いちいち調べるのが面倒なので、ここにまとめておく。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cコンパイラを書く</title>
-      <link>http://localhost:1313/ja/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/ja/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/ja/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/ja/writing-c-compiler/</guid>
       <description>コンパイラ開発への第一歩：トークナイザ、パーサ、コードジェネレータを備えたCコンパイラの制作</description>
     </item>
     <item>
       <title>GitHub Issue 駆動ブログ</title>
-      <link>http://localhost:1313/ja/github-issue-%E9%A7%86%E5%8B%95%E3%83%96%E3%83%AD%E3%82%B0/</link>
+      <link>https://yusuke.cloud/ja/github-issue-%E9%A7%86%E5%8B%95%E3%83%96%E3%83%AD%E3%82%B0/</link>
       <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
-      <guid>http://localhost:1313/ja/github-issue-%E9%A7%86%E5%8B%95%E3%83%96%E3%83%AD%E3%82%B0/</guid>
+      <guid>https://yusuke.cloud/ja/github-issue-%E9%A7%86%E5%8B%95%E3%83%96%E3%83%AD%E3%82%B0/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;私のマイクロブログ&lt;/a&gt;を GitHub Issue から自動生成する仕組みを実験してみました。&lt;/p&gt;
 &lt;p&gt;この記事では、ブログの執筆ワークフローをどのように再設計したかを紹介します。&lt;/p&gt;
 &lt;h2 id=&#34;システム図&#34;&gt;システム図&lt;/h2&gt;
@@ -88,9 +80,9 @@
     </item>
     <item>
       <title>Eos X7iをWebcamとして使えなかった記録</title>
-      <link>http://localhost:1313/ja/eos-x7i-webcam-failure/</link>
+      <link>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</link>
       <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
-      <guid>http://localhost:1313/ja/eos-x7i-webcam-failure/</guid>
+      <guid>https://yusuke.cloud/ja/eos-x7i-webcam-failure/</guid>
       <description>&lt;p&gt;無理でした。というか満足する結果が得られませんでした。&lt;/p&gt;
 &lt;h2 id=&#34;やったこと1&#34;&gt;やったこと#1&lt;/h2&gt;
 &lt;ul&gt;
@@ -119,23 +111,23 @@
     </item>
     <item>
       <title>XCConfig</title>
-      <link>http://localhost:1313/ja/xcconfig/</link>
+      <link>https://yusuke.cloud/ja/xcconfig/</link>
       <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/xcconfig/</guid>
+      <guid>https://yusuke.cloud/ja/xcconfig/</guid>
       <description>ビルド情報を Info.plist から外部化する</description>
     </item>
     <item>
       <title>エルデンリング翻訳論争</title>
-      <link>http://localhost:1313/ja/eldenring-translation-dispute/</link>
+      <link>https://yusuke.cloud/ja/eldenring-translation-dispute/</link>
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/eldenring-translation-dispute/</guid>
+      <guid>https://yusuke.cloud/ja/eldenring-translation-dispute/</guid>
       <description>&lt;p&gt;エルデンリング、英語版でプレイしてるので、実況動画見る時それ何？がよく起こる。例えば misericorde は慈悲の短剣だけど初めて聞いた時何それって感じだった。黄金樹に誓って、Golden Vow とかも最初よく分からなかったけど、繰り返し動画見てたら、いろいろ覚えた。&lt;/p&gt;</description>
     </item>
     <item>
       <title>自動投稿のテスト代わり</title>
-      <link>http://localhost:1313/ja/testing-auto-deploy/</link>
+      <link>https://yusuke.cloud/ja/testing-auto-deploy/</link>
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/testing-auto-deploy/</guid>
+      <guid>https://yusuke.cloud/ja/testing-auto-deploy/</guid>
       <description>&lt;p&gt;こんにちは。&lt;/p&gt;
 &lt;p&gt;Github Actionsを利用した自動投稿を設定したので、適当に書いてgit pushするだけになりました。
 後は、コンパイルからデプロイまで全て自動でやってくれます。markdownを書くだけで良いのでエディターをローカルで立ち上げる必要もありません(Github上で作業)。
@@ -143,9 +135,9 @@
     </item>
     <item>
       <title>Fastlane 用の SwiftDoc アクション</title>
-      <link>http://localhost:1313/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
+      <link>https://yusuke.cloud/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
-      <guid>http://localhost:1313/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
+      <guid>https://yusuke.cloud/ja/fastlane-%E7%94%A8%E3%81%AE-swiftdoc-%E3%82%A2%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/</guid>
       <description>&lt;p&gt;fastlane の公式ドキュメントに見当たらなかったので、&lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt; 用の fastlane アクションを作ったことをお知らせします。&lt;/p&gt;
 &lt;p&gt;SwiftDoc はドキュメント生成ツールのひとつで、Swift プロジェクト専用です。
 とてもクリーンな UI で、美しい依存関係グラフも生成してくれます。
@@ -153,20 +145,20 @@
     </item>
     <item>
       <title>Hugoの多言語化対応</title>
-      <link>http://localhost:1313/ja/multilingual-hugo/</link>
+      <link>https://yusuke.cloud/ja/multilingual-hugo/</link>
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
-      <guid>http://localhost:1313/ja/multilingual-hugo/</guid>
+      <guid>https://yusuke.cloud/ja/multilingual-hugo/</guid>
       <description>&lt;p&gt;こんにちは、インターネット。&lt;/p&gt;
 &lt;p&gt;Hugoの多言語化が完了したので、ついに日本語でもブログが書きやすくなりました。😎&lt;/p&gt;
 &lt;p&gt;Hugoはそもそも多言語化に対応しているので簡単ではあるのですが、設定をいくつか増やす必要があります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>これは何？</title>
-      <link>http://localhost:1313/ja/about/</link>
+      <link>https://yusuke.cloud/ja/about/</link>
       <pubDate>Mon, 12 Jul 2021 16:20:37 +0900</pubDate>
-      <guid>http://localhost:1313/ja/about/</guid>
+      <guid>https://yusuke.cloud/ja/about/</guid>
       <description>&lt;p&gt;主に東京で活動しているソフトウェアエンジニアの個人的なウェブサイトです。&lt;/p&gt;
-&lt;p&gt;ただの静的なウェブサイトなんですが、少しばかり技術にはこだわっていてそれについては&lt;a href=&#34;http://localhost:1313/9/&#34;&gt;こちらの記事&lt;/a&gt;にまとめています。&lt;/p&gt;
+&lt;p&gt;ただの静的なウェブサイトなんですが、少しばかり技術にはこだわっていてそれについては&lt;a href=&#34;https://yusuke.cloud/9/&#34;&gt;こちらの記事&lt;/a&gt;にまとめています。&lt;/p&gt;
 &lt;p&gt;日々学んだことは、こちらに&lt;a href=&#34;https://junkpiano.github.io/til/&#34;&gt;マイクロブログ&lt;/a&gt;書くこともあります。&lt;/p&gt;
 &lt;p&gt;SNSは主に&lt;a href=&#34;https://nosta.me/npub1ukw4ck0vwlnfv7ntpmchs49kgz37st9pdqfxfqc3q93jkt4xvj4q3w30l2&#34;&gt;nostr&lt;/a&gt;を使っているので、ご自由にFollowしてください。&lt;/p&gt;
 &lt;ul&gt;
@@ -177,9 +169,9 @@
     </item>
     <item>
       <title>このブログの作り方</title>
-      <link>http://localhost:1313/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</link>
+      <link>https://yusuke.cloud/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
-      <guid>http://localhost:1313/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</guid>
+      <guid>https://yusuke.cloud/ja/%E3%81%93%E3%81%AE%E3%83%96%E3%83%AD%E3%82%B0%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9/</guid>
       <description>&lt;p&gt;これは 2021 年 6 月時点のスナップショットです。このブログについて書きます。
 この図がブログのアーキテクチャを示しています。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;構成図&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
@@ -192,53 +184,53 @@
     </item>
     <item>
       <title>コメントを再び偉大に</title>
-      <link>http://localhost:1313/ja/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E5%86%8D%E3%81%B3%E5%81%89%E5%A4%A7%E3%81%AB/</link>
+      <link>https://yusuke.cloud/ja/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E5%86%8D%E3%81%B3%E5%81%89%E5%A4%A7%E3%81%AB/</link>
       <pubDate>Fri, 18 Jun 2021 08:04:24 +0000</pubDate>
-      <guid>http://localhost:1313/ja/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E5%86%8D%E3%81%B3%E5%81%89%E5%A4%A7%E3%81%AB/</guid>
+      <guid>https://yusuke.cloud/ja/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%E3%82%92%E5%86%8D%E3%81%B3%E5%81%89%E5%A4%A7%E3%81%AB/</guid>
       <description>&lt;p&gt;このブログではこれまでコメント機能を使っていませんでしたが、ずっと実装したいと思っていました。
 &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt; を試したこともあります。よくできたサービスでしたが、結局のところ私のニーズには合いませんでした。&lt;/p&gt;</description>
     </item>
     <item>
       <title>NWPathMonitor</title>
-      <link>http://localhost:1313/ja/nwpathmonitor/</link>
+      <link>https://yusuke.cloud/ja/nwpathmonitor/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>http://localhost:1313/ja/nwpathmonitor/</guid>
+      <guid>https://yusuke.cloud/ja/nwpathmonitor/</guid>
       <description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;
 &lt;p&gt;NWPathMonitor は Network フレームワークのクラスで、ネットワークの状態を観測し、ネットワークインターフェースを監視できます。
 iOS 12 以降で利用可能です。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;コールバックを受け取るには、NWPathMonitor のインスタンスを保持しておく必要があります。&lt;/p&gt;</description>
     </item>
     <item>
       <title>ポートフォリオ</title>
-      <link>http://localhost:1313/ja/portfolio/</link>
+      <link>https://yusuke.cloud/ja/portfolio/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/portfolio/</guid>
+      <guid>https://yusuke.cloud/ja/portfolio/</guid>
       <description>プロジェクトの抜粋とリンク集。</description>
     </item>
     <item>
       <title>Munin インストールメモ</title>
-      <link>http://localhost:1313/ja/munin-installation-memo/</link>
+      <link>https://yusuke.cloud/ja/munin-installation-memo/</link>
       <pubDate>Tue, 21 Apr 2020 07:02:57 +0000</pubDate>
-      <guid>http://localhost:1313/ja/munin-installation-memo/</guid>
+      <guid>https://yusuke.cloud/ja/munin-installation-memo/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://munin-monitoring.org/&#34;&gt;Munin&lt;/a&gt; をご存知でしょうか？
 Munin はサーバーリソースの監視ツールで、さまざまなデータをグラフィカルに表示してくれます。&lt;/p&gt;
 &lt;p&gt;Munin はとてもシンプルで、セットアップも簡単です。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Java 101</title>
-      <link>http://localhost:1313/ja/java-101/</link>
+      <link>https://yusuke.cloud/ja/java-101/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
-      <guid>http://localhost:1313/ja/java-101/</guid>
+      <guid>https://yusuke.cloud/ja/java-101/</guid>
       <description>&lt;p&gt;今更Javaについて書くのもどうかと思うけれど、あらためて知識をまとめておきたいと思ったので、
 &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt;でJavaを始めるに当たって、知っておいたほうがよさそうなことを書いていきます。
 個人的なまとめノートです。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Swift のための LSP</title>
-      <link>http://localhost:1313/ja/swift-%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE-lsp/</link>
+      <link>https://yusuke.cloud/ja/swift-%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE-lsp/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
-      <guid>http://localhost:1313/ja/swift-%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE-lsp/</guid>
+      <guid>https://yusuke.cloud/ja/swift-%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE-lsp/</guid>
       <description>&lt;h2 id=&#34;language-server-protocollsp-とは&#34;&gt;Language Server Protocol(LSP) とは？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Language Server Protocol は、テキストエディタや IDE（クライアント）と言語（サーバー）が通信するための&lt;strong&gt;標準化されたプロトコル&lt;/strong&gt;を定義するものです。&lt;/li&gt;
@@ -256,9 +248,9 @@ Munin はサーバーリソースの監視ツールで、さまざまなデー�
     </item>
     <item>
       <title>2018年を振り返って</title>
-      <link>http://localhost:1313/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</link>
+      <link>https://yusuke.cloud/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</guid>
+      <guid>https://yusuke.cloud/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</guid>
       <description>&lt;p&gt;2018 年もまた素晴らしい 1 年でした。&lt;/p&gt;
 &lt;h2 id=&#34;仕事での取り組み&#34;&gt;仕事での取り組み&lt;/h2&gt;
 &lt;p&gt;モバイル開発基盤の構築に取り組みました。&lt;/p&gt;
@@ -268,17 +260,17 @@ Jenkins の運用に加えて、Git プラグインなど、いくつかの Jenk
     </item>
     <item>
       <title>ネットワーク抽象化レイヤー</title>
-      <link>http://localhost:1313/ja/network-abstraction-layer/</link>
+      <link>https://yusuke.cloud/ja/network-abstraction-layer/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/network-abstraction-layer/</guid>
+      <guid>https://yusuke.cloud/ja/network-abstraction-layer/</guid>
       <description>&lt;p&gt;&lt;code&gt;Kiri&lt;/code&gt; ライブラリで、ネットワークリクエストの新しいやり方を試しています。
 &lt;code&gt;Kiri&lt;/code&gt; は &lt;code&gt;Moya&lt;/code&gt; にインスパイアされたネットワーク抽象化レイヤーです。&lt;code&gt;Moya&lt;/code&gt; のアーキテクチャにとても感銘を受けたので、そこから最大限学ぶために、コピー&amp;amp;ペーストではなく、同じアーキテクチャを自分の手でなぞって書いてみることにしました。:D&lt;/p&gt;</description>
     </item>
     <item>
       <title>Crontab Guru</title>
-      <link>http://localhost:1313/ja/crontab-guru/</link>
+      <link>https://yusuke.cloud/ja/crontab-guru/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/crontab-guru/</guid>
+      <guid>https://yusuke.cloud/ja/crontab-guru/</guid>
       <description>&lt;p&gt;crontab を書くたびに Google で検索しているなら、このサイトがおすすめです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;crontab guru のスクリーンショット&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34;&gt;&lt;/p&gt;
@@ -288,9 +280,9 @@ Jenkins の運用に加えて、Git プラグインなど、いくつかの Jenk
     </item>
     <item>
       <title>NPM 依存関係グラフ</title>
-      <link>http://localhost:1313/ja/npm-dependency-graph/</link>
+      <link>https://yusuke.cloud/ja/npm-dependency-graph/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ja/npm-dependency-graph/</guid>
+      <guid>https://yusuke.cloud/ja/npm-dependency-graph/</guid>
       <description>&lt;p&gt;npm の依存関係グラフを可視化できる素晴らしいツールを見つけました。&lt;/p&gt;
 &lt;p&gt;こちらの例は、昨夜調べていた &lt;code&gt;react-native-maps&lt;/code&gt; の依存関係グラフです。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;

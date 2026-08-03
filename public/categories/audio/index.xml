@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audio on Yusuke Ohashi</title>
-    <link>http://localhost:1313/categories/audio/</link>
+    <link>https://yusuke.cloud/categories/audio/</link>
     <description>Recent content in Audio on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/categories/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notes on the Signal Path of My Home Listening Setup</title>
-      <link>http://localhost:1313/home-listening-signal-path/</link>
+      <link>https://yusuke.cloud/home-listening-signal-path/</link>
       <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/home-listening-signal-path/</guid>
+      <guid>https://yusuke.cloud/home-listening-signal-path/</guid>
       <description>&lt;p&gt;I noticed that my Apple Music setup might not be configured correctly, and that
 became the excuse to write down where the digital audio actually goes and how it
 gets rewritten along the way.&lt;/p&gt;
@@ -25,40 +25,40 @@ gets rewritten along the way.&lt;/p&gt;
 &lt;h2 id=&#34;0-baseline-my-setup&#34;&gt;0. Baseline: my setup&lt;/h2&gt;
 &lt;p&gt;First, let me pin down my own configuration. Everything below assumes it.&lt;/p&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Position&lt;/th&gt;
-					&lt;th&gt;Gear&lt;/th&gt;
-					&lt;th&gt;Role&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Source&lt;/td&gt;
-					&lt;td&gt;Apple Music (Windows)&lt;/td&gt;
-					&lt;td&gt;Streaming / playback app&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;PC&lt;/td&gt;
-					&lt;td&gt;Windows&lt;/td&gt;
-					&lt;td&gt;The OS mediates the audio&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Conversion&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Steinberg UR22mk2&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Audio interface&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Output 1&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Yamaha HS5&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Powered monitor speakers&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Output 2&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Sony MDR-900ST&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Monitor headphones&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Position&lt;/th&gt;
+          &lt;th&gt;Gear&lt;/th&gt;
+          &lt;th&gt;Role&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Source&lt;/td&gt;
+          &lt;td&gt;Apple Music (Windows)&lt;/td&gt;
+          &lt;td&gt;Streaming / playback app&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PC&lt;/td&gt;
+          &lt;td&gt;Windows&lt;/td&gt;
+          &lt;td&gt;The OS mediates the audio&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Conversion&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Steinberg UR22mk2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Audio interface&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Output 1&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Yamaha HS5&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Powered monitor speakers&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Output 2&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Sony MDR-900ST&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Monitor headphones&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;what-each-piece-is&#34;&gt;What each piece is&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Steinberg UR22mk2 — audio interface&lt;/strong&gt;

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audio on Yusuke Ohashi</title>
-    <link>http://localhost:1313/zh/categories/audio/</link>
+    <link>https://yusuke.cloud/zh/categories/audio/</link>
     <description>Recent content in Audio on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/zh/categories/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>家里听音环境的信号路径笔记</title>
-      <link>http://localhost:1313/zh/home-listening-signal-path/</link>
+      <link>https://yusuke.cloud/zh/home-listening-signal-path/</link>
       <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/zh/home-listening-signal-path/</guid>
+      <guid>https://yusuke.cloud/zh/home-listening-signal-path/</guid>
       <description>&lt;p&gt;因为发现自己听 Apple Music 的环境「设置好像不太对」，就借这个机会把
 数字音频到底经过哪些环节、又在哪里被改写，整理成了这篇笔记。&lt;/p&gt;
 &lt;hr&gt;

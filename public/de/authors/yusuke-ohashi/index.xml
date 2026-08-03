@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Yusuke Ohashi</title>
-    <link>http://localhost:1313/de/authors/yusuke-ohashi/</link>
+    <link>https://yusuke.cloud/de/authors/yusuke-ohashi/</link>
     <description>Recent content on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,33 +12,33 @@
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Thu, 22 Jan 2026 10:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/de/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/de/authors/yusuke-ohashi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keycloak: Der Architekten-Leitfaden für Identity und Access Management</title>
-      <link>http://localhost:1313/de/keycloak-architects-guide-iam/</link>
+      <link>https://yusuke.cloud/de/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/de/keycloak-architects-guide-iam/</guid>
+      <guid>https://yusuke.cloud/de/keycloak-architects-guide-iam/</guid>
       <description>Ein umfassender Keycloak-Leitfaden für Softwarearchitekten zu Authentifizierung, Autorisierung und IAM-Best-Practices</description>
     </item>
     <item>
       <title>Dotfiles</title>
-      <link>http://localhost:1313/de/dotfiles/</link>
+      <link>https://yusuke.cloud/de/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>http://localhost:1313/de/dotfiles/</guid>
+      <guid>https://yusuke.cloud/de/dotfiles/</guid>
       <description>Ein umfassender Leitfaden zur Verwaltung von Dotfiles für konsistente Entwicklungsumgebungen auf mehreren Rechnern</description>
     </item>
     <item>
       <title>Einen C-Compiler schreiben</title>
-      <link>http://localhost:1313/de/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/de/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/de/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/de/writing-c-compiler/</guid>
       <description>Eine Reise in die Compiler-Entwicklung: ein C-Compiler mit Tokenizer, Parser und Codegenerator</description>
     </item>
     <item>
       <title>SwiftDoc-Action für Fastlane</title>
-      <link>http://localhost:1313/de/swiftdoc-action-f%C3%BCr-fastlane/</link>
+      <link>https://yusuke.cloud/de/swiftdoc-action-f%C3%BCr-fastlane/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
-      <guid>http://localhost:1313/de/swiftdoc-action-f%C3%BCr-fastlane/</guid>
+      <guid>https://yusuke.cloud/de/swiftdoc-action-f%C3%BCr-fastlane/</guid>
       <description>&lt;p&gt;Ich möchte kurz ankündigen, dass ich eine fastlane-Action für &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt; geschrieben habe, da ich in der offiziellen fastlane-Dokumentation keine finden konnte.&lt;/p&gt;
 &lt;p&gt;SwiftDoc ist ein weiterer Dokumentationsgenerator, der speziell für Swift-Projekte gedacht ist.
 Er hat eine sehr aufgeräumte Oberfläche und erzeugt außerdem schöne Abhängigkeitsgraphen.
@@ -48,7 +48,7 @@ Ich habe ihn in meinem privaten Swift-Projekt eingeführt.&lt;/p&gt;
 
 &lt;p&gt;Legt dieses Skript unter &lt;code&gt;fastlane/actions&lt;/code&gt; ab und ruft es im &lt;code&gt;Fastfile&lt;/code&gt; auf.&lt;/p&gt;
 &lt;p&gt;Zum Beispiel:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    swiftdoc(
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      input: &amp;#34;Sources&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      module_name: &amp;#34;YourModuleName&amp;#34;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      output: &amp;#34;docs/&amp;#34;,
@@ -59,9 +59,9 @@ Ich habe ihn in meinem privaten Swift-Projekt eingeführt.&lt;/p&gt;
     </item>
     <item>
       <title>Hugo mehrsprachig machen</title>
-      <link>http://localhost:1313/de/multilingual-hugo/</link>
+      <link>https://yusuke.cloud/de/multilingual-hugo/</link>
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
-      <guid>http://localhost:1313/de/multilingual-hugo/</guid>
+      <guid>https://yusuke.cloud/de/multilingual-hugo/</guid>
       <description>&lt;p&gt;Hallo, Internet.&lt;/p&gt;
 &lt;p&gt;Die Mehrsprachigkeit von Hugo ist eingerichtet — endlich lässt sich dieser Blog bequem auch auf Japanisch schreiben. 😎&lt;/p&gt;
 &lt;p&gt;Hugo unterstützt Mehrsprachigkeit von Haus aus, insofern ist es nicht schwer, aber ein paar zusätzliche Einstellungen braucht es schon.&lt;/p&gt;
@@ -75,9 +75,9 @@ Dafür gibt es zwei Wege:&lt;/p&gt;
     </item>
     <item>
       <title>Wie ich diesen Blog gebaut habe</title>
-      <link>http://localhost:1313/de/wie-ich-diesen-blog-gebaut-habe/</link>
+      <link>https://yusuke.cloud/de/wie-ich-diesen-blog-gebaut-habe/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
-      <guid>http://localhost:1313/de/wie-ich-diesen-blog-gebaut-habe/</guid>
+      <guid>https://yusuke.cloud/de/wie-ich-diesen-blog-gebaut-habe/</guid>
       <description>&lt;p&gt;Das ist eine Momentaufnahme, Stand Juni 2021. Ich schreibe hier über diesen Blog.
 Dieses Diagramm zeigt die Architektur meines Blogs.&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;Diagramm&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
@@ -90,9 +90,9 @@ Dieses Diagramm zeigt die Architektur meines Blogs.&lt;/p&gt;
     </item>
     <item>
       <title>Java 101</title>
-      <link>http://localhost:1313/de/java-101/</link>
+      <link>https://yusuke.cloud/de/java-101/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
-      <guid>http://localhost:1313/de/java-101/</guid>
+      <guid>https://yusuke.cloud/de/java-101/</guid>
       <description>&lt;p&gt;Ausgerechnet jetzt noch über Java zu schreiben, mag etwas spät wirken, aber ich wollte mein Wissen noch einmal ordnen. Deshalb schreibe ich hier auf, was man wissen sollte, wenn man mit &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt; in Java einsteigt.
 Das Ganze ist als persönliche Notizsammlung gedacht.&lt;/p&gt;
 &lt;h2 id=&#34;worauf-man-bei-der-java-installation-achten-sollte&#34;&gt;Worauf man bei der Java-Installation achten sollte&lt;/h2&gt;

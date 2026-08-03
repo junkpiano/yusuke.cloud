@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Development on Yusuke Ohashi</title>
-    <link>http://localhost:1313/zh/categories/development/</link>
+    <link>https://yusuke.cloud/zh/categories/development/</link>
     <description>Recent content in Development on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,28 +12,28 @@
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 06 Jul 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/zh/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Turso：带 Embedded Replica 和云同步的 SQLite 新演化</title>
-      <link>http://localhost:1313/zh/turso/</link>
+      <link>https://yusuke.cloud/zh/turso/</link>
       <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/zh/turso/</guid>
+      <guid>https://yusuke.cloud/zh/turso/</guid>
       <description>&lt;p&gt;最近我在折腾 &lt;a href=&#34;https://docs.turso.tech/introduction&#34;&gt;Turso&lt;/a&gt;，它正好击中了一个我之前没意识到自己想要的甜点：既有 SQLite 的简单，又有云数据库的便利。&lt;/p&gt;
 &lt;h2 id=&#34;turso-是什么&#34;&gt;Turso 是什么？&lt;/h2&gt;
 &lt;p&gt;Turso 最初是 &lt;strong&gt;libSQL&lt;/strong&gt;——一个接受开放贡献的 SQLite 分支。项目后来不断演化，官方称之为&amp;quot;SQLite 的下一次进化&amp;quot;：用 Rust 从零重写，同时保持与 SQLite 完全向后兼容，还加入了原版从未有过的东西：&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dotfiles</title>
-      <link>http://localhost:1313/zh/dotfiles/</link>
+      <link>https://yusuke.cloud/zh/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>http://localhost:1313/zh/dotfiles/</guid>
+      <guid>https://yusuke.cloud/zh/dotfiles/</guid>
       <description>一份关于管理 dotfiles 的完整指南，帮助你在多台机器上保持一致的开发环境</description>
     </item>
     <item>
       <title>编写 C 编译器</title>
-      <link>http://localhost:1313/zh/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/zh/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/zh/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/zh/writing-c-compiler/</guid>
       <description>一段编译器开发之旅：构建一个包含词法分析器、语法分析器和代码生成器的 C 编译器</description>
     </item>
   </channel>

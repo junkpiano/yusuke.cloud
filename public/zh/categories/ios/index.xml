@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IOS on Yusuke Ohashi</title>
-    <link>http://localhost:1313/zh/categories/ios/</link>
+    <link>https://yusuke.cloud/zh/categories/ios/</link>
     <description>Recent content in IOS on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,27 +12,27 @@
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 14 Jun 2021 16:16:05 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/zh/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/zh/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NWPathMonitor</title>
-      <link>http://localhost:1313/zh/nwpathmonitor/</link>
+      <link>https://yusuke.cloud/zh/nwpathmonitor/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>http://localhost:1313/zh/nwpathmonitor/</guid>
+      <guid>https://yusuke.cloud/zh/nwpathmonitor/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;NWPathMonitor 是 Network 框架中的一个类，用于观察网络状态并监控网络接口。
 它在 iOS 12 及以上版本可用。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;要接收回调，必须持有 NWPathMonitor 实例。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;通过 &lt;code&gt;requiredInterface&lt;/code&gt; 可以只观察特定的网络接口。&lt;/p&gt;</description>
     </item>
     <item>
       <title>面向 Swift 的 LSP</title>
-      <link>http://localhost:1313/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</link>
+      <link>https://yusuke.cloud/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
-      <guid>http://localhost:1313/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</guid>
+      <guid>https://yusuke.cloud/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</guid>
       <description>&lt;h2 id=&#34;什么是-language-server-protocollsp&#34;&gt;什么是 Language Server Protocol(LSP)？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Language Server Protocol 定义了一套&lt;strong&gt;标准化协议&lt;/strong&gt;，用于文本编辑器或 IDE（客户端）与编程语言（服务端）之间的通信。&lt;/li&gt;
@@ -50,9 +50,9 @@
     </item>
     <item>
       <title>网络抽象层</title>
-      <link>http://localhost:1313/zh/network-abstraction-layer/</link>
+      <link>https://yusuke.cloud/zh/network-abstraction-layer/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/zh/network-abstraction-layer/</guid>
+      <guid>https://yusuke.cloud/zh/network-abstraction-layer/</guid>
       <description>&lt;p&gt;我正在 &lt;code&gt;Kiri&lt;/code&gt; 这个库里尝试一种新的网络请求方式。
 &lt;code&gt;Kiri&lt;/code&gt; 是一个受 &lt;code&gt;Moya&lt;/code&gt; 启发的网络抽象层。&lt;code&gt;Moya&lt;/code&gt; 的架构给我留下了非常深的印象，为了从中学到最多的东西，我决定不复制粘贴，而是亲手把同样的架构写一遍。:D&lt;/p&gt;</description>
     </item>

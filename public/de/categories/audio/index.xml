@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Audio on Yusuke Ohashi</title>
-    <link>http://localhost:1313/de/categories/audio/</link>
+    <link>https://yusuke.cloud/de/categories/audio/</link>
     <description>Recent content in Audio on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/de/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/de/categories/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Notizen zum Signalweg meiner Hörumgebung zu Hause</title>
-      <link>http://localhost:1313/de/home-listening-signal-path/</link>
+      <link>https://yusuke.cloud/de/home-listening-signal-path/</link>
       <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
-      <guid>http://localhost:1313/de/home-listening-signal-path/</guid>
+      <guid>https://yusuke.cloud/de/home-listening-signal-path/</guid>
       <description>&lt;p&gt;Mir ist aufgefallen, dass meine Apple-Music-Umgebung womöglich falsch
 konfiguriert ist. Das war der Anlass, einmal aufzuschreiben, wo das digitale
 Audiosignal überall durchläuft und an welchen Stellen es umgeschrieben wird.&lt;/p&gt;
@@ -25,40 +25,40 @@ Audiosignal überall durchläuft und an welchen Stellen es umgeschrieben wird.&l
 &lt;h2 id=&#34;0-voraussetzung-meine-umgebung&#34;&gt;0. Voraussetzung: meine Umgebung&lt;/h2&gt;
 &lt;p&gt;Zuerst halte ich meine eigene Konfiguration fest. Alles Weitere baut darauf auf.&lt;/p&gt;
 &lt;table&gt;
-	&lt;thead&gt;
-			&lt;tr&gt;
-					&lt;th&gt;Position&lt;/th&gt;
-					&lt;th&gt;Gerät&lt;/th&gt;
-					&lt;th&gt;Rolle&lt;/th&gt;
-			&lt;/tr&gt;
-	&lt;/thead&gt;
-	&lt;tbody&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Quelle&lt;/td&gt;
-					&lt;td&gt;Apple Music (Windows-Version)&lt;/td&gt;
-					&lt;td&gt;Streaming- und Wiedergabe-App&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;PC&lt;/td&gt;
-					&lt;td&gt;Windows&lt;/td&gt;
-					&lt;td&gt;Das Betriebssystem vermittelt das Audio&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Wandlung&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Steinberg UR22mk2&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Audio-Interface&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Ausgang 1&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Yamaha HS5&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Aktive Monitorlautsprecher&lt;/td&gt;
-			&lt;/tr&gt;
-			&lt;tr&gt;
-					&lt;td&gt;Ausgang 2&lt;/td&gt;
-					&lt;td&gt;&lt;strong&gt;Sony MDR-900ST&lt;/strong&gt;&lt;/td&gt;
-					&lt;td&gt;Monitorkopfhörer&lt;/td&gt;
-			&lt;/tr&gt;
-	&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Position&lt;/th&gt;
+          &lt;th&gt;Gerät&lt;/th&gt;
+          &lt;th&gt;Rolle&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Quelle&lt;/td&gt;
+          &lt;td&gt;Apple Music (Windows-Version)&lt;/td&gt;
+          &lt;td&gt;Streaming- und Wiedergabe-App&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;PC&lt;/td&gt;
+          &lt;td&gt;Windows&lt;/td&gt;
+          &lt;td&gt;Das Betriebssystem vermittelt das Audio&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Wandlung&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Steinberg UR22mk2&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Audio-Interface&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ausgang 1&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Yamaha HS5&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Aktive Monitorlautsprecher&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Ausgang 2&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;Sony MDR-900ST&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;Monitorkopfhörer&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;wozu-jedes-gerät-da-ist&#34;&gt;Wozu jedes Gerät da ist&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Steinberg UR22mk2 — Audio-Interface&lt;/strong&gt;

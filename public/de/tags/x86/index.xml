@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>X86 on Yusuke Ohashi</title>
-    <link>http://localhost:1313/de/tags/x86/</link>
+    <link>https://yusuke.cloud/de/tags/x86/</link>
     <description>Recent content in X86 on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
@@ -12,12 +12,12 @@
     <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Wed, 24 Aug 2022 02:50:09 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/de/tags/x86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yusuke.cloud/de/tags/x86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Einen C-Compiler schreiben</title>
-      <link>http://localhost:1313/de/writing-c-compiler/</link>
+      <link>https://yusuke.cloud/de/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>http://localhost:1313/de/writing-c-compiler/</guid>
+      <guid>https://yusuke.cloud/de/writing-c-compiler/</guid>
       <description>Eine Reise in die Compiler-Entwicklung: ein C-Compiler mit Tokenizer, Parser und Codegenerator</description>
     </item>
   </channel>
