@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Audio on Yusuke Ohashi</title>
+    <link>http://localhost:1313/ja/categories/audio/</link>
+    <description>Recent content in Audio on Yusuke Ohashi</description>
+    <image>
+      <title>Yusuke Ohashi</title>
+      <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
+      <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>ja</language>
+    <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/categories/audio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自宅リスニング環境の信号経路メモ</title>
+      <link>http://localhost:1313/ja/home-listening-signal-path/</link>
+      <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/ja/home-listening-signal-path/</guid>
+      <description>&lt;p&gt;Apple Music を聴いている環境で「設定が正しくないのでは」と気づいたのを機に、
+デジタル音声がどこを通ってどう書き換わるのかを整理したノート。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;0-前提うちの環境&#34;&gt;0. 前提：うちの環境&lt;/h2&gt;
+&lt;p&gt;まず自分の構成を確認しておく。以降の説明はすべてこの構成が土台。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

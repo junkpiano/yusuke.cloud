@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/zh/categories/git/</link>
+    <link>http://localhost:1313/zh/categories/git/</link>
     <description>Recent content in Git on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/zh/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>git worktree 是什么？为什么它现在值得关注</title>
-      <link>https://yusuke.cloud/zh/git-worktree/</link>
+      <link>http://localhost:1313/zh/git-worktree/</link>
       <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/git-worktree/</guid>
+      <guid>http://localhost:1313/zh/git-worktree/</guid>
       <description>&lt;h2 id=&#34;为什么它和-ai-agent-是绝配&#34;&gt;为什么它和 AI Agent 是绝配&lt;/h2&gt;
 &lt;p&gt;随着 AI 辅助开发（Claude Code、Cursor、OpenAI Codex 等）越来越普及，&lt;strong&gt;git worktree&lt;/strong&gt; 再次受到了关注。&lt;/p&gt;
 &lt;p&gt;它在 Git 里已经存在很久了，但当多个 Agent 并行工作时，它的威力才真正显现出来。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Git on Windows</title>
-      <link>https://yusuke.cloud/zh/git-on-windows/</link>
+      <link>http://localhost:1313/zh/git-on-windows/</link>
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/git-on-windows/</guid>
+      <guid>http://localhost:1313/zh/git-on-windows/</guid>
       <description>&lt;p&gt;在 Windows 上使用 git 时，我基本上只用 GUI 操作，这和平时用 CUI 的习惯很不一样。每次都去查太麻烦了，所以在这里总结一下。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Windows10 Pro

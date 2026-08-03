@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Essay on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/zh/categories/essay/</link>
+    <link>http://localhost:1313/zh/categories/essay/</link>
     <description>Recent content in Essay on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/zh/categories/essay/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/zh/categories/essay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018 年回顾</title>
-      <link>https://yusuke.cloud/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</link>
+      <link>http://localhost:1313/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</guid>
+      <guid>http://localhost:1313/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</guid>
       <description>&lt;p&gt;2018 年又是很棒的一年。&lt;/p&gt;
 &lt;h2 id=&#34;工作上的投入&#34;&gt;工作上的投入&lt;/h2&gt;
 &lt;p&gt;我参与搭建了移动端开发的基础设施。&lt;/p&gt;

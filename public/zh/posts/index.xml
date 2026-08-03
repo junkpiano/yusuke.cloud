@@ -2,45 +2,65 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/zh/posts/</link>
+    <link>http://localhost:1313/zh/posts/</link>
     <description>Recent content in Posts on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>家里听音环境的信号路径笔记</title>
+      <link>http://localhost:1313/zh/home-listening-signal-path/</link>
+      <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/home-listening-signal-path/</guid>
+      <description>&lt;p&gt;因为发现自己听 Apple Music 的环境「设置好像不太对」，就借这个机会把
+数字音频到底经过哪些环节、又在哪里被改写，整理成了这篇笔记。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;0-前提我的环境&#34;&gt;0. 前提：我的环境&lt;/h2&gt;
+&lt;p&gt;先确认一下自己的配置。后面所有说明都以此为基础。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Turso：带 Embedded Replica 和云同步的 SQLite 新演化</title>
+      <link>http://localhost:1313/zh/turso/</link>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/turso/</guid>
+      <description>&lt;p&gt;最近我在折腾 &lt;a href=&#34;https://docs.turso.tech/introduction&#34;&gt;Turso&lt;/a&gt;，它正好击中了一个我之前没意识到自己想要的甜点：既有 SQLite 的简单，又有云数据库的便利。&lt;/p&gt;
+&lt;h2 id=&#34;turso-是什么&#34;&gt;Turso 是什么？&lt;/h2&gt;
+&lt;p&gt;Turso 最初是 &lt;strong&gt;libSQL&lt;/strong&gt;——一个接受开放贡献的 SQLite 分支。项目后来不断演化，官方称之为&amp;quot;SQLite 的下一次进化&amp;quot;：用 Rust 从零重写，同时保持与 SQLite 完全向后兼容，还加入了原版从未有过的东西：&lt;/p&gt;</description>
+    </item>
     <item>
       <title>git worktree 是什么？为什么它现在值得关注</title>
-      <link>https://yusuke.cloud/zh/git-worktree/</link>
+      <link>http://localhost:1313/zh/git-worktree/</link>
       <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/git-worktree/</guid>
+      <guid>http://localhost:1313/zh/git-worktree/</guid>
       <description>&lt;h2 id=&#34;为什么它和-ai-agent-是绝配&#34;&gt;为什么它和 AI Agent 是绝配&lt;/h2&gt;
 &lt;p&gt;随着 AI 辅助开发（Claude Code、Cursor、OpenAI Codex 等）越来越普及，&lt;strong&gt;git worktree&lt;/strong&gt; 再次受到了关注。&lt;/p&gt;
 &lt;p&gt;它在 Git 里已经存在很久了，但当多个 Agent 并行工作时，它的威力才真正显现出来。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Keycloak：写给架构师的身份与访问管理指南</title>
-      <link>https://yusuke.cloud/zh/keycloak-architects-guide-iam/</link>
+      <link>http://localhost:1313/zh/keycloak-architects-guide-iam/</link>
       <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/keycloak-architects-guide-iam/</guid>
+      <guid>http://localhost:1313/zh/keycloak-architects-guide-iam/</guid>
       <description>一份面向软件架构师的 Keycloak 完整指南，涵盖认证、授权以及 IAM 最佳实践</description>
     </item>
     <item>
       <title>Dotfiles</title>
-      <link>https://yusuke.cloud/zh/dotfiles/</link>
+      <link>http://localhost:1313/zh/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/dotfiles/</guid>
+      <guid>http://localhost:1313/zh/dotfiles/</guid>
       <description>一份关于管理 dotfiles 的完整指南，帮助你在多台机器上保持一致的开发环境</description>
     </item>
     <item>
       <title>Git on Windows</title>
-      <link>https://yusuke.cloud/zh/git-on-windows/</link>
+      <link>http://localhost:1313/zh/git-on-windows/</link>
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/git-on-windows/</guid>
+      <guid>http://localhost:1313/zh/git-on-windows/</guid>
       <description>&lt;p&gt;在 Windows 上使用 git 时，我基本上只用 GUI 操作，这和平时用 CUI 的习惯很不一样。每次都去查太麻烦了，所以在这里总结一下。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;环境&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Windows10 Pro
@@ -50,16 +70,16 @@
     </item>
     <item>
       <title>编写 C 编译器</title>
-      <link>https://yusuke.cloud/zh/writing-c-compiler/</link>
+      <link>http://localhost:1313/zh/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/writing-c-compiler/</guid>
+      <guid>http://localhost:1313/zh/writing-c-compiler/</guid>
       <description>一段编译器开发之旅：构建一个包含词法分析器、语法分析器和代码生成器的 C 编译器</description>
     </item>
     <item>
       <title>GitHub Issue 驱动的博客</title>
-      <link>https://yusuke.cloud/zh/github-issue-%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
+      <link>http://localhost:1313/zh/github-issue-%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%8D%9A%E5%AE%A2/</link>
       <pubDate>Thu, 07 Jul 2022 13:29:23 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/github-issue-%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
+      <guid>http://localhost:1313/zh/github-issue-%E9%A9%B1%E5%8A%A8%E7%9A%84%E5%8D%9A%E5%AE%A2/</guid>
       <description>&lt;p&gt;我做了一个实验,让&lt;a href=&#34;https://til.yusuke.cloud/&#34;&gt;我的微博客&lt;/a&gt;可以从 GitHub Issue 自动生成。&lt;/p&gt;
 &lt;p&gt;在这篇文章中,我会展示我是如何重新设计我的博客工作流的。&lt;/p&gt;
 &lt;h2 id=&#34;系统图&#34;&gt;系统图&lt;/h2&gt;
@@ -71,9 +91,9 @@
     </item>
     <item>
       <title>把 Eos X7i 当 Webcam 用却失败的记录</title>
-      <link>https://yusuke.cloud/zh/eos-x7i-webcam-failure/</link>
+      <link>http://localhost:1313/zh/eos-x7i-webcam-failure/</link>
       <pubDate>Tue, 31 May 2022 03:17:07 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/eos-x7i-webcam-failure/</guid>
+      <guid>http://localhost:1313/zh/eos-x7i-webcam-failure/</guid>
       <description>&lt;p&gt;没搞成。准确地说，是没能得到令人满意的结果。&lt;/p&gt;
 &lt;h2 id=&#34;尝试-1&#34;&gt;尝试 #1&lt;/h2&gt;
 &lt;ul&gt;
@@ -102,23 +122,23 @@
     </item>
     <item>
       <title>XCConfig</title>
-      <link>https://yusuke.cloud/zh/xcconfig/</link>
+      <link>http://localhost:1313/zh/xcconfig/</link>
       <pubDate>Tue, 12 Oct 2021 12:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/xcconfig/</guid>
+      <guid>http://localhost:1313/zh/xcconfig/</guid>
       <description>将构建信息从 Info.plist 中外部化</description>
     </item>
     <item>
       <title>《艾尔登法环》翻译之争</title>
-      <link>https://yusuke.cloud/zh/eldenring-translation-dispute/</link>
+      <link>http://localhost:1313/zh/eldenring-translation-dispute/</link>
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/eldenring-translation-dispute/</guid>
+      <guid>http://localhost:1313/zh/eldenring-translation-dispute/</guid>
       <description>&lt;p&gt;我玩《艾尔登法环》用的是英文版，所以看日语实况视频时经常冒出&amp;quot;那是什么？&amp;ldquo;的疑问。比如 misericorde 在日语里是&amp;quot;慈悲の短剣&amp;rdquo;（慈悲的短剑），第一次听到时完全不知道是什么。&amp;ldquo;黄金樹に誓って&amp;quot;对应 Golden Vow，一开始也没反应过来，不过反复看视频之后，记住了不少。&lt;/p&gt;</description>
     </item>
     <item>
       <title>权当自动发布的测试</title>
-      <link>https://yusuke.cloud/zh/testing-auto-deploy/</link>
+      <link>http://localhost:1313/zh/testing-auto-deploy/</link>
       <pubDate>Wed, 21 Jul 2021 03:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/testing-auto-deploy/</guid>
+      <guid>http://localhost:1313/zh/testing-auto-deploy/</guid>
       <description>&lt;p&gt;大家好。&lt;/p&gt;
 &lt;p&gt;我配置好了基于 Github Actions 的自动发布，现在只要随便写点什么再 git push 就行了。
 剩下的从编译到部署全都自动完成。只需要写 markdown 就好，连本地编辑器都不用打开（直接在 Github 上操作）。
@@ -126,9 +146,9 @@
     </item>
     <item>
       <title>适用于 Fastlane 的 SwiftDoc Action</title>
-      <link>https://yusuke.cloud/zh/%E9%80%82%E7%94%A8%E4%BA%8E-fastlane-%E7%9A%84-swiftdoc-action/</link>
+      <link>http://localhost:1313/zh/%E9%80%82%E7%94%A8%E4%BA%8E-fastlane-%E7%9A%84-swiftdoc-action/</link>
       <pubDate>Mon, 19 Jul 2021 06:01:57 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/%E9%80%82%E7%94%A8%E4%BA%8E-fastlane-%E7%9A%84-swiftdoc-action/</guid>
+      <guid>http://localhost:1313/zh/%E9%80%82%E7%94%A8%E4%BA%8E-fastlane-%E7%9A%84-swiftdoc-action/</guid>
       <description>&lt;p&gt;在这里宣布一下：我为 &lt;a href=&#34;https://swiftdoc.org&#34;&gt;SwiftDoc&lt;/a&gt; 写了一个 fastlane action，因为我在 fastlane 官方文档里没有找到现成的。&lt;/p&gt;
 &lt;p&gt;SwiftDoc 是又一款文档生成器，专门面向 Swift 项目。
 它的 UI 非常清爽，还能生成漂亮的依赖关系图。
@@ -136,9 +156,9 @@
     </item>
     <item>
       <title>Hugo 的多语言支持</title>
-      <link>https://yusuke.cloud/zh/multilingual-hugo/</link>
+      <link>http://localhost:1313/zh/multilingual-hugo/</link>
       <pubDate>Mon, 12 Jul 2021 08:04:09 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/multilingual-hugo/</guid>
+      <guid>http://localhost:1313/zh/multilingual-hugo/</guid>
       <description>&lt;p&gt;你好，互联网。&lt;/p&gt;
 &lt;p&gt;Hugo 的多语言化终于完成了，用日语写博客也变得轻松多了。😎&lt;/p&gt;
 &lt;p&gt;Hugo 本身就支持多语言，所以并不难，只是需要增加一些配置。&lt;/p&gt;
@@ -147,9 +167,9 @@
     </item>
     <item>
       <title>我是如何搭建这个博客的</title>
-      <link>https://yusuke.cloud/zh/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84/</link>
+      <link>http://localhost:1313/zh/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84/</link>
       <pubDate>Wed, 30 Jun 2021 06:49:42 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84/</guid>
+      <guid>http://localhost:1313/zh/%E6%88%91%E6%98%AF%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E8%BF%99%E4%B8%AA%E5%8D%9A%E5%AE%A2%E7%9A%84/</guid>
       <description>&lt;p&gt;这是 2021 年 6 月时的一份快照。我来写写这个博客。
 下图展示了我的博客架构。&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;架构图&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/blog_network_diagram.png&#34;&gt;&lt;/p&gt;
@@ -162,9 +182,9 @@
     </item>
     <item>
       <title>让评论再次伟大</title>
-      <link>https://yusuke.cloud/zh/%E8%AE%A9%E8%AF%84%E8%AE%BA%E5%86%8D%E6%AC%A1%E4%BC%9F%E5%A4%A7/</link>
+      <link>http://localhost:1313/zh/%E8%AE%A9%E8%AF%84%E8%AE%BA%E5%86%8D%E6%AC%A1%E4%BC%9F%E5%A4%A7/</link>
       <pubDate>Fri, 18 Jun 2021 08:04:24 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/%E8%AE%A9%E8%AF%84%E8%AE%BA%E5%86%8D%E6%AC%A1%E4%BC%9F%E5%A4%A7/</guid>
+      <guid>http://localhost:1313/zh/%E8%AE%A9%E8%AF%84%E8%AE%BA%E5%86%8D%E6%AC%A1%E4%BC%9F%E5%A4%A7/</guid>
       <description>&lt;p&gt;我一直没有在这个博客上启用评论功能,但其实很早就想把它做出来了。
 我试过 &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;。它很酷,但事实证明并不符合我的需求。&lt;/p&gt;
 &lt;h2 id=&#34;对-disqus-的看法&#34;&gt;对 Disqus 的看法&lt;/h2&gt;
@@ -177,24 +197,24 @@
     </item>
     <item>
       <title>NWPathMonitor</title>
-      <link>https://yusuke.cloud/zh/nwpathmonitor/</link>
+      <link>http://localhost:1313/zh/nwpathmonitor/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/nwpathmonitor/</guid>
+      <guid>http://localhost:1313/zh/nwpathmonitor/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
 &lt;p&gt;NWPathMonitor 是 Network 框架中的一个类，用于观察网络状态并监控网络接口。
 它在 iOS 12 及以上版本可用。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;要接收回调，必须持有 NWPathMonitor 实例。&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;通过 &lt;code&gt;requiredInterface&lt;/code&gt; 可以只观察特定的网络接口。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Munin 安装笔记</title>
-      <link>https://yusuke.cloud/zh/munin-installation-memo/</link>
+      <link>http://localhost:1313/zh/munin-installation-memo/</link>
       <pubDate>Tue, 21 Apr 2020 07:02:57 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/munin-installation-memo/</guid>
+      <guid>http://localhost:1313/zh/munin-installation-memo/</guid>
       <description>&lt;p&gt;你听说过 &lt;a href=&#34;http://munin-monitoring.org/&#34;&gt;Munin&lt;/a&gt; 吗？
 Munin 是一款服务器资源监控工具，可以把各种数据以图表的形式直观地展示出来。&lt;/p&gt;
 &lt;p&gt;Munin 非常简单，搭建起来也很容易。&lt;/p&gt;
@@ -203,17 +223,17 @@ Munin 是一款服务器资源监控工具，可以把各种数据以图表的�
     </item>
     <item>
       <title>Java 101</title>
-      <link>https://yusuke.cloud/zh/java-101/</link>
+      <link>http://localhost:1313/zh/java-101/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/java-101/</guid>
+      <guid>http://localhost:1313/zh/java-101/</guid>
       <description>&lt;p&gt;事到如今还写 Java 的文章，似乎有点过时，不过我想重新梳理一下自己的知识，所以在这里记录一下用 &lt;a href=&#34;https://www.jetbrains.com/idea/&#34;&gt;IntelliJ Idea&lt;/a&gt; 开始学 Java 时最好先了解的一些事情。
 这只是我个人的整理笔记。&lt;/p&gt;</description>
     </item>
     <item>
       <title>面向 Swift 的 LSP</title>
-      <link>https://yusuke.cloud/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</link>
+      <link>http://localhost:1313/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</guid>
+      <guid>http://localhost:1313/zh/%E9%9D%A2%E5%90%91-swift-%E7%9A%84-lsp/</guid>
       <description>&lt;h2 id=&#34;什么是-language-server-protocollsp&#34;&gt;什么是 Language Server Protocol(LSP)？&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Language Server Protocol 定义了一套&lt;strong&gt;标准化协议&lt;/strong&gt;，用于文本编辑器或 IDE（客户端）与编程语言（服务端）之间的通信。&lt;/li&gt;
@@ -231,9 +251,9 @@ Munin 是一款服务器资源监控工具，可以把各种数据以图表的�
     </item>
     <item>
       <title>2018 年回顾</title>
-      <link>https://yusuke.cloud/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</link>
+      <link>http://localhost:1313/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</guid>
+      <guid>http://localhost:1313/zh/2018-%E5%B9%B4%E5%9B%9E%E9%A1%BE/</guid>
       <description>&lt;p&gt;2018 年又是很棒的一年。&lt;/p&gt;
 &lt;h2 id=&#34;工作上的投入&#34;&gt;工作上的投入&lt;/h2&gt;
 &lt;p&gt;我参与搭建了移动端开发的基础设施。&lt;/p&gt;
@@ -243,17 +263,17 @@ Munin 是一款服务器资源监控工具，可以把各种数据以图表的�
     </item>
     <item>
       <title>网络抽象层</title>
-      <link>https://yusuke.cloud/zh/network-abstraction-layer/</link>
+      <link>http://localhost:1313/zh/network-abstraction-layer/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/network-abstraction-layer/</guid>
+      <guid>http://localhost:1313/zh/network-abstraction-layer/</guid>
       <description>&lt;p&gt;我正在 &lt;code&gt;Kiri&lt;/code&gt; 这个库里尝试一种新的网络请求方式。
 &lt;code&gt;Kiri&lt;/code&gt; 是一个受 &lt;code&gt;Moya&lt;/code&gt; 启发的网络抽象层。&lt;code&gt;Moya&lt;/code&gt; 的架构给我留下了非常深的印象，为了从中学到最多的东西，我决定不复制粘贴，而是亲手把同样的架构写一遍。:D&lt;/p&gt;</description>
     </item>
     <item>
       <title>Crontab Guru</title>
-      <link>https://yusuke.cloud/zh/crontab-guru/</link>
+      <link>http://localhost:1313/zh/crontab-guru/</link>
       <pubDate>Wed, 12 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/crontab-guru/</guid>
+      <guid>http://localhost:1313/zh/crontab-guru/</guid>
       <description>&lt;p&gt;如果你每次写 crontab 都要先去 Google 一下，那这个网站很适合你。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://crontab.guru/&#34;&gt;crontab guru&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img alt=&#34;crontab guru 截图&#34; loading=&#34;lazy&#34; src=&#34;https://cdn.yusuke.cloud/assets/image/crontabguru.png&#34;&gt;&lt;/p&gt;
@@ -263,9 +283,9 @@ Munin 是一款服务器资源监控工具，可以把各种数据以图表的�
     </item>
     <item>
       <title>NPM 依赖关系图</title>
-      <link>https://yusuke.cloud/zh/npm-dependency-graph/</link>
+      <link>http://localhost:1313/zh/npm-dependency-graph/</link>
       <pubDate>Tue, 11 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/npm-dependency-graph/</guid>
+      <guid>http://localhost:1313/zh/npm-dependency-graph/</guid>
       <description>&lt;p&gt;我发现了一个可视化 npm 依赖关系图的好工具。&lt;/p&gt;
 &lt;p&gt;下面这个例子展示的是 &lt;code&gt;react-native-maps&lt;/code&gt; 的依赖关系图，昨晚我正好在研究它。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://npm.anvaka.com/#/view/2d/react-native-maps&#34;&gt;https://npm.anvaka.com/#/view/2d/react-native-maps&lt;/a&gt;&lt;/p&gt;

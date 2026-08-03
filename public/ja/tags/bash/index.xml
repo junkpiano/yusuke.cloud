@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bash on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/ja/tags/bash/</link>
+    <link>http://localhost:1313/ja/tags/bash/</link>
     <description>Recent content in Bash on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Tue, 28 May 2024 11:08:11 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/ja/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ja/tags/bash/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dotfiles</title>
-      <link>https://yusuke.cloud/ja/dotfiles/</link>
+      <link>http://localhost:1313/ja/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>https://yusuke.cloud/ja/dotfiles/</guid>
+      <guid>http://localhost:1313/ja/dotfiles/</guid>
       <description>複数のマシンで一貫した開発環境を実現するためのdotfiles管理の総合ガイド</description>
     </item>
   </channel>

@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>IOS on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/de/categories/ios/</link>
+    <link>http://localhost:1313/de/categories/ios/</link>
     <description>Recent content in IOS on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>de</language>
     <lastBuildDate>Mon, 14 Jun 2021 16:16:05 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/de/categories/ios/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/de/categories/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NWPathMonitor</title>
-      <link>https://yusuke.cloud/de/nwpathmonitor/</link>
+      <link>http://localhost:1313/de/nwpathmonitor/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>https://yusuke.cloud/de/nwpathmonitor/</guid>
+      <guid>http://localhost:1313/de/nwpathmonitor/</guid>
       <description>&lt;h2 id=&#34;einführung&#34;&gt;Einführung&lt;/h2&gt;
 &lt;p&gt;NWPathMonitor ist eine Klasse aus dem Network-Framework, die den Netzwerkstatus beobachtet und das Netzwerk-Interface überwacht.
 Sie ist ab iOS 12 verfügbar.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;import&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Network&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Um Callbacks zu erhalten, muss man die NWPathMonitor-Instanz festhalten (retainen).&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;class&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;NetworkMonitorViewController&lt;/span&gt;: ViewController {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; monitor = NWPathMonitor()
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Mit &lt;code&gt;requiredInterface&lt;/code&gt; lässt sich gezielt ein bestimmtes Netzwerk-Interface beobachten.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; wifiMonitor = NWPathMonitor(requiredInterfaceType: .wifi)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hier ist die Liste der Interfaces, die NWPathMonitor unterstützt.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://developer.apple.com/documentation/network/nwinterface/interfacetype&#34;&gt;https://developer.apple.com/documentation/network/nwinterface/interfacetype&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;netzwerkänderungen-erkennen&#34;&gt;Netzwerkänderungen erkennen&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-swift&#34; data-lang=&#34;swift&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;monitor.pathUpdateHandler = { path &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; path.status == .satisfied {
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#75715e&#34;&gt;// Connected&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
@@ -41,9 +41,9 @@ Sie ist ab iOS 12 verfügbar.&lt;/p&gt;
     </item>
     <item>
       <title>LSP für Swift</title>
-      <link>https://yusuke.cloud/de/lsp-f%C3%BCr-swift/</link>
+      <link>http://localhost:1313/de/lsp-f%C3%BCr-swift/</link>
       <pubDate>Tue, 07 Apr 2020 18:01:03 +0900</pubDate>
-      <guid>https://yusuke.cloud/de/lsp-f%C3%BCr-swift/</guid>
+      <guid>http://localhost:1313/de/lsp-f%C3%BCr-swift/</guid>
       <description>&lt;h2 id=&#34;was-ist-das-language-server-protocol-lsp&#34;&gt;Was ist das Language Server Protocol (LSP)?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Das Language Server Protocol definiert ein &lt;strong&gt;standardisiertes Protokoll&lt;/strong&gt;, über das ein Texteditor bzw. eine IDE (Client) mit einer Sprache (Server) kommuniziert.&lt;/li&gt;
@@ -75,9 +75,9 @@ Sie ist ab iOS 12 verfügbar.&lt;/p&gt;
     </item>
     <item>
       <title>Netzwerk-Abstraktionsschicht</title>
-      <link>https://yusuke.cloud/de/network-abstraction-layer/</link>
+      <link>http://localhost:1313/de/network-abstraction-layer/</link>
       <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/de/network-abstraction-layer/</guid>
+      <guid>http://localhost:1313/de/network-abstraction-layer/</guid>
       <description>&lt;p&gt;Ich experimentiere in meiner Library &lt;code&gt;Kiri&lt;/code&gt; gerade mit einem neuen Ansatz für Netzwerk-Requests.
 &lt;code&gt;Kiri&lt;/code&gt; ist eine von &lt;code&gt;Moya&lt;/code&gt; inspirierte abstrakte Networking-Schicht. Die Architektur von &lt;code&gt;Moya&lt;/code&gt; hat mich sehr beeindruckt, und um möglichst viel daraus zu lernen, habe ich beschlossen, dieselbe Architektur selbst nachzubauen, statt sie per Copy-and-paste zu übernehmen. :D&lt;/p&gt;
 &lt;p&gt;Eine Client-Library lässt sich in drei Teile zerlegen.&lt;/p&gt;

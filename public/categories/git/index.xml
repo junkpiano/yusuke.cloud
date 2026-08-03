@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/categories/git/</link>
+    <link>http://localhost:1313/categories/git/</link>
     <description>Recent content in Git on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What Is Git Worktree, and Why It Matters Now</title>
-      <link>https://yusuke.cloud/git-worktree/</link>
+      <link>http://localhost:1313/git-worktree/</link>
       <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/git-worktree/</guid>
+      <guid>http://localhost:1313/git-worktree/</guid>
       <description>&lt;h2 id=&#34;why-it-pairs-well-with-ai-agents&#34;&gt;Why It Pairs Well with AI Agents&lt;/h2&gt;
 &lt;p&gt;As AI-assisted development (Claude Code, Cursor, OpenAI Codex, and others) becomes more common, &lt;strong&gt;git worktree&lt;/strong&gt; is getting attention again.&lt;/p&gt;
 &lt;p&gt;It has existed in Git for a long time, but it becomes especially powerful when multiple agents work in parallel.&lt;/p&gt;
@@ -32,9 +32,9 @@
     </item>
     <item>
       <title>Git on Windows</title>
-      <link>https://yusuke.cloud/git-on-windows/</link>
+      <link>http://localhost:1313/git-on-windows/</link>
       <pubDate>Sat, 25 Nov 2023 08:50:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/git-on-windows/</guid>
+      <guid>http://localhost:1313/git-on-windows/</guid>
       <description>&lt;p&gt;When I use git on Windows, I basically do everything through a GUI, which works quite differently from my usual CUI workflow. Looking things up every single time is a pain, so I am putting it all together here.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Environment&lt;/strong&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Windows10 Pro

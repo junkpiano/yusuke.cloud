@@ -2,71 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/zh/categories/</link>
+    <link>http://localhost:1313/zh/categories/</link>
     <description>Recent content in Categories on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 05 Mar 2026 09:00:00 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>https://yusuke.cloud/zh/categories/git/</link>
-      <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Devops</title>
-      <link>https://yusuke.cloud/zh/categories/devops/</link>
-      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/devops/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://yusuke.cloud/zh/categories/security/</link>
-      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/security/</guid>
+      <title>Audio</title>
+      <link>http://localhost:1313/zh/categories/audio/</link>
+      <pubDate>Sun, 02 Aug 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/categories/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://yusuke.cloud/zh/categories/development/</link>
-      <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/development/</guid>
+      <link>http://localhost:1313/zh/categories/development/</link>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:1313/zh/categories/git/</link>
+      <pubDate>Thu, 05 Mar 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/categories/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>http://localhost:1313/zh/categories/devops/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/categories/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security</title>
+      <link>http://localhost:1313/zh/categories/security/</link>
+      <pubDate>Thu, 22 Jan 2026 10:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/zh/categories/security/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://yusuke.cloud/zh/categories/programming/</link>
+      <link>http://localhost:1313/zh/categories/programming/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/programming/</guid>
+      <guid>http://localhost:1313/zh/categories/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>IOS</title>
-      <link>https://yusuke.cloud/zh/categories/ios/</link>
+      <link>http://localhost:1313/zh/categories/ios/</link>
       <pubDate>Mon, 14 Jun 2021 16:16:05 +0900</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/ios/</guid>
+      <guid>http://localhost:1313/zh/categories/ios/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>https://yusuke.cloud/zh/categories/java/</link>
+      <link>http://localhost:1313/zh/categories/java/</link>
       <pubDate>Sun, 12 Apr 2020 11:09:21 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/java/</guid>
+      <guid>http://localhost:1313/zh/categories/java/</guid>
       <description></description>
     </item>
     <item>
       <title>Essay</title>
-      <link>https://yusuke.cloud/zh/categories/essay/</link>
+      <link>http://localhost:1313/zh/categories/essay/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/zh/categories/essay/</guid>
+      <guid>http://localhost:1313/zh/categories/essay/</guid>
       <description></description>
     </item>
   </channel>

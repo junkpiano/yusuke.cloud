@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Essay on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/ja/categories/essay/</link>
+    <link>http://localhost:1313/ja/categories/essay/</link>
     <description>Recent content in Essay on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/ja/categories/essay/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ja/categories/essay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2018年を振り返って</title>
-      <link>https://yusuke.cloud/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</link>
+      <link>http://localhost:1313/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</link>
       <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://yusuke.cloud/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</guid>
+      <guid>http://localhost:1313/ja/2018%E5%B9%B4%E3%82%92%E6%8C%AF%E3%82%8A%E8%BF%94%E3%81%A3%E3%81%A6/</guid>
       <description>&lt;p&gt;2018 年もまた素晴らしい 1 年でした。&lt;/p&gt;
 &lt;h2 id=&#34;仕事での取り組み&#34;&gt;仕事での取り組み&lt;/h2&gt;
 &lt;p&gt;モバイル開発基盤の構築に取り組みました。&lt;/p&gt;

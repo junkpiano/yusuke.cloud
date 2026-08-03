@@ -2,29 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Development on Yusuke Ohashi</title>
-    <link>https://yusuke.cloud/ja/categories/development/</link>
+    <link>http://localhost:1313/ja/categories/development/</link>
     <description>Recent content in Development on Yusuke Ohashi</description>
     <image>
       <title>Yusuke Ohashi</title>
       <url>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</url>
       <link>https://cdn.yusuke.cloud/assets/image/golden-gate-bridge.jpg</link>
     </image>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 28 May 2024 11:08:11 +0900</lastBuildDate>
-    <atom:link href="https://yusuke.cloud/ja/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2026 09:00:00 +0900</lastBuildDate>
+    <atom:link href="http://localhost:1313/ja/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Turso: Embedded Replica とクラウド同期を備えた SQLite の再発明</title>
+      <link>http://localhost:1313/ja/turso/</link>
+      <pubDate>Mon, 06 Jul 2026 09:00:00 +0900</pubDate>
+      <guid>http://localhost:1313/ja/turso/</guid>
+      <description>&lt;p&gt;最近 &lt;a href=&#34;https://docs.turso.tech/introduction&#34;&gt;Turso&lt;/a&gt; をいじっているのですが、SQLite のシンプルさとクラウドデータベースの便利さを両立していて、まさに「これが欲しかった」というポイントを突いてきます。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Dotfiles</title>
-      <link>https://yusuke.cloud/ja/dotfiles/</link>
+      <link>http://localhost:1313/ja/dotfiles/</link>
       <pubDate>Tue, 28 May 2024 11:08:11 +0900</pubDate>
-      <guid>https://yusuke.cloud/ja/dotfiles/</guid>
+      <guid>http://localhost:1313/ja/dotfiles/</guid>
       <description>複数のマシンで一貫した開発環境を実現するためのdotfiles管理の総合ガイド</description>
     </item>
     <item>
       <title>Cコンパイラを書く</title>
-      <link>https://yusuke.cloud/ja/writing-c-compiler/</link>
+      <link>http://localhost:1313/ja/writing-c-compiler/</link>
       <pubDate>Wed, 24 Aug 2022 02:50:09 +0900</pubDate>
-      <guid>https://yusuke.cloud/ja/writing-c-compiler/</guid>
+      <guid>http://localhost:1313/ja/writing-c-compiler/</guid>
       <description>コンパイラ開発への第一歩：トークナイザ、パーサ、コードジェネレータを備えたCコンパイラの制作</description>
     </item>
   </channel>
