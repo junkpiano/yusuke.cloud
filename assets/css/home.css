@@ -1,0 +1,196 @@
+/* Homepage only — loaded from layouts/partials/extend_head.html on .Kind "home".
+   Colours come from PaperMod's theme vars so the light/dark toggle keeps working. */
+
+/* PaperMod washes list-kind pages in grey; the homepage sits on plain page ground. */
+body.list {
+  background: var(--theme);
+}
+
+.pm-home {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 16px 0 72px;
+}
+
+/* Name + avatar */
+
+.pm-home__intro {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.pm-home__avatar {
+  flex: none;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--border);
+}
+
+.pm-home__name {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--primary);
+}
+
+.pm-home__role {
+  margin: 5px 0 0;
+  font-size: 15px;
+  color: var(--secondary);
+}
+
+/* Bio prose */
+
+.pm-home__bio {
+  margin-top: 30px;
+  font-size: 17px;
+  line-height: 1.75;
+  color: var(--content);
+}
+
+.pm-home__bio p {
+  margin: 0 0 1.1em;
+}
+
+.pm-home__bio p:last-child {
+  margin-bottom: 0;
+}
+
+.pm-home__bio a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--tertiary);
+}
+
+.pm-home__bio a:hover {
+  text-decoration-color: var(--primary);
+}
+
+/* Link row: GitHub · LinkedIn · … */
+
+.pm-home__links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.pm-home__links li + li::before {
+  content: "\00b7";
+  padding: 0 10px;
+  color: var(--tertiary);
+}
+
+.pm-home__links a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--tertiary);
+}
+
+.pm-home__links a:hover {
+  text-decoration-color: var(--primary);
+}
+
+/* Recent posts */
+
+.pm-home__writing {
+  margin-top: 52px;
+  padding-top: 30px;
+  border-top: 1px solid var(--border);
+}
+
+.pm-home__h2 {
+  margin: 0 0 14px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+
+.pm-home__posts {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pm-home__post {
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  padding: 7px 0;
+}
+
+.pm-home__date {
+  flex: none;
+  width: 5.5em;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+  color: var(--secondary);
+}
+
+.pm-home__post-title {
+  font-size: 17px;
+  line-height: 1.45;
+  color: var(--primary);
+}
+
+.pm-home__post-title:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.pm-home__more {
+  margin: 22px 0 0;
+  font-size: 15px;
+}
+
+.pm-home__more a {
+  color: var(--secondary);
+}
+
+.pm-home__more a:hover {
+  color: var(--primary);
+}
+
+@media screen and (max-width: 560px) {
+  .pm-home {
+    padding-bottom: 48px;
+  }
+
+  .pm-home__intro {
+    gap: 16px;
+  }
+
+  .pm-home__avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .pm-home__name {
+    font-size: 24px;
+  }
+
+  .pm-home__bio {
+    font-size: 16px;
+  }
+
+  .pm-home__post {
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px 0;
+  }
+
+  .pm-home__date {
+    width: auto;
+    font-size: 13px;
+  }
+}
