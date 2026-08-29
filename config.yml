@@ -32,7 +32,20 @@ params:
   info: 'iOS Developer, DevOps, Blogger, and Gamer'
   description: Yusuke Ohashi's personal website
   keywords: ["blog", "developer", "personal"]
-  avatarurl: 'https://www.gravatar.com/avatar/6c1aa726eee0183a8820a97a515eb3ab?s=200'
+  avatarurl: 'https://www.gravatar.com/avatar/d3fc8d6fbff5b66d7a45ff6396824198e4d5603c9be48ec1d6c9a9ebbc07574c?s=200'
+
+  # Text link row on the homepage; RSS is appended by layouts/index.html.
+  homeLinks:
+    - label: GitHub
+      url: 'https://github.com/junkpiano/'
+    - label: LinkedIn
+      url: 'https://www.linkedin.com/in/yusukeohashi'
+    - label: Mastodon
+      url: 'https://mastodon.technology/@junkpiano'
+    - label: nostr
+      url: 'https://nox.garden/junkpiano@yusuke.cloud'
+    - label: Email
+      url: 'mailto:mail@yusuke.cloud'
   favicon_32: /img/favicon-32x32.png
   favicon_16: /img/favicon-16x16.png
   footercontent: Welcome to my personal website!
@@ -97,15 +110,18 @@ languages:
         - name: Posts
           weight: 2
           url: /posts/
-        - name: RSS
+        - name: Portfolio
           weight: 3
+          url: /portfolio/
+        - name: RSS
+          weight: 4
           url: /index.xml
         - name: TIL
-          weight: 4
+          weight: 5
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 5
-          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+          weight: 6
+          url: https://nox.garden/junkpiano@yusuke.cloud
   ja:
     LanguageName: ':jp:'
     contentDir: content/japanese
@@ -120,15 +136,18 @@ languages:
         - name: 記事
           weight: 2
           url: /posts/
-        - name: 購読
+        - name: ポートフォリオ
           weight: 3
+          url: /portfolio/
+        - name: RSS
+          weight: 4
           url: /ja/index.xml
         - name: 学び
-          weight: 4
+          weight: 5
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 5
-          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+          weight: 6
+          url: https://nox.garden/junkpiano@yusuke.cloud
   zh:
     LanguageName: ':cn:'
     contentDir: content/chinese
@@ -143,15 +162,18 @@ languages:
         - name: 文章
           weight: 2
           url: /posts/
-        - name: 订阅
+        - name: 作品集
           weight: 3
+          url: /portfolio/
+        - name: RSS
+          weight: 4
           url: /zh/index.xml
         - name: TIL
-          weight: 4
+          weight: 5
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 5
-          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+          weight: 6
+          url: https://nox.garden/junkpiano@yusuke.cloud
   de:
     LanguageName: ':de:'
     contentDir: content/german
@@ -166,12 +188,15 @@ languages:
         - name: Beiträge
           weight: 2
           url: /posts/
-        - name: RSS
+        - name: Portfolio
           weight: 3
+          url: /portfolio/
+        - name: RSS
+          weight: 4
           url: /de/index.xml
         - name: TIL
-          weight: 4
+          weight: 5
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 5
-          url: https://nostr.yusuke.cloud/junkpiano@yusuke.cloud
+          weight: 6
+          url: https://nox.garden/junkpiano@yusuke.cloud
