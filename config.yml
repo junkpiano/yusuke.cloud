@@ -41,7 +41,7 @@ params:
     - label: LinkedIn
       url: 'https://www.linkedin.com/in/yusukeohashi'
     - label: Mastodon
-      url: 'https://mastodon.technology/@junkpiano'
+      url: 'https://hachyderm.io/@junkpiano'
     - label: nostr
       url: 'https://nox.garden/junkpiano@yusuke.cloud'
     - label: Email
@@ -91,7 +91,7 @@ params:
     - name: Mastodon
       icon: fa fa-mastodon fa-2x
       weight: 5
-      url: 'https://mastodon.technology/@junkpiano'
+      url: 'https://hachyderm.io/@junkpiano'
       rel: me
 taxonomies:
   category: categories
