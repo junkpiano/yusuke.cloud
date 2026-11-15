@@ -9,6 +9,12 @@
   {{- end -}}
 {{- end -}}
 
+{{- if eq .Type "gallery" -}}
+  {{- with resources.Get "css/gallery.css" -}}
+  <style>{{ (. | minify).Content | safeCSS }}</style>
+  {{- end -}}
+{{- end -}}
+
 {{- /* Portfolio page-only styles/fonts */ -}}
 {{- if or (eq .Type "portfolio") (eq .Section "portfolio") -}}
   <link rel="preconnect" href="https://fonts.googleapis.com">

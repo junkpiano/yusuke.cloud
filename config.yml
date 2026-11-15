@@ -113,14 +113,17 @@ languages:
         - name: Portfolio
           weight: 3
           url: /portfolio/
-        - name: RSS
+        - name: Gallery
           weight: 4
+          url: /gallery/
+        - name: RSS
+          weight: 5
           url: /index.xml
         - name: TIL
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nox.garden/junkpiano@yusuke.cloud
   ja:
     LanguageName: ':jp:'
@@ -139,14 +142,17 @@ languages:
         - name: ポートフォリオ
           weight: 3
           url: /portfolio/
-        - name: RSS
+        - name: ギャラリー
           weight: 4
+          url: /gallery/
+        - name: RSS
+          weight: 5
           url: /ja/index.xml
         - name: 学び
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nox.garden/junkpiano@yusuke.cloud
   zh:
     LanguageName: ':cn:'
@@ -165,14 +171,17 @@ languages:
         - name: 作品集
           weight: 3
           url: /portfolio/
-        - name: RSS
+        - name: 相册
           weight: 4
+          url: /gallery/
+        - name: RSS
+          weight: 5
           url: /zh/index.xml
         - name: TIL
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nox.garden/junkpiano@yusuke.cloud
   de:
     LanguageName: ':de:'
@@ -191,12 +200,15 @@ languages:
         - name: Portfolio
           weight: 3
           url: /portfolio/
-        - name: RSS
+        - name: Galerie
           weight: 4
+          url: /gallery/
+        - name: RSS
+          weight: 5
           url: /de/index.xml
         - name: TIL
-          weight: 5
+          weight: 6
           url: https://til.yusuke.cloud
         - name: nostr
-          weight: 6
+          weight: 7
           url: https://nox.garden/junkpiano@yusuke.cloud

@@ -24,6 +24,10 @@ jobs:
       with:
         hugo-version: '0.152.2'
     - name: Build
+      env:
+        # Gallery photos come from content-manager's API at build time; the token never reaches the page.
+        HUGO_CONTENT_MANAGER_URL: ${{ secrets.CONTENT_MANAGER_URL }}
+        HUGO_CONTENT_MANAGER_TOKEN: ${{ secrets.CONTENT_MANAGER_TOKEN }}
       run: hugo --minify --gc
     - uses: EndBug/add-and-commit@v7
       id: ci-commit

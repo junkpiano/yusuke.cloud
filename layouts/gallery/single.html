@@ -1,0 +1,37 @@
+{{- define "main" -}}
+
+{{- /* Photo gallery. Photos come from content-manager's /api/photos at build time, so the API
+       token stays in CI and the page is plain static HTML. Without HUGO_CONTENT_MANAGER_URL
+       (local preview, Netlify) the page builds empty; with it, a failed fetch fails the build
+       so a bad run never deploys an empty gallery over the last good one. */ -}}
+{{- $photos := slice }}
+{{- with getenv "HUGO_CONTENT_MANAGER_URL" }}
+  {{- $url := printf "%s/api/photos" (strings.TrimSuffix "/" .) }}
+  {{- $opts := dict "headers" (dict "Authorization" (printf "Bearer %s" (getenv "HUGO_CONTENT_MANAGER_TOKEN"))) }}
+  {{- with try (resources.GetRemote $url $opts) }}
+    {{- with .Err }}
+      {{- errorf "gallery: fetching %s failed: %s" $url . }}
+    {{- else with .Value }}
+      {{- $photos = . | transform.Unmarshal }}
+    {{- else }}
+      {{- errorf "gallery: %s returned no data (404?)" $url }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- with .Description }}<div class="post-description">{{ . }}</div>{{ end }}
+</header>
+
+{{- with $photos }}
+<ul class="gallery">
+  {{- range $i, $p := . }}
+  <li><a href="{{ $p.url }}"><img src="{{ $p.thumb_url }}" alt="{{ $.Params.photoAlt | default "Photo" }} {{ add $i 1 }}" loading="lazy" decoding="async"></a></li>
+  {{- end }}
+</ul>
+{{- else }}
+<p class="gallery-empty">{{ .Params.empty | default "No photos yet." }}</p>
+{{- end }}
+
+{{- end -}}

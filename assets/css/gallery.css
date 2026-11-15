@@ -1,0 +1,7 @@
+.gallery { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 6px; }
+.gallery li { margin: 0; }
+.gallery a { display: block; border-radius: 6px; overflow: hidden; }
+.gallery a:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+.gallery img { display: block; width: 100%; aspect-ratio: 1; object-fit: cover; background: var(--code-bg); transition: opacity .2s; }
+.gallery a:hover img { opacity: .85; }
+.gallery-empty { color: var(--secondary); }
